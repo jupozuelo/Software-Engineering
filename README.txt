@@ -1,3 +1,3 @@
 Hello Guys,
 
-this is a trial. 
+This is a useful link that explains how repositories work: https://guides.github.com/activities/hello-world/
