@@ -1,0 +1,65 @@
+Report Structure - Ruby Rosenthal, Andrea Pattunjel, Juan Ruiz Pozuelo, Kit Logan
+
+--> Section 1: System Design (40pts)
+
+Architecture of entire system
+	Assigned to: ALL
+
+Object Orientated design of key subsystems
+	Assigned to: IND. SUBSYSTEMS
+
+Requirements of key subsystems
+	Assigned to: IND. SUBSYSTEMS
+	In the form of selected user stories
+	QUESTION: ‘user stories’ - these are hypothetical use journeys which helped define 	exactly what each subsystem needed to do?
+
+Evolution of UI wireframes for key subsystems
+	Assigned to: IND. SUBSYSTEMS
+
+Details of communication protocols in use
+	Assigned to: ALL
+	Including rational for your choice
+	MQTT for all?
+
+Details of data persistence mechanisms in use
+	Assigned to: Juan/Kit - data persistence occurs on the desktop app only
+	QUESTION - is it ok that data persistence occurs only on desktop app?
+
+Details of web technologies in use
+	Assigned to: Ruby/Andrea - know the most about the different web techs!
+	Including rationale for your choice
+
+
+--> Section 2: System Implementation (40 pts)
+
+Breakdown of project into sprints(?)
+	Assigned to: ALL
+	Showing the user stories implemented in each
+	QUESTION: what is a sprint? 
+	QUESTION: These user stories - non-hypothetical description of how a user uses our 	system. Will it be very similar to the ones above?
+
+Details of how you evaluated your designs
+	Assigned to: IND. SUBSYSTEMS
+	Techniques used & awareness of their limitations
+
+Discussion of Social and Ethical implications of the work
+	Assigned to: ALL
+	…?
+
+
+--> Section 3: Project Evaluation (20pts)
+
+Reflective discussion of success of project
+	Assigned to: ALL
+	QUESTION: is it good to discuss this in terms of learning objectives?
+	i.e. coronavirus messed us around, but we were still able to achieve the ILOs of 	the course
+
+Discussion of future work 
+	Assigned to: ALL
+	In terms of design, development, evaluation
+
+Reflect on the working practices of your group, how well the did or did not work
+	Assigned to: ALL
+
+Chance to reflect on how coronavirus has affected your project (remote working practices etc)
+	QUESTION: is this final point d its own point, or is it saying that coronavirus 	effects should be discussed throughout section 3?
