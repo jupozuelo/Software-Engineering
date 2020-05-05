@@ -5,7 +5,7 @@ In the midst of this automation revolution, taking a bath is trailing the other 
 
 Bubbles aims to seize this opportunity and automate bath taking by providing the necessary technology to prepare and adjust the user’s desires when taking a bath. The product is composed of an M5Stack that controls the water supply and a Web app where users can choose the temperature and quantity of bubbles. Most people disregard taking baths mainly because it is a time consuming process. With Bubbles, one can prepare their bath while commuting home or finishing their workout. Our motto is clear: do less, enjoy more. 
 
-### Section Overview
+### Sections Overview
 The portfolio is composed of three main sections. Firstly, the system design section considers the architecture of the entire system and the design process to turn a paper prototype into a software environment. The second section details the implementation techniques and methods used to produce a working prototype. Lastly, the evaluation section will analyse the final prototype, as well as touch on future work and working practices during the project. 
 
 ## System Design 
