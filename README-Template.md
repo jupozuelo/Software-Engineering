@@ -10,7 +10,10 @@ The portfolio is composed of three main sections. Firstly, the system design sec
 
 ## System Design 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Bubbles aims to automate baths in the world, allowing your bathroom to become a ‘smart bath’. The product is composed of three different but integrated platforms; a Web App, a Desktop App and an M5Stack. 
+
+In this section, we will cover the chosen architecture of the entire system, the design methods used for the key subsystems and the evaluation we applied to the product. This section will also provide a full explanation of the design process, from paper prototyping to software application. Providing three user stories will also highlight the opportunity the Bubbles team is set to seize in the current bath market.
+
 
 ## System Implementation
 
