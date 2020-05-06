@@ -4,14 +4,14 @@
 </p>
 
 ## Our Mission
-Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into professional experience. Society has now discovered the power of these tools when integrated into our homes to complete everyday chores and increase leisure time. 
+Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into the work environment. Society has now discovered the power of these tools which when integrated into our homes complete everyday chores and increase leisure time. 
 
-In the midst of this automation revolution, taking a bath is trailing the other activities that are undergoing a transformation. The advantages of baths are powerful; from having anti-aging properties, to being one of the most successful stress relief techniques. From an environmental standpoint, a bath consumes, on average, half the amount of water than an average shower. 
+In the midst of this automation revolution, where platforms such as Apple’s Home app are making ‘smart’ products increasingly easy to integrate into routines, taking a bath is trailing the other activities that are undergoing a transformation. The bathroom has seen significantly fewer innovations than the kitchen. The advantages of baths are powerful; from having anti-aging properties, to being one of the most successful stress relief techniques. 
 
-Bubbles aims to seize this opportunity and automate bath taking by providing the necessary technology to prepare and adjust the user’s desires when taking a bath. The product is composed of an M5Stack that controls the water supply and a Web app where users can choose the temperature and quantity of bubbles. Most people disregard taking baths mainly because it is a time consuming process. With Bubbles, one can prepare their bath while commuting home or finishing their workout. Our motto is clear: do less, enjoy more. 
+Bubble aims to seize this opportunity and automate bath taking by providing the necessary technology to prepare a user’s ideal bath. The customer side product is composed of an M5Stack that controls the water supply and bath mechanics, and a Web app where users can choose the temperature, depth and whether or not to add bubbles. Getting the perfect water temperature and bubble fill requires tedious and time consuming supervision. With Bubble, one can prepare the ideal bath while commuting home or finishing their workout. Our motto is clear: **do less, enjoy more.** 
 
 ### Problem statement
-The bath running process has not kept up with the ‘smart home’ revolution. While most other aspects of our lives have seen significant automation bath takers are still required to manually run, guess and test baths. Temperature is inaccurately guessed and constant supervision is required to prevent incorrect temperatures or overrunning. Any mistakes often cause wasted water and heating energy, while the final result is so often far from perfect.
+The bath running process has not kept up with the ‘smart home’ revolution. While most other aspects of our lives have seen significant automation, bath takers are still required to manually run, guess and test baths. Temperature is inaccurately guessed and constant supervision is required to prevent incorrect temperatures or overrunning. Any mistakes often cause wasted water and heating energy, while the final result is so often far from perfect. 
 
 ### Example Stakeholders
 To demonstrate the utility of the service, the following stakeholders would benefit from the existence of a system like Bubbles.
