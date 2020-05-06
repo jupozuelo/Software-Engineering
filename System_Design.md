@@ -270,14 +270,14 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 
 #### Communication examples - sequence diagrams
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" width = 50% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" width = 70% >
 
 *Communication Sequence 1: normal uninterrupted bath run*
 
- <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" width = 50% >
+ <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" width = 70% >
 *Communication Sequence 2: The user interrupted bath run*
 
- <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" width = 50% >
+ <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" width = 70% >
 *Communication sequence 3: Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
 ## Details of data persistence mechanisms in use
