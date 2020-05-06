@@ -21,7 +21,9 @@ The main focus of the initial sprint was familiarising with the tools used to bu
 #### M5Stack 
 The first sprint of  the IoT platform was focused on manipulating prior work and examples that achieved very basic internet based communication via a MQTT websocket broker. M5Stack implementation required the M5Stack.h, pubSubClient and U8g2 libraries within the Arduino IDE to upload scripts to the M5Stack and make use of its display, sensors and buttons. The starting M5Stack example posted scheduled messages to a topic, and subscribed to the same messages. Both published and subscribed messages were displayed on screen. Without any consideration for UI design, the task was simply to build MQTT websocket integration into the M5Stack, and purpose its buttons to display individual messages on the HiveMQ broker. This required configuring the M5Stack to connect to a variety of wifi networks, and ensuring that the platform was able to publish messages and subscribe to messages on a MQTT topic. Initially three topics were set up for publishing and subscribing, and the messages to post were simple strings. Challenges were faced in understanding the characteristics of MAC addresses - by connecting the M5Stack with a copied MAC address of the laptop operating the MQTT websocket, connection was lost, misleading the team to believe communication was not working. A unique MAC address was then used, and the first iteration of the code passed the basic communication tests set. Again these tests were predefined and used regularly to encourage consistently working software in line with the team’ s Agile development philosophy.
 
-M5STACK PIIIIIIIC TOOOOOO ADDDDDDDDDDDDDD
+<p align="center">
+  <img src="M5_images/sprint1.jpg" alt="M5Sprint1" width="500"/>
+</p>
 
 ### Sprint 2
 
@@ -61,7 +63,9 @@ Following the sprint that constructed the communication protocols to connect the
 #### M5Stack 
 A third and final sprint was performed for the IoT platform - to alter the communication protocol to enable JSON messages to be received, interpreted and translated into variables. This was a relatively late and major change to our communication strategy, however true to the benefits of  agile development, it resulted in significant functionality improvements. These JSON variables would be used to determine the characteristics of the bath, which the user entered into the web application. Since the JSON files were simply posted into an MQTT topic, it was simply a case of adding JSON parsing functionality so that the message could be decoded and assigned to variables. The communication tests were slightly altered at this stage to add in JSON functionality. The final code satisfied this new standard.
 
-AAAAADDDDDDDDDDDDDDDDDDDDDDDDD PICTURESSSSSS ---- Bubbles ---- Running 
+<p align="center">
+  <img src="M5_images/sprint3.jpg" alt="M5Sprint3"/>
+</p>
 
 ### Sprint 4
 
@@ -80,7 +84,9 @@ After all the pages were enhanced with animations, the Web App was tested during
 #### Desktop App 
 The final sprint considered integrating the communication system between the three platforms. Even towards the end of the development, the team ensured to follow the agile principle of embracing change and finding the best solution to satisfy the clients needs. While the process had been designed and the communication protocol steps had been created, the team needed to ensure there were no runtime errors. For that reason, testing was performed. The testing involved recreating the whole desktop’s process of receiving, analyzing and storing data from a message. Using assertions also validated the performance of the desktop. No user testing was conducted for the desktop application as the platform will only be used by the organization, and not the clients.
 
-AAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDD GIIIIIIIIIIIIIIIIIIIIIIF
+<p align="center">
+  <img src="images/ezgif.com-video-to-gif (2).gif" alt="M5Sprint3" width="300"/>
+</p>
 
 ### Sprint 5 
 
