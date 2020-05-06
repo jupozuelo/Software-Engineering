@@ -1,6 +1,6 @@
 # Bubble - automated bath runner.
 <p align="center">
-  <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="800"/>
+  <img src="Intro_images/background.png" alt="drawing" width="800"/>
 </p>
 
 ## Our Mission
