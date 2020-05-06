@@ -13,7 +13,7 @@ In order to explore the functionality of p5.js, a simple skeleton was produced f
 ##### Test
 Once the simple prototype was tested, it allowed focusing on more experimental parts with p5.js. 
 
-BUBBLES BANNNER PIIIIIIIIC
+<img src="images/Screenshot 2020-05-06 at 20.58.33.png" alt="M5Sprint1"/>
 
 #### Desktop App 
 The main focus of the initial sprint was familiarising with the tools used to build the desktop application. The workshops provided the platform to implement examples on Processing and learn the language’s syntax and usage. This sprint also served as an introduction to MQTT for communication between devices and platforms. In particular, the fast food workshop and the processing and MQTT workshops built the foundation to set the communication and API architecture of the application.
