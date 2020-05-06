@@ -5,7 +5,7 @@ Bubble aims to automate the bath preparation process, converting your bath into 
 
 In this section, we will cover the chosen architecture of the entire system, the design methods used for the key subsystems and the evaluation methods we applied to the product. This section will also provide a full explanation of the stages of the design process, from paper prototyping to software application. Providing three user stories will also highlight the opportunity that the Bubble team is set to seize in the current bath market.
 
-  ## Contents
+  > ## Contents
 
  > * User Stories
  > *  Key Subsystems
@@ -290,7 +290,7 @@ A process of data persistence had to be applied to the architecture to collate b
 
 The M5Stack was used as a tool to report repair and supply requests to the desktop application. For that reason, and due to its very limited memory size, the M5Stack does not store data locally, apart from the bath id. Instead it serves more as a broker for bath running, supplies and technical fault data.
 
-## 1.  ### Details of web technologies in use
+## Details of web technologies in use
 
 
 **Web App**
