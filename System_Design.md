@@ -5,16 +5,16 @@ Bubble aims to automate the bath preparation process, converting your bath into 
 
 In this section, we will cover the chosen architecture of the entire system, the design methods used for the key subsystems and the evaluation methods we applied to the product. This section will also provide a full explanation of the stages of the design process, from paper prototyping to software application. Providing three user stories will also highlight the opportunity that the Bubble team is set to seize in the current bath market.
 
- ## Contents
+ > ## Contents
 
- * User Stories
- *  Key Subsystems
- * Architecture
- * Object Oriented Design
- * Evolution of UI
- * Communication Protocols
- * Data Persistence
- * Web Technologies
+ > * User Stories
+ > *  Key Subsystems
+ > * Architecture
+ > * Object Oriented Design
+ > * Evolution of UI
+ > * Communication Protocols
+ > * Data Persistence
+ > * Web Technologies
 
 ## User Stories
 
@@ -102,16 +102,16 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 
 ## Object Orientated design of key subsystems
 
-*Initial architecture of Object Oriented design:*
-
-*insert image here*
+Initial architecture of Object Oriented design:
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-04%20at%2013.25.05.png" width = 50% >
 
 The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, ideas began to blossom.
 
 It was through building the web and desktop applications that the object orientated aspects of the design were truly understood; each sprint brought a more sophisticated approach to cross-communication.
 
-*UML diagram of the entire system:*
-*insert image here*
+UML diagram of the entire system:
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.50.57.png" width = 70% >
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
 
@@ -153,7 +153,7 @@ A fifth sketch was created, called Test which dealt with sending “dummy” dat
 
 Due to the nature of arduino coding, limited encapsulation was possible in the M5Stack platform’s programming. However, in an attempt to make the code more readable and hide complex tasks from main methods, smaller methods were split with comments into three different sections: Setup & Loop, helper methods (which hide the bulk of graphical display and string management complexities) and complex MQTT/ communication related methods. The final section remains relatively difficult to follow due to the complex task and MQTT specific commands, however a best attempt at encapsulation has been made by separating this from the significantly more readable and simple Setup, Loop and helper methods.
 
-**Data Protection / Privacy: **
+**Data Protection / Privacy:**
 
 All the code from the web app side is public, therefore there are no private methods or classes; all need to be accessed by the html file in order for them to be run in the browser.
 
@@ -187,9 +187,8 @@ The web application was the focus of the majority of the UI design and wireframi
 
 For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web application via their smartphone.
 
-*insert image*
-
-(500 x 800):
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" width = 50% >
+(500 x 800)
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
@@ -207,35 +206,61 @@ While the digital format of the processing prototype should lend itself to wides
 
 With a clearer idea of how was desired for the application to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
 
-*insert image*
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.04.31.png" width = 50% >
 
 **Further graphic UI iteration**
 
 With a better idea of the appearance of the application, the translation into Processing began. This time, rather than simply uploading the images, the design was created from scratch; drawing shapes for the would-be buttons, importing the image of our logo, and inputting relevant text. This Processing stage was in order for the team to familiarise themselves with the key design features - the title, logo, key buttons, and colour scheme. Once feeling confident with the static Processing product, progression began into p5.js. Fortunately, the transition from Processing to p5.js was simple enough to sustain the majority of the code, without having to modify too much. Once the static design was up and running in p5.js, the work on the final product began.
 
 
-
 The first main UI change made in p5.js was formatting. At the prototype and Processing design stages only mobile use was considered. However, when it came to programming the Web app in p5.js, it was acknowledged that the web page should be responsive, therefore adaptable per device. In order to achieve this responsive feature, the canvas was drawn according to the size of the screen, and a resize method was created for usage across all the pages:
 
-*insert images of code*
+    function setup() { 
+    createCanvas(windowWidth, windowHeight);
 
-This would significantly improve the UI experience; rather than having a restrictive, static design, something more accessible on a greater variety of devices was provided.
+    function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    }
+
+This significantly improved the UI experience; rather than having a restrictive, static design, something more accessible on a greater variety of devices was provided.
 
 Further improvements to the design using p5.js included making images more dynamic and animated, and enabling the pages to interact with one another through the use of buttons.
 
 **Final product:**
 
-*insert stills and link to video*
+Mobile-view stills:
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.09.47.png" width = 30% >
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.10.41.png" width = 30% >
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.16.png" width = 30% >
+
+*linkvideo*
+
+Desktop-view stills:
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.07.20.png" width = 40% >
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.08.02.png" width = 40% >
+
+
+**linkvieo**
 
 Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the **link to sprints section...**
 
-Desktop app images:
+**Desktop app images:**
 
 M5Stack images:
 
 First Model:
 
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" width = 40% >
+
+
 Final Model:
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.28.png" width = 40% >
 
 ## Communication protocols in use
 
@@ -243,8 +268,7 @@ Communication on all platforms is achieved via MQTT websockets. All required com
 
 Where a small amount of data is required within the command, for example the “run bath” command from the web application that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web application converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web application and stores the data anonymously and persistently for analysis to later inform business strategy.
 
-*insert image*
-
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.49.png" width = 50% >
 
 {"bathId":132,"temp":30,"depth":"M","bubbleON":"false"}
 
@@ -252,13 +276,14 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 
 #### Communication examples - sequence diagrams
 
- *insert image*
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" width = 50% >
+
  Communication Sequence 1: normal uninterrupted bath run
 
-  *insert image*
+ <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" width = 50% >
 Communication Sequence 2: The user interrupted bath run
 
-  *insert image*
+ <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" width = 50% >
 Communication sequence 3: Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)
 
 ## Details of data persistence mechanisms in use
