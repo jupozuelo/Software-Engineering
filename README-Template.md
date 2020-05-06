@@ -24,10 +24,10 @@ Plumbers and company technicians can benefit from the data that a bubble ‘smar
 #### Third-party apps
 After the bath is run, third-parties can benefit from the exposure bubble can offer them. For example, music streaming services such as Spotify could be opened from the bubble app to introduce entertainment services to the bath experience. Similarly, to match the introduction of smart lighting in the home, ambient lighting apps could be linked into the bubble app. A wide variety of third party apps may wish to introduce their services into the bathing process, and Bubbles can be a perfect platform to give them exposure.
 
-### Sections Overview
+## 1) Sections Overview
 The portfolio is composed of three main sections. Firstly, the system design section considers the architecture of the entire system and the design process to turn a paper prototype into a software environment. The second section details the implementation techniques and methods used to produce a working prototype. Lastly, the evaluation section will analyse the final prototype, as well as touch on future work and working practices during the project. 
 
-## System Design 
+## 2) System Design 
 
 Bubbles aims to automate baths in the world, allowing your bathroom to become a ‘smart bath’. The product is composed of three different but integrated platforms; a Web App, a Desktop App and an M5Stack. 
 
@@ -37,7 +37,7 @@ In this section, we will cover the chosen architecture of the entire system, the
   <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="400"/>
 </p>
 
-## System Implementation
+## 3) System Implementation
 
 ## Project Evaluation  
 
