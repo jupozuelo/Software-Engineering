@@ -1,4 +1,9 @@
-# Our Mission
+# Bubble - automated bath runner.
+<p align="center">
+  <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="800"/>
+</p>
+
+## Our Mission
 Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into professional experience. Society has now discovered the power of these tools when integrated into our homes to complete everyday chores and increase leisure time. 
 
 In the midst of this automation revolution, taking a bath is trailing the other activities that are undergoing a transformation. The advantages of baths are powerful; from having anti-aging properties, to being one of the most successful stress relief techniques. From an environmental standpoint, a bath consumes, on average, half the amount of water than an average shower. 
