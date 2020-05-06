@@ -1,4 +1,4 @@
-# System Implementation 
+# Section 2: System Implementation 
 ## Sprint Development Process
 
 ### Sprint 1
