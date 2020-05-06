@@ -57,6 +57,8 @@ More significantly, the Web application can be extended to a mobile app form. As
 
 ### Desktop Platform - next steps
 
+******* CONTENT NEEDED *******
+
 ### IoT Device - next steps
 
 Future work will be focused in part on the practicalities of connecting the IoT device to the mechanics of a bathtub to enable Bubble to deliver the service this prototype simulates. In practice it is likely to require replacement of many tap valves to allow for automated rather than manual bath running. Proportional–integral–derivative (PID) control will be used to achieve the desired water temperature as quickly and efficiently as possible, while bath depth will have to be measured using sensors to determine when to cut off the water supply. Additionally, work to incorporate automated plug mechanics is essential to ensure the water is run into a plugged bath, and to enable the release of cancelled baths. Any new parts or products should be designed with self-diagnostic fault catching features where possible. This will allow the team to give greater visibility to the user or plumber in case of malfunction. The team intended to achieve some of this research and design to have a partially actuated system connected to the M5Stack to demonstrate at this point. However, due to a lack of lab access and tools this was not possible during the COVID-19 crisis.
