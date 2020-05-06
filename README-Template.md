@@ -1,4 +1,4 @@
-# Bubble - automated bath runner.
+# Bubble - Automated Bath Runner
 <p align="center">
   <img src="Intro_images/background.png" alt="drawing" width="800"/>
 </p>
