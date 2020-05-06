@@ -5,7 +5,7 @@ Bubble aims to automate the bath preparation process, converting your bath into 
 
 In this section, we will cover the chosen architecture of the entire system, the design methods used for the key subsystems and the evaluation methods we applied to the product. This section will also provide a full explanation of the stages of the design process, from paper prototyping to software application. Providing three user stories will also highlight the opportunity that the Bubble team is set to seize in the current bath market.
 
- > ## Contents
+  ## Contents
 
  > * User Stories
  > *  Key Subsystems
@@ -102,16 +102,17 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 
 ## Object Orientated design of key subsystems
 
-Initial architecture of Object Oriented design:
+*Initial architecture of Object Oriented design:*
+
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-04%20at%2013.25.05.png" width = 50% >
 
 The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, ideas began to blossom.
 
 It was through building the web and desktop applications that the object orientated aspects of the design were truly understood; each sprint brought a more sophisticated approach to cross-communication.
 
-UML diagram of the entire system:
+*UML diagram of the entire system:*
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.50.57.png" width = 70% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.50.57.png" width = 80% >
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
 
@@ -187,8 +188,8 @@ The web application was the focus of the majority of the UI design and wireframi
 
 For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web application via their smartphone.
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" width = 50% >
-(500 x 800)
+*(500 x 800)*
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" width = 80% >
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
@@ -206,7 +207,7 @@ While the digital format of the processing prototype should lend itself to wides
 
 With a clearer idea of how was desired for the application to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.04.31.png" width = 50% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.04.31.png" width = 80% >
 
 **Further graphic UI iteration**
 
@@ -253,9 +254,7 @@ Following the completion of the web app, matching the design elements in both th
 
 M5Stack images:
 
-First Model:
-
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" width = 40% >
+First Model: <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" width = 30% >
 
 
 Final Model:
