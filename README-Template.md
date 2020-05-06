@@ -10,7 +10,7 @@ In the midst of this automation revolution, where platforms such as Apple’s Ho
 
 Bubble aims to seize this opportunity and automate bath taking by providing the necessary technology to prepare a user’s ideal bath. The customer side product is composed of an M5Stack that controls the water supply and bath mechanics, and a Web app where users can choose the temperature, depth and whether or not to add bubbles. Getting the perfect water temperature and bubble fill requires tedious and time consuming supervision. With Bubble, one can prepare the ideal bath while commuting home or finishing their workout. Our motto is clear: **do less, enjoy more.** 
 
-### Problem statement
+### Problem Statement
 The bath running process has not kept up with the ‘smart home’ revolution. While most other aspects of our lives have seen significant automation, bath takers are still required to manually run, guess and test baths. Temperature is inaccurately guessed and constant supervision is required to prevent incorrect temperatures or overrunning. Any mistakes often cause wasted water and heating energy, while the final result is so often far from perfect. 
 
 ### Who is Winning?
