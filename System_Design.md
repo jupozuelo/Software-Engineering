@@ -266,21 +266,19 @@ Where a small amount of data is required within the command, for example the “
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.49.png" width = 50% >
 
-{"bathId":132,"temp":30,"depth":"M","bubbleON":"false"}
-
 HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed, further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
 
 #### Communication examples - sequence diagrams
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" width = 50% >
 
- Communication Sequence 1: normal uninterrupted bath run
+*Communication Sequence 1: normal uninterrupted bath run*
 
  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" width = 50% >
-Communication Sequence 2: The user interrupted bath run
+*Communication Sequence 2: The user interrupted bath run*
 
  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" width = 50% >
-Communication sequence 3: Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)
+*Communication sequence 3: Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
 ## Details of data persistence mechanisms in use
 
@@ -313,8 +311,8 @@ The desktop application used the Processing library, controlP5, written by Andre
 
 The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
 
-*insert image*
-Figure : Graphical user interface with controlp5.
+**insert image**
+*Figure : Graphical user interface with controlp5.*
 
-*insert image*
-Figure : Graphical user interface without controlp5; no list orders or buttons.
+**insert image**
+*Figure : Graphical user interface without controlp5; no list orders or buttons.*
