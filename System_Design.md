@@ -189,7 +189,8 @@ The web application was the focus of the majority of the UI design and wireframi
 For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web application via their smartphone.
 
 *(500 x 800)*
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" width = 80% >
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" width = 75% >
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
@@ -231,19 +232,13 @@ Further improvements to the design using p5.js included making images more dynam
 
 Mobile-view stills:
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.09.47.png" width = 30% >
-
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.10.41.png" width = 30% >
-
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.16.png" width = 30% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.09.47.png" width = 30% >     <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.10.41.png" width = 30% >     <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.16.png" width = 30% >
 
 *linkvideo*
 
 Desktop-view stills:
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.07.20.png" width = 40% >
-
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.08.02.png" width = 40% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.07.20.png" width = 40% >   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.08.02.png" width = 40% >
 
 
 **linkvieo**
@@ -254,7 +249,9 @@ Following the completion of the web app, matching the design elements in both th
 
 M5Stack images:
 
-First Model: <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" width = 30% >
+First Model: 
+
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" width = 20% >
 
 
 Final Model:
