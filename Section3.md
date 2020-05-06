@@ -49,6 +49,7 @@ In future development, the team should increase its commitment to object-orienta
 
 ### Evaluation phase - notes for future work
 
+******* CONTENT NEEDED *******
 
 ### Web Application - next steps
 When considering steps to take in development for the future, extended features could be added to the Web app to provide it with more functionality. Whilst currently it is very straightforward to select a bath and choose one’s desired settings, there is room for improvement when it comes to added options. One potential idea would be to add a page in which one can order more bath supplies on the go, widening the usage of the application. Of course, this is currently an option on the Smart Bath device itself (M5Stack), however as yet this is limited. Similarly to the extensive ways one can select their bath (toggle for temperature, depth and bubbles), there could be a page with a range of bath supplies such as soap, shampoo, conditioner etc. which one can browse from and place an order. Another area of improvement could be represented by the implementation of a user specific bath history which would retrieve data from the Desktop App. Moreover, a ‘favourites’ system could be developed, whereby the settings a user most commonly selects is suggested when they open the app, thus speeding up the process. 
