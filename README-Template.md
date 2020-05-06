@@ -13,8 +13,8 @@ Bubble aims to seize this opportunity and automate bath taking by providing the 
 ### Problem statement
 The bath running process has not kept up with the ‘smart home’ revolution. While most other aspects of our lives have seen significant automation, bath takers are still required to manually run, guess and test baths. Temperature is inaccurately guessed and constant supervision is required to prevent incorrect temperatures or overrunning. Any mistakes often cause wasted water and heating energy, while the final result is so often far from perfect. 
 
-### Example Stakeholders
-To demonstrate the utility of the service, the following stakeholders would benefit from the existence of a system like Bubbles.
+### Who is Winning?
+To demonstrate the utility of the service, the following example stakeholders would benefit from the existence of a system like Bubbles.
 #### User/Customer
 A technology welcoming customer would gain the efficiency and convenience of running their bath from afar. While on the way back home in the pouring rain, or from the user’s sofa just in another room, running a bath remotely is time saving and highly advantageous. By removing the human preparation aspect of running a bath, the user’s ideal bath can be recreated every time - not too hot, not too cold. The user only has to give the run command to create their perfect bath from saved presets in minutes. The user can also benefit from scheduled baths, a kind of routine automation that has been welcomed into the kitchen. The user will also know that their bath has been created without wasting any energy - by getting the bath right the first time you eliminate the risk of a wasteful rerun or a unsatsfactory tepid bath!
 
