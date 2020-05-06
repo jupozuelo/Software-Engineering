@@ -10,13 +10,13 @@ The bath running process has not kept up with the ‘smart home’ revolution. W
 
 ### Example Stakeholders
 To demonstrate the utility of the service, the following stakeholders would benefit from the existence of a system like Bubbles.
-####User/Customer
+#### User/Customer
 A technology welcoming customer would gain the efficiency and convenience of running their bath from afar. While on the way back home in the pouring rain, or from the user’s sofa just in another room, running a bath remotely is time saving and highly advantageous. By removing the human preparation aspect of running a bath, the user’s ideal bath can be recreated every time - not too hot, not too cold. The user only has to give the run command to create their perfect bath from saved presets in minutes. The user can also benefit from scheduled baths, a kind of routine automation that has been welcomed into the kitchen. The user will also know that their bath has been created without wasting any energy - by getting the bath right the first time you eliminate the risk of a wasteful rerun or a unsatsfactory tepid bath!
 
-####Plumbers & Technicians
+#### Plumbers & Technicians
 Plumbers and company technicians can benefit from the data that a bubble ‘smart’ bath produces. By introducing wifi enabled technology to the bathtub, plumbing issues and technical faults could be self-diagnosed by the system, saving repair time, avoiding unnecessary call outs and eliminating costly misdiagnosed repairs.
 
-####Third-party apps
+#### Third-party apps
 After the bath is run, third-parties can benefit from the exposure bubble can offer them. For example, music streaming services such as Spotify could be opened from the bubble app to introduce entertainment services to the bath experience. Similarly, to match the introduction of smart lighting in the home, ambient lighting apps could be linked into the bubble app. A wide variety of third party apps may wish to introduce their services into the bathing process, and Bubbles can be a perfect platform to give them exposure.
 
 ### Sections Overview
