@@ -39,15 +39,15 @@ With just 4 team members working on this project, the division of project aims a
 
 In future, the project would benefit from the following adjustments and development focuses.
 
-### Design phase:
+### Design phase - notes for future work
 
 In future iterations of UI designs, similar fast prototyping methods would be employed to maintain our agile development philosophy. However, the specific prototyping tools should be reconsidered to maximise the shareability of our prototype with non-technical participants. Given Bubble’s service is focused on consumers in the general public, insights from participants without software engineering experience is very valuable. 
 
-### Development phase:
+### Development phase - notes for future work
 
 In future development, the team should increase its commitment to object-orientated programming. This will allow the entire project to further benefit from: code simplicity gains from widespread inheritance, code readability and tidiness gains from abstraction and reduction in redundant code from polymorphism. The current code in all three platforms is relatively straightforward and easy to follow, therefore the concepts of inheritance, interfaces and polymorphism did not appear to be of significant relevance weighed up against our dedication to making the system work. As code becomes more complicated, those measures may be necessary to sustain the readability that has been achieved so far. 
 
-### Evaluation phase:
+### Evaluation phase - notes for future work
 
 
 ### Web Application - next steps
