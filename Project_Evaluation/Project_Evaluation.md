@@ -95,7 +95,7 @@ The desktop app behaves as the back-end of the product, storing user information
         }
     }
 
-This procedure will probably involve using a specific database language, such as MySQL, integrated to the current Processing sketches. This integration could bring some technical difficulties, hence the team might need to consider moving away from Processing to build the back-end of the product. Having the database and the GUI for the desktop app in different platforms would avoid having a single point of failure in the system. 
+The procedure of creating a relational database will probably involve using a specific database language, such as MySQL, integrated to the current Processing sketches. This integration could bring some technical difficulties, hence the team might need to consider moving away from Processing to build the back-end of the product. Having the database and the GUI for the desktop app in different platforms would avoid having a single point of failure in the system. 
 
 Additionally, the back-end team would benefit from increased data analytics on the bath data. Currently, the prototype records four measures but by including rates and statistical modelling, the admin team could have a better understanding of how Bubble is performing. To better understand the client’s needs, the desktop app should include a section where it receives and collects user’s reviews. Personalizing the user’s experience will build towards the success of the product. 
 
