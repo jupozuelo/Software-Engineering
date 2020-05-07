@@ -258,9 +258,8 @@ Desktop app:
 
 *Figure 7: First Model - No controlP5*
 
-<p align="centre">
+
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 45%/>
-</p>
 
 *Figure 8: Developing Model - Imported controlP5*
 
