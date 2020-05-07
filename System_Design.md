@@ -18,6 +18,8 @@ In this section, we will cover the chosen architecture of the entire system, the
 
 ## User Stories
 
+User stories were used to help discover and list the key requirements of the system.
+
 Web App & M5Stack:
 
 *   Sara is an active user of her Coffee Maker run with Alexa Routines early in the morning. Her job at a multinational company means she is always on the go, especially with her long commute to the office.
