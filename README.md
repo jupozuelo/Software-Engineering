@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="Intro_images/banner.png" alt="drawing"/>
 </p>
