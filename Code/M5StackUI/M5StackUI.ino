@@ -49,8 +49,8 @@ const char* password = "C9Xdpg9rVFAq";
 // MQTT Settings
 const char* MQTT_clientname = "make_up_a_name"; // Make up a short name
 
-const char* MQTT_sub_topic[] = {"supplies", "run", "broken"};
-const char* MQTT_pub_topic[] = {"supplies", "run", "broken"};
+const char* MQTT_sub_topic[] = {"M5supplies", "M5run", "M5broken"};
+const char* MQTT_pub_topic[] = {"M5supplies", "M5run", "M5broken"};
 
 //MQTT_sub_topic[0] = "supplies"; // pub/sub topics
 //MQTT_pub_topic[0] = "supplies"; // You might want to create your own
@@ -93,9 +93,9 @@ void setup() {
     // LCD so expect errors if you delete this.
     M5.begin();
     M5.Power.begin();
-
+    
     setupScreen();
-
+    
     M5.Lcd.setTextSize(1);
     M5.Lcd.setCursor( 10, 10 );
     M5.Lcd.println("Reset, connecting...");
@@ -237,8 +237,12 @@ void callback(char* topic, byte* payload, unsigned int length) {
   }
   Serial.println();
 
-//  M5.Lcd.print(" << Rx: " );
-//  M5.Lcd.println( in_str );
+  // if message = test then print details on screen. replace with bath details
+  if(in_str.equals("test") == true){
+  //  M5.Lcd.print(" << Rx: " );
+  //  M5.Lcd.println( in_str );
+  runningScreen();
+}
 
 
 }
@@ -249,10 +253,10 @@ void setupScreen(){
     M5.Lcd.setTextSize(6);
     M5.Lcd.setTextColor( WHITE );
     M5.Lcd.drawCentreString("bubble", 165, 50, 2);
-
+    
     M5.Lcd.setTextSize(2);
     M5.Lcd.setTextColor( BLACK );
-
+    
     M5.Lcd.setCursor( 20, 220 );
     M5.Lcd.println("Supplies");
 
@@ -261,6 +265,33 @@ void setupScreen(){
 
     M5.Lcd.setCursor( 220, 220 );
     M5.Lcd.println("Report");
+}
+
+void runningScreen(){
+    M5.Lcd.fillScreen( CYAN );
+
+    M5.Lcd.setTextSize(6);
+    M5.Lcd.setTextColor( WHITE );
+    M5.Lcd.drawCentreString("running!", 165, 50, 2);
+    
+    M5.Lcd.setTextSize(2);
+    
+    M5.Lcd.setCursor( 20, 180 );
+    M5.Lcd.println("shallow");
+
+    M5.Lcd.setCursor( 140, 180 );
+    M5.Lcd.println("30C");
+
+    M5.Lcd.setCursor( 200, 180 );
+    M5.Lcd.println("Bubbles ON");
+
+    M5.Lcd.setTextColor( BLACK );
+    M5.Lcd.setCursor( 135, 220 );
+    M5.Lcd.println("STOP");
+    
+
+    delay(5000);
+    setupScreen();
 }
 
 
@@ -313,7 +344,7 @@ void setupWifiWithPassword( ) {
 void reconnect() {
 
   int i=0;
-
+  
   // Loop until we're reconnected
   while (!ps_client.connected()) {
 
@@ -332,10 +363,10 @@ void reconnect() {
     char id_array[ (int)new_id.length() ];
     new_id.toCharArray(id_array, sizeof( id_array ) );
 
-    for(i=0; i < 3; i++){
+    for(i=0; i < 4; i++){
       if (ps_client.connect( id_array ) ) {
         Serial.println("connected");
-
+  
         // Once connected, publish an announcement...
         ps_client.publish( MQTT_pub_topic[i], "reconnected");
         // ... and resubscribe
