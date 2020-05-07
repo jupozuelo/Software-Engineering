@@ -1,8 +1,14 @@
 # Section 3: Project Evaluation
 
-## Reflective discussion of success of project
-
 As an entire project, the team is highly satisfied that our main ambitions for the project have been achieved and even bettered in some cases. Despite the disappointing consequences that COVID-19 has had on our ability to discuss, improve and share our product, we are satisfied that we have engaged with contingency arrangements to replace these experiences as much as possible. The evaluation of each platform can be found in section 2b (LINK THIS ON GITHUB).
+
+ > ## Contents
+
+ > * [Reflective discussion of success](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#reflective-discussion-of-success-of-project)
+ > * [Evaluation of group working practice](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#evaluation-of-group-working-practice)
+ > * [Discussion of future work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#discussion-of-future-work)
+
+## Reflective discussion of success of project
 
 Evaluating the project as a whole is a process that also includes a comparison of our software engineering skills before and after the process. As a method for exploring and familiarising ourselves with software engineering tools, philosophies and practices, the project was highly successful. The team has been exposed to new technologies and methodologies which will certainly be applicable in future projects and development processes. Even outside software development, transferable skills such as rapid product prototyping and collaboration methods have been gained. This will give the team greater confidence going forward into industry, where development concepts may now be familiar, or suggested by team members to development practice in their industry too.
 
