@@ -4,7 +4,9 @@
   <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="600"/>
 </p>
 
-# Bubble - Automated Bath Runner
+
+
+# Bubble - [Automated Bath Runner](Intro_image/banner.png)
 ## Our Mission
 Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into the work environment. Society has now discovered the power of these tools which when integrated into our homes complete everyday chores and increase leisure time. 
 
