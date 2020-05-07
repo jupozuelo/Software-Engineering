@@ -59,16 +59,31 @@ Please find attached our [Project Evaluation section](Project_Evaluation.md) to 
 * [**Christopher Logan**](https://github.com/kitlogan): cl16440@bristol.ac.uk
 * [**Andreaa Patrunjel**](https://github.com/andreeaparsley97): ap16989@bristol.ac.uk
 * [**Ruby Rosenthal**](https://github.com/rubyrosenthal): rr16973@bristol.ac.uk
-* [**Juan Ruiz Pozuelo**](https://github.com/kitlogan): jr16060@bristol.ac.uk
+* [**Juan Ruiz Pozuelo**](https://github.com/jupozuelo): jr16060@bristol.ac.uk
 
 ## Built With
 
 * [Processing](https://processing.org/) 
 * [P5.js](https://p5js.org/)
 
+### Processing Libraries
+
+* [MQTT Library for Processing](https://github.com/256dpi/processing-mqtt)
+* [ControlP5](http://www.sojamo.de/libraries/controlP5/) 
+
+### P5.js Libraries
+
+* [P5.sound](https://p5js.org/reference/#/libraries/p5.sound)
+* [P5.play](https://molleindustria.github.io/p5.play/)
+* [P5.clickable](https://github.com/Lartu/p5.clickable)
+
+### M5Stack Libraries 
+
+* [ESP32 Board Manager](https://github.com/espressif/arduino-esp32)
+* [U8G2](https://github.com/olikraus/u8g2)
+* [PubSubClient library](https://github.com/knolleary/pubsubclient)
+* [M5Stack](https://github.com/m5stack/M5Stack)
+
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+We greatly appreciated the help and knowledge offered from Simon Lock, Tom Bale, Pete Bennett, and Paul O'Dowd during the entire proyect. Even with the COVID-19 pandemic, they have taught as very important skills to apply in industry and have a sucessful careeer. 
