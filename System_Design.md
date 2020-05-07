@@ -326,18 +326,8 @@ Moreover, whilst static images looked pleasant, they weren’t sophisticated eno
 
 **Desktop App**
 
-The desktop application used the Processing library, controlP5, written by Andreas Schlegel. This library is extremely powerful when building graphical user interfaces, on top of the Processing sketches. The ability to create listboxes, sliders and buttons added a strong aesthetic aspect to the plain interface provided by normal sketches. Additionally, this library is useful to handle events from the desktop application user. The task of dealing with the users inputs was greatly simplified when pressing buttons and selecting options.
+The desktop application used the Processing library, controlP5, written by Andreas Schlegel. This library is extremely powerful when building graphical user interfaces, on top of the Processing sketches. The ability to create listboxes, sliders and buttons added a strong aesthetic aspect to the plain interface provided by normal sketches. Additionally, this library is useful to handle events from the desktop application user. The task of dealing with the users inputs was greatly simplified when pressing buttons and selecting options (see figure). The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
 
-The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
-
-*Graphical user interface with controlp5.*
-
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 50%/></p>
-
-
-*Graphical user interface without controlp5; no list orders or buttons.*
-
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 50%/></p>
 
 ---
 
