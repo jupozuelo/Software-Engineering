@@ -3,13 +3,8 @@
   <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="600"/>
 </p>
 
-<img 
-  src="https://img.shields.io/badge/Contributors-4-blue"
-  alt="Build">
+<img  src="https://img.shields.io/badge/Contributors-4-blue" alt="Build"> <img src="https://img.shields.io/badge/Build-Passing-success" alt="Build">
   
-  <img 
-  src="https://img.shields.io/badge/Build-Passing-success"
-  alt="Build">
   
 
 
