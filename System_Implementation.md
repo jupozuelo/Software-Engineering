@@ -19,7 +19,7 @@ By assessing the users needs, it was decided to start the development of the Web
 In the beginning, a simple outline of the pages was decided upon. This also included a colour scheme which would also be applied to the other platforms. A logo for the product was designed by the team and used predominantly in the Web App. It is well known that logos need to ensure an effective communication and engage the target customer. In the last years, research of shape symbolism in the field of marketing helped with better understanding of the customer behaviour influenced by design elements. Results showed that a logo involving rounder shapes can contribute to a rise in customers' emotional engagement, showing a higher frequency of positive emotions. Therefore, the Bubble bath logo consists of soft, curvy lines to induce the feeling of calmness to the user. The bubbles of the bath are drawn with speed and spontaneity, inducing the idea of joy and giving a burst of positive energy to the user. (Refer to: <https://link.springer.com/article/10.1057/bm.2014.29>)
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint1.png" alt="M5Sprint1"/>
-*Figure 1: A banner demonstrating the themes of the Bubble logo and branding.*
+* Figure 1: A banner demonstrating the themes of the Bubble logo and branding. *
 
 ##### Code 
 In order to explore the functionality of p5.js, a simple skeleton was produced for each page of the application. The code was simple and it aided understanding of the basic principles. 
