@@ -83,7 +83,7 @@ A third and final sprint was performed for the IoT platform - to alter the commu
   <img src="M5_images/sprint3.jpg" alt="M5Sprint3"/>
 </p>
 
-*Figure 3: The final sprint of the IoT platform showing idle (left) and running (right) states. Buttons can be used to call individual platform features, and to interupt the running process if an emergency stop is required.
+*Figure 3: The final sprint of the IoT platform showing idle (left) and running (right) states. Buttons can be used to call individual platform features, and to interupt the running process if an emergency stop is required.*
 
 ### Sprint 4
 
@@ -92,6 +92,13 @@ A third and final sprint was performed for the IoT platform - to alter the commu
 During this sprint, it was decided to improve the dynamics of the Web App. Even though the images on the Homepage, Loading Page for example proved a satisfactory design level, the team desired to replace these static images with animations/GIFs. 
 ##### Code 
 In order to achieve this level of functionality, the p5.play library was selected since it provides a Sprite class to control the comportment of visual objects in 2D Space and features such as animation support helpers for mouse and keyboard events (for Documentation, see the following link: <https://molleindustria.github.io/p5.play/>).Examples of the GIFs used can be found on the Web App page where it is searching for the requested bath or on the page where the timer is shown. They were thought in the previous mentioned cases as a way of displaying the loading of the page and they prevent the user from thinking that the application has frozen, as it might have happened if the static images were kept.
+
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint4.gif" alt="M5Sprint3" width="300"/>
+</p>
+
+*Figure 4: The sprint 4 version of the web app, complete with added aninmation to give greater reactivity for enhanced user experience.*
+
 ##### Design 
 The design process was straightforward considering that the logo concept and production were achieved previously. 
 ##### Test 
@@ -101,10 +108,6 @@ After all the pages were enhanced with animations, the Web App was tested during
 
 #### Desktop App 
 The final sprint considered integrating the communication system between the three platforms. Even towards the end of the development, the team ensured to follow the agile principle of embracing change and finding the best solution to satisfy the clients needs. While the process had been designed and the communication protocol steps had been created, the team needed to ensure there were no runtime errors. For that reason, testing was performed. The testing involved recreating the whole desktop’s process of receiving, analyzing and storing data from a message. Using assertions also validated the performance of the desktop. No user testing was conducted for the desktop application as the platform will only be used by the organization, and not the clients.
-
-<p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint4.gif" alt="M5Sprint3" width="300"/>
-</p>
 
 ### Sprint 5 
 
