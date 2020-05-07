@@ -42,21 +42,31 @@ Please find attached our [System Design section](System_Design.md) to read about
   <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="400"/>
 </p>
 
-## 2) System Implementation
+## 2) [System Implementation](System_Implementation.md)
+Please find attached our [System Implementation section](System_Implementation.md) to read about:
 
-## 3) Project Evaluation  
+* Sprint Development Process
+* Evaluation of Platform Designs
+* Social and Ethical Implications of Bubble
+
+## 3) [Project Evaluation](Project_Evaluation.md)
+Please find attached our [Project Evaluation section](Project_Evaluation.md) to read about:
+
+* Reflective Discussion on Bubble's Success
+* Future Work
+* Evaluation of Group Working Practice
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* [**Christopher Logan**](https://github.com/kitlogan): cl16440@bristol.ac.uk
+* [**Andrea**](https://github.com/andreeaparsley97): ??@bristol.ac.uk
+* [**Ruby Rosenthal**](https://github.com/rubyrosenthal): ??@bristol.ac.uk
+* [**Juan Ruiz Pozuelo**](https://github.com/kitlogan): jr16060@bristol.ac.uk
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Processing](https://processing.org/) 
+* [P5.js](https://p5js.org/)
 
 ## Acknowledgments
 
