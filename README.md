@@ -104,7 +104,7 @@ Please find attached our [Project Evaluation section](Project_Evaluation/Project
 
 ## Acknowledgments
 
-We greatly appreciated the help and knowledge offered from Simon Lock, Tom Bale, Pete Bennett, and Paul O'Dowd during the entire proyect. Even with the COVID-19 pandemic, they have taught as very important skills to apply in industry and have a sucessful careeer. 
+We greatly appreciated the help and knowledge offered from Simon Lock, Tom Bale, Pete Bennett, and Paul O'Dowd during the entire project. Even despite the COVID-19 pandemic, they have taught as very important skills to apply in industry and have a sucessful careeer. 
 
 <p align="center">
   <img src="Intro_images/background.png" alt="drawing" width="600"/>
