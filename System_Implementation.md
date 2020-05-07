@@ -19,6 +19,7 @@ By assessing the users needs, it was decided to start the development of the Web
 In the beginning, a simple outline of the pages was decided upon. This also included a colour scheme which would also be applied to the other platforms. A logo for the product was designed by the team and used predominantly in the Web App. It is well known that logos need to ensure an effective communication and engage the target customer. In the last years, research of shape symbolism in the field of marketing helped with better understanding of the customer behaviour influenced by design elements. Results showed that a logo involving rounder shapes can contribute to a rise in customers' emotional engagement, showing a higher frequency of positive emotions. Therefore, the Bubble bath logo consists of soft, curvy lines to induce the feeling of calmness to the user. The bubbles of the bath are drawn with speed and spontaneity, inducing the idea of joy and giving a burst of positive energy to the user. (Refer to: <https://link.springer.com/article/10.1057/bm.2014.29>)
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint1.png" alt="M5Sprint1"/>
+
 *Figure 1: A banner demonstrating the themes of the Bubble logo and branding.*
 
 ##### Code 
@@ -37,6 +38,8 @@ The first sprint of  the IoT platform was focused on manipulating prior work and
 <p align="center">
   <img src="M5_images/sprint1.jpg" alt="M5Sprint1" width="500"/>
 </p>
+
+*Figure 2: The first sprint of the IoT platform, demonstrating successful MQTT communication instigated by button presses.*
 
 ### Sprint 2
 
@@ -79,6 +82,8 @@ A third and final sprint was performed for the IoT platform - to alter the commu
 <p align="center">
   <img src="M5_images/sprint3.jpg" alt="M5Sprint3"/>
 </p>
+
+*Figure 3: The final sprint of the IoT platform showing idle (left) and running (right) states. Buttons can be used to call individual platform features, and to interupt the running process if an emergency stop is required.
 
 ### Sprint 4
 
