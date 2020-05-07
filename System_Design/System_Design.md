@@ -130,7 +130,7 @@ The flow of the objects works as follows:
 
 3.  Meanwhile, this bath data is also received on the management side (Desktop application). Here, one can review statistics, update features, report anything faulty, or send in an external request to order more bubble bath supplies.
 
-After some external research we came to find five key concepts of language, alongside three concepts of programming, which are essential in Object Oriented Design:  
+After some external research we came to find five key concepts of language, alongside three concepts of programming, which are essential in Object Oriented Design [(refer here for more information.)](http://www.selectbs.com/process-maturity/what-is-object-oriented-design)  
 
 • Encapsulation • Data Protection • Inheritance • Interface • Polymorphism •
 
@@ -318,7 +318,7 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 *Figure 14: Communication Sequence 2 - The user interrupted bath run*
   
   <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram2" alt="comm2" width=70%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram2.png" alt="comm2" width=70%/>
 </p>
 
 *Figure 15: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
