@@ -199,7 +199,7 @@ For the first iteration of the web platform, a  paper prototyping method was use
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
-[VIDEO: Bubble Prototype in Workshop](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.mp4)
+[VIDEO: Bubble Prototype in Workshop](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/prototype-video.mp4)
 
 At this very early and relatively uninvested stage of the design process, user evaluation insights were gathered by simulating the paper prototype and recording how participants interacted with the web application. This was in line with the agile development philosophy as it required the team to be unattached to features or design ideas ready for rethinking in the next sprint.
 
@@ -241,7 +241,7 @@ Further improvements to the design using p5.js included making images more dynam
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile3.png" width = 30% >
   </p>
 
-[VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.20.mp4)
+[VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/mobile-video.mp4)
 
 
 *Figure 6: Desktop-view stills*
@@ -250,7 +250,7 @@ Further improvements to the design using p5.js included making images more dynam
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop2.png" width = 40% >
 </p>
 
-[VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/desktop_bubbles.mp4)
+[VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/desktop-video.mp4)
 
 Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
