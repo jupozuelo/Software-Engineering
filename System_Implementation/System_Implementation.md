@@ -95,7 +95,7 @@ During this sprint, it was decided to improve the dynamics of the Web App. Even 
 In order to achieve this level of functionality, the p5.play library was selected since it provides a Sprite class to control the comportment of visual objects in 2D Space and features such as animation support helpers for mouse and keyboard events (for Documentation, see the following link: <https://molleindustria.github.io/p5.play/>).Examples of the GIFs used can be found on the Web App page where it is searching for the requested bath or on the page where the timer is shown. They were thought in the previous mentioned cases as a way of displaying the loading of the page and they prevent the user from thinking that the application has frozen, as it might have happened if the static images were kept. Figure 4 shows an example of these interactions.
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint4.gif" alt="M5Sprint3" width="300"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint4.gif" alt="Web Sprint 4" width="300"/>
 </p>
 
 *Figure 4: The sprint 4 version of the web app, complete with added aninmation to give greater reactivity for enhanced user experience.*
