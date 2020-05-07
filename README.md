@@ -15,14 +15,14 @@
 <p align="center">
 <img  src="https://img.shields.io/badge/Contributors-4-blue" alt="Build"> <img src="https://img.shields.io/badge/Build-Passing-success" alt="Build"> <img src="https://img.shields.io/badge/Coverage-90%25-brightgreen" alt="Build"> <img src="https://img.shields.io/twitter/url?label=Follow%20Bubble&style=social&url=https%3A%2F%2Fgithub.com%2Fjupozuelo%2FSoftware-Engineering">
   </p>
-  
-  </p>
-  <p align="center">
-  <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="400"/>
-</p>
+
   
 
 # Bubble - Automated Bath Runner
+ </p>
+  <p align="center">
+  <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="550"/>
+</p>
 ## Our Mission 
 Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into the work environment. Society has now discovered the power of these tools which when integrated into our homes complete everyday chores and increase leisure time. 
 
