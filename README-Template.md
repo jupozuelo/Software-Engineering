@@ -1,8 +1,10 @@
-# Bubble - Automated Bath Runner
+
 <p align="center">
-  <img src="Intro_images/background.png" alt="drawing" width="800"/>
+  <img src="Intro_images/background.png" alt="drawing" width="400"/>
+  <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="800"/>
 </p>
 
+# Bubble - Automated Bath Runner
 ## Our Mission
 Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into the work environment. Society has now discovered the power of these tools which when integrated into our homes complete everyday chores and increase leisure time. 
 
@@ -37,10 +39,6 @@ Please find attached our [System Design section](System_Design.md) to read about
 * Communication Protocols
 * Data Persistance Mechanisms 
 * Web Technologies in Use
-
-<p align="center">
-  <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="400"/>
-</p>
 
 ## 2) [System Implementation](System_Implementation.md)
 Please find attached our [System Implementation section](System_Implementation.md) to read about:
