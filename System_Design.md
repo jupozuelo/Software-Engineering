@@ -164,11 +164,11 @@ Access to the desktop app is restricted to developers only. Initially, the datab
 
 The M5Stack code was written in only one script, therefore there is not very much scope for it to be specifically defined as public or private, as it can only be accessed once at a time.
 
-More on the data protection and privacy within this system can be seen in section 3- link to Data Security, Privacy & User Anonymity at the bottom.
+More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
 
 **Inheritance, Interface and Polymorphism**
 
-See link  to future changes for prospective uses of inheritance, interfaces and polymorphism.
+Please refer to our [Discussion of Future Work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#development-phase---notes-for-future-work) to read about how these Object Oriented principles could be incoporation into Bubble. 
 
 **Re-usability**
 
@@ -197,7 +197,7 @@ For the first iteration of the web platform, a  paper prototyping method was use
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
-[ link to bubble.mp4 - on github]
+[VIDEO: Bubble Prototype in Workshop](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.mp4)
 
 At this very early and relatively uninvested stage of the design process, user evaluation insights were gathered by simulating the paper prototype and recording how participants interacted with the web application. This was in line with the agile development philosophy as it required the team to be unattached to features or design ideas ready for rethinking in the next sprint.
 
@@ -237,16 +237,15 @@ Mobile-view stills:
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.09.47.png" width = 30% >     <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.10.41.png" width = 30% >     <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.16.png" width = 30% >
 
-*linkvideo*
+[VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.20.mp4)
 
 Desktop-view stills:
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.07.20.png" width = 40% >   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.08.02.png" width = 40% >
 
+[VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/desktop_bubbles.mp4)
 
-**linkvieo**
-
-Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the **link to sprints section...**
+Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process] (https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
 **Desktop app images:**
 
