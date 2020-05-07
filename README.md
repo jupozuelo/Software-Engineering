@@ -18,7 +18,7 @@
   
 
 # Bubble - Automated Bath Runner
-## Our Mission
+## <a href="#Our Mission"> Our Mission </a>
 Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into the work environment. Society has now discovered the power of these tools which when integrated into our homes complete everyday chores and increase leisure time. 
 
 In the midst of this automation revolution, where platforms such as Apple’s Home app are making ‘smart’ products increasingly easy to integrate into routines, taking a bath is trailing the other activities that are undergoing a transformation. The bathroom has seen significantly fewer innovations than the kitchen. The advantages of baths are powerful; from having anti-aging properties, to being one of the most successful stress relief techniques. 
