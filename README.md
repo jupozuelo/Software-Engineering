@@ -4,7 +4,12 @@
 </p>
 
 <p align="center">
-  <a href="#Our Mission">Our Mission</a>
+  <a href="#Our Mission">Our Mission</a> ᛫
+  <a href="#Who Wins?">Who Wins?</a> ᛫
+  <a href="#Sections Overview">Sections Overview</a> ᛫
+  <a href="#Built With">Built With</a> ᛫
+  <a href="#License">License</a> 
+  
 </p>
 
 <p align="center">
