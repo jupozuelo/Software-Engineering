@@ -16,6 +16,11 @@
 <img  src="https://img.shields.io/badge/Contributors-4-blue" alt="Build"> <img src="https://img.shields.io/badge/Build-Passing-success" alt="Build"> <img src="https://img.shields.io/badge/Coverage-90%25-brightgreen" alt="Build"> <img src="https://img.shields.io/twitter/url?label=Follow%20Bubble&style=social&url=https%3A%2F%2Fgithub.com%2Fjupozuelo%2FSoftware-Engineering">
   </p>
   
+  </p>
+  <p align="center">
+  <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="400"/>
+</p>
+  
 
 # Bubble - Automated Bath Runner
 ## Our Mission 
