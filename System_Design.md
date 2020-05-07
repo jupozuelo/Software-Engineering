@@ -282,7 +282,7 @@ M5Stack:
 *Figure 10: First Model*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width=50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width=40%/>
 </p>
 
 
@@ -311,7 +311,7 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 *Figure 13: Communication Sequence 1 - normal uninterrupted bath run*
 
   <p align="center">
-  <img src=""https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="firstm5model" width=70%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width=70%/>
 </p>
   
 
