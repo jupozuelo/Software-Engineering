@@ -7,14 +7,14 @@ In this section, we will cover the chosen architecture of the entire system, the
 
   > ## Contents
 
- > * [User Stories](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#user-stories)
+ > * [User Stories](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#user-stories)
  > * [Requirements of key subsystems](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#requirements-of-key-subsystems)
- > * [Architecture of the System](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#architecture-of-entire-system)
- > * [Object Oriented Design](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#object-orientated-design-of-key-subsystems)
- > * [Evolution of UI Wireframes](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#evolution-of-ui-wireframes-for-key-subsystems)
- > * [Communication Protocols](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#communication-protocols-in-use)
- > * [Data Persistence Mechanisms](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#details-of-data-persistence-mechanisms-in-use)
- > * [Web Technologies](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#details-of-web-technologies-in-use)
+ > * [Architecture of the System](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#architecture-of-entire-system)
+ > * [Object Oriented Design](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#object-orientated-design-of-key-subsystems)
+ > * [Evolution of UI Wireframes](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#evolution-of-ui-wireframes-for-key-subsystems)
+ > * [Communication Protocols](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#communication-protocols-in-use)
+ > * [Data Persistence Mechanisms](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#details-of-data-persistence-mechanisms-in-use)
+ > * [Web Technologies](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#details-of-web-technologies-in-use)
 
 ## User Stories
 
@@ -166,11 +166,11 @@ Access to the desktop app is restricted to developers only. Initially, the datab
 
 The M5Stack code was written in only one script, therefore there is not very much scope for it to be specifically defined as public or private, as it can only be accessed once at a time.
 
-More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
+More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
 
 **Inheritance, Interface and Polymorphism**
 
-Please refer to our [Discussion of Future Work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#development-phase---notes-for-future-work) to read about how these Object Oriented principles could be incoporation into Bubble. 
+Please refer to our [Discussion of Future Work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Project_Evaluation.md#development-phase---notes-for-future-work) to read about how these Object Oriented principles could be incoporation into Bubble. 
 
 **Re-usability**
 
@@ -252,7 +252,7 @@ Further improvements to the design using p5.js included making images more dynam
 
 [VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/desktop_bubbles.mp4)
 
-Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#sprint-development-process), in Section 2 of the report.
+Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
 Desktop app:
 
@@ -359,5 +359,5 @@ The desktop application used the Processing library, controlP5, written by Andre
 
 ---
 
-#### [Next Section - Project Implementation](System_Implementation.md)
+#### [Next Section - Project Implementation](System_Implementation/System_Implementation.md)
 [Return to README](README.md)
