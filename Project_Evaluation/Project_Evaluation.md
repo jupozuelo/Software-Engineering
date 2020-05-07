@@ -1,12 +1,12 @@
 # Section 3: Project Evaluation
 
-As an entire project, the team is highly satisfied that our main ambitions for the project have been achieved and even bettered in some cases. Despite the disappointing consequences that COVID-19 has had on our ability to discuss, improve and share our product, we are satisfied that we have engaged with contingency arrangements to replace these experiences as much as possible. The evaluation of each platform can be found in section 2b (LINK THIS ON GITHUB).
+As an entire project, the team is highly satisfied that our main ambitions for the project have been achieved and even bettered in some cases. Despite the disappointing consequences that COVID-19 has had on our ability to discuss, improve and share our product, we are satisfied that we have engaged with contingency arrangements to replace these experiences as much as possible. The evaluation of each platform can be found in [Evaluation of Platform Designs](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#evaluation-of-platform-designs).
 
  > ## Contents
 
- > * [Reflective discussion of success](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#reflective-discussion-of-success-of-project)
- > * [Evaluation of group working practice](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#evaluation-of-group-working-practice)
- > * [Discussion of future work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation.md#discussion-of-future-work)
+ > * [Reflective discussion of success](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Project_Evaluation.md#reflective-discussion-of-success-of-project)
+ > * [Evaluation of group working practice](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Project_Evaluation.md#evaluation-of-group-working-practice)
+ > * [Discussion of future work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Project_Evaluation.md#discussion-of-future-work)
 
 ## Reflective discussion of success of project
 
@@ -75,4 +75,4 @@ Future work will be focused in part on the practicalities of connecting the IoT 
 
 ---
 
-[Return to README](README.md)
+[Return to README](https://github.com/jupozuelo/Software-Engineering/blob/master/README.md)
