@@ -178,3 +178,8 @@ While environmental impact once installed should be relatively minimal, there wo
 ### Mechanical safety features
 
 Due to the nature of Bubble services, there is an ethical responsibility to allow users to manually stop bath runs with a mechanical ‘emergency stop’ feature. In case of electrical malfunction, this is an important safety feature to give the customer backup in case of unexpected or dangerous system behaviour. While the team does not foresee this feature being used in normal operation, it will encourage customers to feel safe and assured using the products and provide a mechanism to prevent or limit damage should unsafe system operation occur.
+
+---
+
+#### [Next Section](Project_Evaluation.md) - Porject Evaluation
+[Return to README](README.md)
