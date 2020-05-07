@@ -57,7 +57,7 @@ Please find attached our [Project Evaluation section](Project_Evaluation.md) to 
 ## Authors
 
 * [**Christopher Logan**](https://github.com/kitlogan): cl16440@bristol.ac.uk
-* [**Andrea**](https://github.com/andreeaparsley97): ??@bristol.ac.uk
+* [**Andreaa Patrunjel**](https://github.com/andreeaparsley97): ap16989@bristol.ac.uk
 * [**Ruby Rosenthal**](https://github.com/rubyrosenthal): rr16973@bristol.ac.uk
 * [**Juan Ruiz Pozuelo**](https://github.com/kitlogan): jr16060@bristol.ac.uk
 
