@@ -316,3 +316,8 @@ The desktop app also used the MQTT library to simplify the process of connecting
 
 **insert image**
 *Figure : Graphical user interface without controlp5; no list orders or buttons.*
+
+---
+
+#### [Next Section](Project_Evaluation.md)
+ or [Return to README](README.md)
