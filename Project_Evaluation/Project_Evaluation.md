@@ -30,7 +30,7 @@ The process of this project has given the team the confidence to believe they ca
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Images/gantt.png" alt="Gantt">
 </p>
 
-Brief paragraph of expectations vs reality, explanations of periods that it was harder to work during etc.
+This Gantt Chart records the significant disruption and forced abandoning of some tasks as restrictions on time became greater, as elaborated on in the Reflective Discussion above. The Evaluation of group working practice outlined below discusses the reality of what this work load became, and the ways in which we adjusted to a new working environment.
 
 ## Evaluation of group working practice
 
