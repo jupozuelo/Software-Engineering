@@ -259,19 +259,19 @@ Desktop app:
 *Figure 7: First Model - No controlP5*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" width = 50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 45%/>
 </p>
 
 *Figure 8: Developing Model - Imported controlP5*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 45%/>
 </p>
 
 *Figure 9: Final Model*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 45%/>
 </p>
 
 M5Stack:
