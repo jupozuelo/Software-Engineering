@@ -107,7 +107,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 *Figure 1: Initial architecture of Object Oriented design*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML1.png" alt="UML1" width="50%"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML1.png" alt="UML1" width="50%">
 </p>
 
 The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, ideas began to blossom.
@@ -117,7 +117,7 @@ It was through building the web and desktop applications that the object orienta
 *Figure 2: UML diagram of the entire system*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="80%"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="80%">
 </p>
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
@@ -258,19 +258,22 @@ Desktop app:
 
 *Figure 7: First Model - No controlP5*
 
-
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 45%/>
+<p aling="centre">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 45%>
+  </p>
 
 *Figure 8: Developing Model - Imported controlP5*
 
+
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 45%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 45%>
 </p>
+
 
 *Figure 9: Final Model*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 45%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 45%>
 </p>
 
 M5Stack:
@@ -278,14 +281,14 @@ M5Stack:
 *Figure 10: First Model*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width = 30%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width = 30%>
 </p>
 
 
 *Figure 11: Final Model*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="finalm5model" width = 50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="finalm5model" width = 50%>
 </p>
 
 ## Communication protocols in use
@@ -307,17 +310,17 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 *Figure 13: Communication Sequence 1 - normal uninterrupted bath run*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width = 70%/></p>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width = 70%></p>
 
 *Figure 14: Communication Sequence 2 - The user interrupted bath run*
 
  <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width = 70%/></p>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width = 70%></p>
 
 *Figure 15: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
 <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width = 70%/></p>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width = 70%></p>
 
 
 ## Details of data persistence mechanisms in use
