@@ -126,11 +126,9 @@ The flow of the objects works as follows:
 
 After some external research we came to find five key concepts of language, alongside three concepts of programming, which are essential in Object Oriented Design:  
 
-• Encapsulation "A tight coupling or association of data structures with the methods or functions that act on the data. This is called a class, or object (an object is often the implementation of a class)."
+• Encapsulation • Data Protection • Inheritance • Interface • Polymorphism •
 
-• Data Protection • Inheritance • Interface • Polymorphism
-
-• Re-usability • Privacy • Documentation
+• Re-usability • Privacy • Documentation •
 
 **Encapsulation:**
 
