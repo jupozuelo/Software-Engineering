@@ -117,7 +117,7 @@ It was through building the web and desktop applications that the object orienta
 *Figure 2: UML diagram of the entire system*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="80%">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="50%">
 </p>
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
@@ -318,7 +318,7 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 *Figure 14: Communication Sequence 2 - The user interrupted bath run*
   
   <p align="center">
-  <img src=https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width=70%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width=70%/>
 </p>
 
 *Figure 15: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
