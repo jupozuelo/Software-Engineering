@@ -47,8 +47,8 @@ After the bath is run, third-parties can benefit from the exposure bubble can of
 ## Sections Overview
 The portfolio is composed of three main sections. Firstly, the system design section considers the architecture of the entire system and the design process to turn a paper prototype into a software environment. The second section details the implementation techniques and methods used to produce a working prototype. Lastly, the evaluation section will analyse the final prototype, as well as touch on future work and working practices during the project. 
 
-## 1) [System Design](System_Design.md)
-Please find attached our [System Design section](System_Design.md) to read about:
+## 1) [System Design](System_Design/System_Design.md)
+Please find attached our [System Design section](System_Design/System_Design.md) to read about:
 
 * Requirements of Key Subsystems
 * Architecture of Entire System
@@ -58,15 +58,15 @@ Please find attached our [System Design section](System_Design.md) to read about
 * Data Persistance Mechanisms 
 * Web Technologies in Use
 
-## 2) [System Implementation](System_Implementation.md)
-Please find attached our [System Implementation section](System_Implementation.md) to read about:
+## 2) [System Implementation](System_Implementation/System_Implementation.md)
+Please find attached our [System Implementation section](System_Implementation/System_Implementation.md) to read about:
 
 * Sprint Development Process
 * Evaluation of Platform Designs
 * Social and Ethical Implications of Bubble
 
-## 3) [Project Evaluation](Project_Evaluation.md)
-Please find attached our [Project Evaluation section](Project_Evaluation.md) to read about:
+## 3) [Project Evaluation](Project_Evaluation/Project_Evaluation.md)
+Please find attached our [Project Evaluation section](Project_Evaluation/Project_Evaluation.md) to read about:
 
 * Reflective Discussion on Bubble's Success
 * Future Work
