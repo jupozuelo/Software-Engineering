@@ -245,7 +245,7 @@ Desktop-view stills:
 
 [VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/desktop_bubbles.mp4)
 
-Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process] (https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#sprint-development-process), in Section 2 of the report.
+Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
 **Desktop app images:**
 
