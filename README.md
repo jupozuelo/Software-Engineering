@@ -5,6 +5,7 @@
 
 <img 
   src="https://img.shields.io/badge/Contributors-4-blue"
+  src="https://img.shields.io/badge/Build-Passing-success"
   alt="Build">
 
 
