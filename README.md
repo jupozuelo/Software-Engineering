@@ -4,12 +4,9 @@
 </p>
 
 <p align="center">
-<img  src="https://img.shields.io/badge/Contributors-4-blue" alt="Build"> <img src="https://img.shields.io/badge/Build-Passing-success" alt="Build">
+<img  src="https://img.shields.io/badge/Contributors-4-blue" alt="Build"> <img src="https://img.shields.io/badge/Build-Passing-success" alt="Build"> <img src="https://img.shields.io/badge/Coverage-90%25-brightgreen" alt="Build"> <img src="https://img.shields.io/twitter/url?label=Follow%20Bubble&style=social">
   </p>
   
-  
-
-
 
 # Bubble - [Automated Bath Runner](Intro_image/banner.png)
 ## Our Mission
