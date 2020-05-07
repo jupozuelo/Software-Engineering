@@ -19,7 +19,7 @@ By assessing the users needs, it was decided to start the development of the Web
 ##### Design
 In the beginning, a simple outline of the pages was decided upon. This also included a colour scheme which would also be applied to the other platforms. A logo for the product was designed by the team and used predominantly in the Web App. It is well known that logos need to ensure an effective communication and engage the target customer. In the last years, research of shape symbolism in the field of marketing helped with better understanding of the customer behaviour influenced by design elements. Results showed that a logo involving rounder shapes can contribute to a rise in customers' emotional engagement, showing a higher frequency of positive emotions. Therefore, the Bubble bath logo consists of soft, curvy lines to induce the feeling of calmness to the user, as seen in Figure 1. The bubbles of the bath are drawn with speed and spontaneity, inducing the idea of joy and giving a burst of positive energy to the user. (Refer to: <https://link.springer.com/article/10.1057/bm.2014.29>)
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint1.png" alt="banner"/>
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint1.png" alt="banner"/>
 
 *Figure 1: A banner demonstrating the themes of the Bubble logo and branding.*
 
@@ -37,7 +37,7 @@ The main focus of the initial sprint was familiarising with the tools used to bu
 The first sprint of  the IoT platform was focused on manipulating prior work and examples that achieved very basic internet based communication via a MQTT websocket broker. M5Stack implementation required the M5Stack.h, pubSubClient and U8g2 libraries within the Arduino IDE to upload scripts to the M5Stack and make use of its display, sensors and buttons. The starting M5Stack example posted scheduled messages to a topic, and subscribed to the same messages. Both published and subscribed messages were displayed on screen. Without any consideration for UI design, the task was simply to build MQTT websocket integration into the M5Stack, and purpose its buttons to display individual messages on the HiveMQ broker - see Figure 2. This required configuring the M5Stack to connect to a variety of wifi networks, and ensuring that the platform was able to publish messages and subscribe to messages on a MQTT topic. Initially three topics were set up for publishing and subscribing, and the messages to post were simple strings. Each topic was managed by a button on the M5Stack, as seen in Figure 2. Challenges were faced in understanding the characteristics of MAC addresses - by connecting the M5Stack with a copied MAC address of the laptop operating the MQTT websocket, connection was lost, misleading the team to believe communication was not working. A unique MAC address was then used, and the first iteration of the code passed the basic communication tests set. Again these tests were predefined and used regularly to encourage consistently working software in line with the team’ s Agile development philosophy.
 
 <p align="center">
-  <img src="M5_images/sprint1.jpg" alt="M5Sprint1" width="500"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/M5sprint1.jpg" alt="M5Sprint1" width="500"/>
 </p>
 
 *Figure 2: The first sprint of the IoT platform, demonstrating successful MQTT communication instigated by button presses.*
@@ -81,7 +81,7 @@ Following the sprint that constructed the communication protocols to connect the
 A third and final sprint was performed for the IoT platform - to alter the communication protocol to enable JSON messages to be received, interpreted and translated into variables. This was a relatively late and major change to our communication strategy, however true to the benefits of  agile development, it resulted in significant functionality improvements. These JSON variables would be used to determine the characteristics of the bath, which the user entered into the web application. Since the JSON files were simply posted into an MQTT topic, it was simply a case of adding JSON parsing functionality so that the message could be decoded and assigned to variables. The deconstructed JSON variables were then displayed on the M5Stack to simulate the bath running process, as seen in Figure 3 (right). The communication tests were slightly altered at this stage to add in JSON functionality. The final code satisfied this new standard.
 
 <p align="center">
-  <img src="M5_images/sprint3.jpg" alt="M5Sprint3"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/M5sprint3.jpg" alt="M5Sprint3"/>
 </p>
 
 *Figure 3: The final sprint of the IoT platform showing idle (left) and running (right) states. Buttons can be used to call individual platform features, and to interupt the running process if an emergency stop is required.*
@@ -95,7 +95,7 @@ During this sprint, it was decided to improve the dynamics of the Web App. Even 
 In order to achieve this level of functionality, the p5.play library was selected since it provides a Sprite class to control the comportment of visual objects in 2D Space and features such as animation support helpers for mouse and keyboard events (for Documentation, see the following link: <https://molleindustria.github.io/p5.play/>).Examples of the GIFs used can be found on the Web App page where it is searching for the requested bath or on the page where the timer is shown. They were thought in the previous mentioned cases as a way of displaying the loading of the page and they prevent the user from thinking that the application has frozen, as it might have happened if the static images were kept. Figure 4 shows an example of these interactions.
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint4.gif" alt="M5Sprint3" width="300"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint4.gif" alt="M5Sprint3" width="300"/>
 </p>
 
 *Figure 4: The sprint 4 version of the web app, complete with added aninmation to give greater reactivity for enhanced user experience.*
@@ -131,7 +131,7 @@ Following the agile philosophy for the development of this software application,
 *Figure 5: The Agile Philosophy*
 
 <p align="center">
-  <img src="System_Implementation/Images/agile.png" alt="Agile" width=50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/agile.png" alt="Agile" width=50%/>
 </p>
  
 ### M5Stack
