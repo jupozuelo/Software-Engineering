@@ -151,6 +151,10 @@ After all the pages were enhanced with animations, the Web App was tested during
 #### Desktop App 
 The final sprint considered integrating the communication system between the three platforms. Even towards the end of the development, the team ensured to follow the agile principle of embracing change and finding the best solution to satisfy the clients needs. While the process had been designed and the communication protocol steps had been created, the team needed to ensure there were no runtime errors. For that reason, testing was performed. The testing involved recreating the whole desktop’s process of receiving, analyzing and storing data from a message. Using assertions also validated the performance of the desktop. No user testing was conducted for the desktop application as the platform will only be used by the organization, and not the clients.
 
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/desktop.gif" alt="Desktop gif"/>
+</p>
+
 ### Sprint 5 
 
 #### Web App
