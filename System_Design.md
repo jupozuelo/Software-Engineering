@@ -104,7 +104,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 
 ## Object Orientated design of key subsystems
 
-*Initial architecture of Object Oriented design:*
+*Figure 1: Initial architecture of Object Oriented design:*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML1.png" alt="UML1" width="50%"/>
@@ -114,7 +114,7 @@ The initial design was very basic; it was easy to decide which elements were imp
 
 It was through building the web and desktop applications that the object orientated aspects of the design were truly understood; each sprint brought a more sophisticated approach to cross-communication.
 
-*UML diagram of the entire system:*
+*Figure 2: UML diagram of the entire system:*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="80%"/>
@@ -192,10 +192,10 @@ The web application was the focus of the majority of the UI design and wireframi
 
 For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web application via their smartphone.
 
+*Figure 3: Initial Paper Prototype* 
+
 <p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/prototype1.png" alt="prototype1" width = 75% /></p>
 
-
-*(500x800)*
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
@@ -213,6 +213,7 @@ While the digital format of the processing prototype should lend itself to wides
 
 With a clearer idea of how was desired for the application to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
 
+*Figure 4: Final Paper Prototype*
 <p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/prototype2.png" alt="prototype2" width = 80% /></p>
 
 **Further graphic UI iteration**
@@ -235,13 +236,13 @@ Further improvements to the design using p5.js included making images more dynam
 
 **Final product:**
 
-*Mobile-view stills:*
+*Figure 5: Mobile-view stills:*
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile3.png" width = 30% >
 
 [VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.20.mp4)
 
-*Desktop-view stills:*
+*Figure 6: Desktop-view stills:*
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop2.png" width = 40% >
 
@@ -251,26 +252,26 @@ Following the completion of the web app, matching the design elements in both th
 
 Desktop app:
 
-*First Model - No controlP5*
+*Figure 7: First Model - No controlP5*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 50%/></p>
 
-*Developing Model - Imported controlP5*
+*Figure 8: Developing Model - Imported controlP5*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 50%/></p>
 
-*Final Model:*
+*Figure 9: Final Model:*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 50%/></p>
 
 M5Stack:
 
-*First Model:*
+*Figure 10: First Model:*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width = 30%/></p>
 
 
-*Final Model:*
+*Figure 11: Final Model:*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="finalm5model" width = 50%/></p>
 
@@ -280,21 +281,23 @@ Communication on all platforms is achieved via MQTT websockets. All required com
 
 Where a small amount of data is required within the command, for example the “run bath” command from the web application that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web application converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web application and stores the data anonymously and persistently for analysis to later inform business strategy.
 
+*Figure 12: Communication Protocol Example*
+
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/commProtocol.png" width = 50%>
 
 HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed, further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
 
 #### Communication examples - sequence diagrams
 
-*Communication Sequence 1: normal uninterrupted bath run*
+*Figure 13: Communication Sequence 1 - normal uninterrupted bath run*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width = 70%/></p>
 
-*Communication Sequence 2: The user interrupted bath run*
+*Figure 14: Communication Sequence 2 - The user interrupted bath run*
 
  <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width = 70%/></p>
 
-*Communication sequence 3: Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
+*Figure 15: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width = 70%/></p>
 
