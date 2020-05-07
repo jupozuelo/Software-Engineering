@@ -181,5 +181,5 @@ Due to the nature of Bubble services, there is an ethical responsibility to allo
 
 ---
 
-#### [Next Section](Project_Evaluation.md) - Porject Evaluation
+#### [Next Section - Project Evaluation](Project_Evaluation.md)
 [Return to README](README.md)
