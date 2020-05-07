@@ -5,9 +5,9 @@
 
 <p align="center">
   <a href="#our-mission">Our Mission</a> ᛫
-  <a href="#Who Wins?">Who Wins?</a> ᛫
-  <a href="#Sections Overview">Sections Overview</a> ᛫
-  <a href="#Built With">Built With</a> ᛫
+  <a href="#who-wins?">Who Wins?</a> ᛫
+  <a href="#sections-overview">Sections Overview</a> ᛫
+  <a href="#built-with">Built With</a> ᛫
   <a href="#License">License</a> 
   
 </p>
