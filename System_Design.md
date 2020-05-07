@@ -7,14 +7,14 @@ In this section, we will cover the chosen architecture of the entire system, the
 
   > ## Contents
 
- > * User Stories
- > *  Key Subsystems
- > * Architecture
- > * Object Oriented Design
- > * Evolution of UI
- > * Communication Protocols
- > * Data Persistence
- > * Web Technologies
+ > * [User Stories](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#user-stories)
+ > * [Requirements of key subsystems](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#requirements-of-key-subsystems)
+ > * [Architecture of the System](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#architecture-of-entire-system)
+ > * [Object Oriented Design](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#object-orientated-design-of-key-subsystems)
+ > * [Evolution of UI Wireframes](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#evolution-of-ui-wireframes-for-key-subsystems)
+ > * [Communication Protocols](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#communication-protocols-in-use)
+ > * [Data Persistence Mechanisms](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#details-of-data-persistence-mechanisms-in-use)
+ > * [Web Technologies](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design.md#details-of-web-technologies-in-use)
 
 ## User Stories
 
