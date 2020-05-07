@@ -24,7 +24,11 @@ The process of this project has given the team the confidence to believe they ca
 
 ## Project Timeline
 
-final gannt image here
+*Figure 1: Gantt Chart (pre-Covid-19 pandemic) for Project*
+
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/System_Evaluation/Images/gantt.png" alt="Gantt">
+</p>
 
 Brief paragraph of expectations vs reality, explanations of periods that it was harder to work during etc.
 
