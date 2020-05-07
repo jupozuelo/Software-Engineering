@@ -24,7 +24,7 @@ In the beginning, a simple outline of the pages was decided upon. This also incl
 ##### Code 
 In order to explore the functionality of p5.js, a simple skeleton was produced for each page of the application. The code was simple and it aided understanding of the basic principles. 
 ##### Test
-Once the simple prototype was tested, it allowed focusing on more experimental parts with p5.js. 
+Once this simple prototype was simple tested with the team, it allowed focus on more experimental and elaborate parts with p5.js. 
 
 
 
