@@ -24,10 +24,10 @@ Plumbers and company technicians can benefit from the data that a bubble ‘smar
 #### Third-party apps
 After the bath is run, third-parties can benefit from the exposure bubble can offer them. For example, music streaming services such as Spotify could be opened from the bubble app to introduce entertainment services to the bath experience. Similarly, to match the introduction of smart lighting in the home, ambient lighting apps could be linked into the bubble app. A wide variety of third party apps may wish to introduce their services into the bathing process, and Bubbles can be a perfect platform to give them exposure.
 
-## 1) Sections Overview
+## Sections Overview
 The portfolio is composed of three main sections. Firstly, the system design section considers the architecture of the entire system and the design process to turn a paper prototype into a software environment. The second section details the implementation techniques and methods used to produce a working prototype. Lastly, the evaluation section will analyse the final prototype, as well as touch on future work and working practices during the project. 
 
-## 2) System Design 
+## 1) [System Design](System_Design.md)
 Please find attached our [System Design section](System_Design.md) to read about:
 
 * Requirements of Key Subsystems
@@ -42,9 +42,9 @@ Please find attached our [System Design section](System_Design.md) to read about
   <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="400"/>
 </p>
 
-## 3) System Implementation
+## 2) System Implementation
 
-## Project Evaluation  
+## 3) Project Evaluation  
 
 ## Authors
 
