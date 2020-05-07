@@ -131,7 +131,7 @@ Following the agile philosophy for the development of this software application,
 *Figure 5: The Agile Philosophy*
 
 <p align="center">
-  <img src="System_Implementation/Images/agile.jpg" alt="Agile"/>
+  <img src="System_Implementation/Images/agile.png" alt="Agile" width=50%/>
 </p>
  
 ### M5Stack
