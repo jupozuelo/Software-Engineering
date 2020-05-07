@@ -107,7 +107,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 *Figure 1: Initial architecture of Object Oriented design*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML1.png" alt="UML1" width="50%">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/UML1.png" alt="UML1" width="50%">
 </p>
 
 The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, ideas began to blossom.
@@ -117,7 +117,7 @@ It was through building the web and desktop applications that the object orienta
 *Figure 2: UML diagram of the entire system*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="75%">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/UML2.png" alt="UML2" width="75%">
 </p>
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
@@ -194,7 +194,7 @@ For the first iteration of the web platform, a  paper prototyping method was use
 
 *Figure 3: Initial Paper Prototype* 
 
-<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/prototype1.png" alt="prototype1" width = 75% /></p>
+<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/prototype1.png" alt="prototype1" width = 75% /></p>
 
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
@@ -214,7 +214,7 @@ While the digital format of the processing prototype should lend itself to wides
 With a clearer idea of how was desired for the application to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
 
 *Figure 4: Final Paper Prototype*
-<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/prototype2.png" alt="prototype2" width = 80% /></p>
+<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/prototype2.png" alt="prototype2" width = 80% /></p>
 
 **Further graphic UI iteration**
 
@@ -238,7 +238,7 @@ Further improvements to the design using p5.js included making images more dynam
 
 *Figure 5: Mobile-view stills*
 <p align="center">
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile3.png" width = 30% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile3.png" width = 30% >
   </p>
 
 [VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.20.mp4)
@@ -247,7 +247,7 @@ Further improvements to the design using p5.js included making images more dynam
 *Figure 6: Desktop-view stills*
 
 <p align="center">
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop2.png" width = 40% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop2.png" width = 40% >
 </p>
 
 [VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/desktop_bubbles.mp4)
@@ -259,20 +259,20 @@ Desktop app:
 *Figure 7: First Model - No controlP5*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width=50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopBasic.png" alt="firstm5model" width=50%/>
 </p>
 
 *Figure 8: Developing Model - Imported controlP5*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width=50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopImproved.png" alt="firstm5model" width=50%/>
 </p>
 
 
 *Figure 9: Final Model*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width=50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopFinal.png" alt="firstm5model" width=50%/>
 </p>
 
 
@@ -282,14 +282,14 @@ M5Stack:
 *Figure 10: First Model*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width=40%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/M5First.png" alt="firstm5model" width=40%/>
 </p>
 
 
 *Figure 11: Final Model*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="firstm5model" width=50%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/M5Final.png" alt="firstm5model" width=50%/>
 </p>
 
 ## Communication protocols in use
@@ -301,7 +301,7 @@ Where a small amount of data is required within the command, for example the “
 *Figure 12: Communication Protocol Example*
 
 <p align="center">
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/commProtocol.png" width = 50%>
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/commProtocol.png" width = 50%>
 </p>
 
 HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed, further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
@@ -311,20 +311,20 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 *Figure 13: Communication Sequence 1 - normal uninterrupted bath run*
 
   <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width=70%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram1.png" alt="comm1" width=70%/>
 </p>
   
 
 *Figure 14: Communication Sequence 2 - The user interrupted bath run*
   
   <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width=70%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram2" alt="comm2" width=70%/>
 </p>
 
 *Figure 15: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width=70%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram3.png" alt="comm3" width=70%/>
 </p>
 
 ## Details of data persistence mechanisms in use
