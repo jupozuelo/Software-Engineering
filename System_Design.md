@@ -104,7 +104,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 
 ## Object Orientated design of key subsystems
 
-*Figure 1: Initial architecture of Object Oriented design:*
+*Figure 1: Initial architecture of Object Oriented design*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML1.png" alt="UML1" width="50%"/>
@@ -114,7 +114,7 @@ The initial design was very basic; it was easy to decide which elements were imp
 
 It was through building the web and desktop applications that the object orientated aspects of the design were truly understood; each sprint brought a more sophisticated approach to cross-communication.
 
-*Figure 2: UML diagram of the entire system:*
+*Figure 2: UML diagram of the entire system*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="80%"/>
@@ -236,15 +236,19 @@ Further improvements to the design using p5.js included making images more dynam
 
 **Final product:**
 
-*Figure 5: Mobile-view stills:*
-
+*Figure 5: Mobile-view stills*
+<p align="center">
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile3.png" width = 30% >
+  </p>
 
 [VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.20.mp4)
 
-*Figure 6: Desktop-view stills:*
 
+*Figure 6: Desktop-view stills*
+
+<p align="center">
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop2.png" width = 40% >
+</p>
 
 [VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/desktop_bubbles.mp4)
 
@@ -260,18 +264,18 @@ Desktop app:
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 50%/></p>
 
-*Figure 9: Final Model:*
+*Figure 9: Final Model*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 50%/></p>
 
 M5Stack:
 
-*Figure 10: First Model:*
+*Figure 10: First Model*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width = 30%/></p>
 
 
-*Figure 11: Final Model:*
+*Figure 11: Final Model*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="finalm5model" width = 50%/></p>
 
@@ -283,7 +287,9 @@ Where a small amount of data is required within the command, for example the “
 
 *Figure 12: Communication Protocol Example*
 
+<p align="center">
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/commProtocol.png" width = 50%>
+</p>
 
 HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed, further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
 
