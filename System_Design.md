@@ -251,11 +251,11 @@ Following the completion of the web app, matching the design elements in both th
 
 Desktop app:
 
-*First Model*
+*First Model - No controlP5*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 50%/></p>
 
-*Developing Model - Imported controlp5*
+*Developing Model - Imported controlP5*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 50%/></p>
 
