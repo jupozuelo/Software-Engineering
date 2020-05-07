@@ -104,7 +104,9 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 
 *Initial architecture of Object Oriented design:*
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-04%20at%2013.25.05.png" width = 50% >
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-04%20at%2013.25.05.png" alt="UML1" width="50%"/>
+</p>
 
 The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, ideas began to blossom.
 
@@ -112,7 +114,9 @@ It was through building the web and desktop applications that the object orienta
 
 *UML diagram of the entire system:*
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.50.57.png" width = 80% >
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.50.57.png" alt="UML2" width="80%"/>
+</p>
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
 
@@ -186,9 +190,10 @@ The web application was the focus of the majority of the UI design and wireframi
 
 For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web application via their smartphone.
 
-*(500 x 800)*
+<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" alt="prototype1" width = 75% /></p>
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" width = 75% >
+
+*(500x800)*
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
@@ -206,7 +211,7 @@ While the digital format of the processing prototype should lend itself to wides
 
 With a clearer idea of how was desired for the application to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.04.31.png" width = 80% >
+<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.04.31.png" alt="prototype2" width = 80% /></p>
 
 **Further graphic UI iteration**
 
@@ -249,12 +254,12 @@ M5Stack images:
 
 First Model: 
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" width = 20% >
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" alt="firstm5model" width = 20%/></p>
 
 
 Final Model:
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.28.png" width = 40% >
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.28.png" alt="finalm5model" width = 40%/></p>
 
 ## Communication protocols in use
 
@@ -262,21 +267,21 @@ Communication on all platforms is achieved via MQTT websockets. All required com
 
 Where a small amount of data is required within the command, for example the “run bath” command from the web application that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web application converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web application and stores the data anonymously and persistently for analysis to later inform business strategy.
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.49.png" width = 50% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.49.png" width = 50%>
 
 HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed, further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
 
 #### Communication examples - sequence diagrams
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" width = 70% >
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width = 70%/></p>
 
 *Communication Sequence 1: normal uninterrupted bath run*
 
- <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" width = 70% >
+ <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width = 70%/></p>
 
 *Communication Sequence 2: The user interrupted bath run*
 
- <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" width = 70% >
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width = 70%/></p>
 
 *Communication sequence 3: Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
@@ -316,8 +321,3 @@ The desktop app also used the MQTT library to simplify the process of connecting
 
 **insert image**
 *Figure : Graphical user interface without controlp5; no list orders or buttons.*
-
----
-
-#### [Next Section](System_Implementation.md) - System Implementation
-[Return to README](README.md)
