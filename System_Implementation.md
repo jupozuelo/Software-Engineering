@@ -22,7 +22,7 @@ In order to explore the functionality of p5.js, a simple skeleton was produced f
 ##### Test
 Once the simple prototype was tested, it allowed focusing on more experimental parts with p5.js. 
 
-<img src="images/Screenshot 2020-05-06 at 20.58.33.png" alt="M5Sprint1"/>
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint1.png" alt="M5Sprint1"/>
 
 #### Desktop App 
 The main focus of the initial sprint was familiarising with the tools used to build the desktop application. The workshops provided the platform to implement examples on Processing and learn the language’s syntax and usage. This sprint also served as an introduction to MQTT for communication between devices and platforms. In particular, the fast food workshop and the processing and MQTT workshops built the foundation to set the communication and API architecture of the application.
@@ -94,7 +94,7 @@ After all the pages were enhanced with animations, the Web App was tested during
 The final sprint considered integrating the communication system between the three platforms. Even towards the end of the development, the team ensured to follow the agile principle of embracing change and finding the best solution to satisfy the clients needs. While the process had been designed and the communication protocol steps had been created, the team needed to ensure there were no runtime errors. For that reason, testing was performed. The testing involved recreating the whole desktop’s process of receiving, analyzing and storing data from a message. Using assertions also validated the performance of the desktop. No user testing was conducted for the desktop application as the platform will only be used by the organization, and not the clients.
 
 <p align="center">
-  <img src="images/ezgif.com-video-to-gif (2).gif" alt="M5Sprint3" width="300"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/sprint4.gif" alt="M5Sprint3" width="300"/>
 </p>
 
 ### Sprint 5 
