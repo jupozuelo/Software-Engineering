@@ -316,15 +316,16 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
   
 
 *Figure 14: Communication Sequence 2 - The user interrupted bath run*
-
- <p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width = 70%></p>
+  
+  <p align="center">
+  <img src=https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width=70%/>
+</p>
 
 *Figure 15: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
-<p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width = 70%></p>
-
+p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width=70%/>
+</p>
 
 ## Details of data persistence mechanisms in use
 
