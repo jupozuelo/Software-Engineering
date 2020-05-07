@@ -1,7 +1,7 @@
 # Section 2: System Implementation 
 
 
- > ## Contents
+ > ### Contents
 
  > * [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#sprint-development-process)
  > * [Evaluation of platform designs](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#evaluation-of-platform-designs)
