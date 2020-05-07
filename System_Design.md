@@ -259,36 +259,37 @@ Desktop app:
 *Figure 7: First Model - No controlP5*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width=40%/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width=50%/>
 </p>
 
 *Figure 8: Developing Model - Imported controlP5*
 
-
-<p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 45%>
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width=50%/>
 </p>
 
 
 *Figure 9: Final Model*
 
-<p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 45%>
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width=50%/>
 </p>
+
+
 
 M5Stack:
 
 *Figure 10: First Model*
 
-<p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width = 30%>
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width=50%/>
 </p>
 
 
 *Figure 11: Final Model*
 
-<p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="finalm5model" width = 50%>
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="firstm5model" width=50%/>
 </p>
 
 ## Communication protocols in use
@@ -309,8 +310,10 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 
 *Figure 13: Communication Sequence 1 - normal uninterrupted bath run*
 
-<p align="centre">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width = 70%></p>
+  <p align="center">
+  <img src=""https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="firstm5model" width=70%/>
+</p>
+  
 
 *Figure 14: Communication Sequence 2 - The user interrupted bath run*
 
