@@ -22,6 +22,12 @@ The project provided further group working and collaboration experience for the 
 
 The process of this project has given the team the confidence to believe they can tackle complex and initially abstract problems with good and incremental software design, and has encouraged the members to do so in future.
 
+## Project Timeline
+
+final gannt image here
+
+Brief paragraph of expectations vs reality, explanations of periods that it was harder to work during etc.
+
 ## Evaluation of group working practice
 
 ### Github and collaborative working tools
