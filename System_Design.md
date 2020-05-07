@@ -278,7 +278,7 @@ Communication on all platforms is achieved via MQTT websockets. All required com
 
 Where a small amount of data is required within the command, for example the “run bath” command from the web application that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web application converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web application and stores the data anonymously and persistently for analysis to later inform business strategy.
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.49.png" width = 50%>
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/commProtocol.png" width = 50%>
 
 HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed, further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
 
