@@ -113,16 +113,25 @@ Favorably, at this particular sprint especially and at previous ones too, it wou
 
 ## Evaluation of Platform Designs 
 
-Following the agile philosophy for the development of this software application, the team decided to use the 12 principle of agile as one of the evaluation tools. The COVID-19 pandemic introduced certain difficulties to follow certain principles, such as ensuring face-to-face communication. However, the team decided to set up five minute meetings daily to list the objectives of the day. In fact, this change of working environment might suggest that, in a post COVID-19 world, the agile principles might need to be adjusted for telecommuting. 
+Following the agile philosophy for the development of this software application, the team decided to use the 12 principle of agile as one of the evaluation tools. The COVID-19 pandemic introduced certain difficulties to follow certain principles, such as ensuring face-to-face communication. However, the team decided to set up five minute meetings daily to list the objectives of the day. In fact, this change of working environment might suggest that, in a post COVID-19 world, the agile principles might need to be adjusted for telecommuting.
+ 
+### M5Stack
+
 The design of the IoT platform was kept very minimal for this prototyping phase of development. Despite this, the design was still managed using a series of sprints and agile development methods that helped to easily quantity the work achieved and the progress desired. User testing was the desired primary method of design evaluation, to check if people unfamiliar with the service could operate the UI and achieve all the necessary methods without instruction. Unfortunately the COVID-19 crisis significantly restricted our ability to gain user evaluation in large numbers. Only family members that were isolating with the team were available as participants. The simplicity of the interface resulted in unanimous understanding of platform features and functions. Additionally, the key requirements of the IoT platform were compared to the features of the final iteration for evaluation. The platform was able to generate an ‘output’ of bath settings received from the web application (the display of chosen settings on the M5Stack screen), able to generate fault indicators (random fault messages in this prototyping phase) to send to the desktop application, and allow the user to instantaneously send a command to the desktop application to request a restock of bubble bath. The key requirements of the platform were therefore met.
+
+### Desktop
 
 The design of the desktop app was focused, from the start, on producing a valuable prototype to show the investors when pitching. The team decided to restrict the access to the desktop app to the development team of Bubble, hence no client of the company will have access to the management dashboard, at least for the initial months. The progress of the design was measured by the amount of working code. However, even these working bits were not exempt from change to find the best possible solution for the prototype. Setting initial design meetings to focus the development of the platform ensured the team explicitly articulated APIs between objects and clearly defined sets of methods and parameters for these. These facilitated work split but and on top of everything, it ensured constant testing of individual components. 
 
 On a more technical side, a disadvantage of using MQTT server as the communication tool between the M5Stack and the Desktop app is that topic subscriptions in the server are public to anyone. Hence, someone could be reporting “fake” repairs and usage or skimming real communications. For that reason, the team had to investigate other file formats rather than text files, and chose the JSON format. Overall, the provided code for the desktop produces a simple prototype that appropriately exhibits all the methods that the fully developed product aims to have in the future. 
 
+### Web app
+
 The detailed effort put into the Web app from the early stages of design and production crucially helped the development of this platform. As this is the platform which the user interacts with, it was ensured from the beginning that there would be a lot of attention to detail. This is highlighted by the back-and-forth prototyping discussed in the ‘Evolution of UI wireframes’ segment. Such effort meant that the COVID-19 crisis did not interfere with the development of this platform from an aesthetic perspective. The two group members tasked with this were able to work on their allocated pages in their own time, checking in at the end of each day to mark progression. Indeed during the fifth sprint, the merging of the pages took place. As such, the team is very satisfied with the completion of this platform and how it satisfies the platform requirements set out during the design phase.
 
 Unfortunately, however, as with the Desktop app, COVID-19 prohibited the ability for user evaluation. This meant that some key issues weren’t brought to light which otherwise would have been considered, such as confirmation pop ups to ensure the correct bath was selected.
+
+### Heauristic evaluation tables
 
 A heuristic evaluation of each platform was chosen as a standardised and relatively quantifiable evaluation method:
 
