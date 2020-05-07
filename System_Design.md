@@ -233,13 +233,13 @@ Further improvements to the design using p5.js included making images more dynam
 
 **Final product:**
 
-Mobile-view stills:
+*Mobile-view stills:*
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile3.png" width = 30% >
 
 [VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.20.mp4)
 
-Desktop-view stills:
+*Desktop-view stills:*
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop2.png" width = 40% >
 
@@ -249,7 +249,7 @@ Following the completion of the web app, matching the design elements in both th
 
 Desktop app:
 
-*First Model - Before using controlp5*
+*First Model*
 
 <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 50%/></p>
 
@@ -265,12 +265,12 @@ M5Stack:
 
 *First Model:*
 
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" alt="firstm5model" width = 30%/></p>
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5First.png" alt="firstm5model" width = 30%/></p>
 
 
 *Final Model:*
 
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.28.png" alt="finalm5model" width = 50%/></p>
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/M5Final.png" alt="finalm5model" width = 50%/></p>
 
 ## Communication protocols in use
 
@@ -284,17 +284,18 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
 
 #### Communication examples - sequence diagrams
 
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width = 70%/></p>
-
 *Communication Sequence 1: normal uninterrupted bath run*
 
- <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width = 70%/></p>
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/1.png" alt="comm1" width = 70%/></p>
 
 *Communication Sequence 2: The user interrupted bath run*
 
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width = 70%/></p>
+ <p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/2.png" alt="comm2" width = 70%/></p>
 
 *Communication sequence 3: Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
+
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/sequence_diagrams/3.png" alt="comm3" width = 70%/></p>
+
 
 ## Details of data persistence mechanisms in use
 
@@ -327,11 +328,14 @@ The desktop application used the Processing library, controlP5, written by Andre
 
 The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
 
-**insert image**
-*Figure : Graphical user interface with controlp5.*
+*Graphical user interface with controlp5.*
 
-**insert image**
-*Figure : Graphical user interface without controlp5; no list orders or buttons.*
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 50%/></p>
+
+
+*Graphical user interface without controlp5; no list orders or buttons.*
+
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 50%/></p>
 
 ---
 
