@@ -1,12 +1,12 @@
 # Section 2: System Implementation 
 
-This section will outline the steps we took to implement the chosen design from the prior [section](System_Design.md). The initial section discusses the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories . The final sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project. 
+This section will outline the steps we took to implement the chosen design from the prior [section](System_Design/System_Design.md). The initial section discusses the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories . The final sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project. 
 
  > ### Contents
 
- > * [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#sprint-development-process)
- > * [Evaluation of platform designs](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#evaluation-of-platform-designs)
- > * [Social and Ethical Implications](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#social-and-ethical-implications-of-the-project)
+ > * [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process)
+ > * [Evaluation of platform designs](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#evaluation-of-platform-designs)
+ > * [Social and Ethical Implications](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#social-and-ethical-implications-of-the-project)
  
  
 ## Sprint Development Process
@@ -201,4 +201,4 @@ Due to the nature of Bubble services, there is an ethical responsibility to allo
 ---
 
 #### [Next Section - Project Evaluation](Project_Evaluation/Project_Evaluation.md)
-[Return to README](README.md)
+[Return to README](https://github.com/jupozuelo/Software-Engineering/blob/master/README.md)
