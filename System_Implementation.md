@@ -127,6 +127,12 @@ Favorably, at this particular sprint especially and at previous ones too, it wou
 ## Evaluation of Platform Designs 
 
 Following the agile philosophy for the development of this software application, the team decided to use the 12 principle of agile as one of the evaluation tools. The COVID-19 pandemic introduced certain difficulties to follow certain principles, such as ensuring face-to-face communication. However, the team decided to set up five minute meetings daily to list the objectives of the day. In fact, this change of working environment might suggest that, in a post COVID-19 world, the agile principles might need to be adjusted for telecommuting.
+
+*Figure 5: The Agile Philosophy*
+
+<p align="center">
+  <img src="System_Implementation/Images/agile.jpg" alt="Agile"/>
+</p>
  
 ### M5Stack
 
