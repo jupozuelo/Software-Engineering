@@ -83,6 +83,6 @@ Future IoT work will be focused in part on the practicalities of connecting the 
 
 ## Final Thoughts
 
----
+What started out as a group project where in the beginning, team members were expecting to accomplish the work during a set of Software Engineering workshop like sessions, it soon became an opportunity to experiment with what being a digital nomad or remotely working software developer would involve. It also gave an overview over the classical 9 to 5 Office practice versus the ability to design certain working windows during the day and attend only online meetings. Last but not least, the project brought together 4 people from different backgrounds (Aerospace or Mechanical Engineering and Liberal Arts) and showed the importance and improvement of transferable skills gained in the previous years, while building new, strong programming ones. 
 
 [Return to README](https://github.com/jupozuelo/Software-Engineering/blob/master/README.md)
