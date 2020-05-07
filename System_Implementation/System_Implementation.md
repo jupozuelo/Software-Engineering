@@ -36,6 +36,27 @@ The main focus of the initial sprint was familiarising with the tools used to bu
 #### M5Stack 
 The first sprint of  the IoT platform was focused on manipulating prior work and examples that achieved very basic internet based communication via a MQTT websocket broker. M5Stack implementation required the M5Stack.h, pubSubClient and U8g2 libraries within the Arduino IDE to upload scripts to the M5Stack and make use of its display, sensors and buttons. The starting M5Stack example posted scheduled messages to a topic, and subscribed to the same messages. Both published and subscribed messages were displayed on screen. Without any consideration for UI design, the task was simply to build MQTT websocket integration into the M5Stack, and purpose its buttons to display individual messages on the HiveMQ broker - see Figure 2. This required configuring the M5Stack to connect to a variety of wifi networks, and ensuring that the platform was able to publish messages and subscribe to messages on a MQTT topic. Initially three topics were set up for publishing and subscribing, and the messages to post were simple strings. Each topic was managed by a button on the M5Stack, as seen in Figure 2. Challenges were faced in understanding the characteristics of MAC addresses - by connecting the M5Stack with a copied MAC address of the laptop operating the MQTT websocket, connection was lost, misleading the team to believe communication was not working. A unique MAC address was then used, and the first iteration of the code passed the basic communication tests set. Again these tests were predefined and used regularly to encourage consistently working software in line with the team’ s Agile development philosophy.
 
+    const char* MQTT_sub_topic[] = {"M5supplies", "M5run_bath", "M5broken"};
+    const char* MQTT_pub_topic[] = {"M5supplies", "M5run_bath", "M5broken"};
+    const char* server = "broker.mqttdashboard.com";
+    const int port = 1883;
+    
+    ...
+    
+    void loop() {
+        if (M5.BtnA.wasPressed()){
+           publishMessage("bA ");
+        }
+
+        if (M5.BtnB.wasPressed()){
+           publishMessage("bB ");
+        }
+
+        if (M5.BtnC.wasPressed()){
+           publishMessage("bC ");
+        }
+    }
+
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/M5sprint1.jpg" alt="M5Sprint1" width="500"/>
 </p>
@@ -59,6 +80,26 @@ The second sprint truly demonstrated the power of the numerous libraries of Proc
 
 #### M5Stack App
 A second sprint focused on the UI designs of the interface, aiming to ensure that the user experience was simple to understand while working within the limits of the M5Stack display. In line with the design of the web application, colour schemes were chosen and fonts were experimented with. The use of custom fonts caused problems to arise since font files have to be provided to the M5Stack via an external microSD card. For this prototyping phase of development, custom fonts were mothballed in favour of a more simple design. Simple “bubble” branding was created using M5Stack display tools, with labels for each of the three buttons to aid user understanding. The result can be seen in Figure 3 (Sprint 3). The new code was tested against the original communication tests, and upon passing, the new interface was tested on three participants with no prior knowledge of M5Stacks. Ideally more participants could have been subject to the test, but the implications of the COVID-19 crisis meant that only isolating household members could be tested. With a very brief description of the service bubble would deliver, and where the M5Stack would sit in the bathroom, all participants understood the UI clearly due to the highly simple interface and labels.
+
+    void setupScreen(){
+        M5.Lcd.fillScreen( CYAN );
+
+        M5.Lcd.setTextSize(6);
+        M5.Lcd.setTextColor( WHITE );
+        M5.Lcd.drawCentreString("bubble", 165, 50, 2);
+
+        M5.Lcd.setTextSize(2);
+        M5.Lcd.setTextColor( BLACK );
+
+        M5.Lcd.setCursor( 20, 220 );
+        M5.Lcd.println("Supplies");
+
+        M5.Lcd.setCursor( 140, 220 );
+        M5.Lcd.println("Run");
+
+        M5.Lcd.setCursor( 220, 220 );
+        M5.Lcd.println("Report");
+    }
 
 ### Sprint 3 
 
