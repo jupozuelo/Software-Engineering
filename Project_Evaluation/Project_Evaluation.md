@@ -24,13 +24,13 @@ The process of this project has given the team the confidence to believe they ca
 
 ## Project Timeline
 
-*Figure 1: Gantt Chart (pre-Covid-19 pandemic) for Project*
-
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Images/gantt.png" alt="Gantt">
 </p>
 
-This Gantt Chart records the significant disruption and forced abandoning of some tasks as restrictions on time became greater, as elaborated on in the Reflective Discussion above. The Evaluation of group working practice outlined below discusses the reality of what this work load became, and the ways in which we adjusted to a new working environment.
+*Figure 1: Gantt Chart (pre-Covid-19 pandemic) for Project*
+
+The Gantt Chart in Figure 1 records the significant disruption and forced abandoning of some tasks as time restrictions became greater. The prioritisation of tasks and discussion of this disruption can be found in the Reflective Discussion above. The evaluation of group working practice outlined in the section below discusses the impact of this altered work load, and the ways in which we adjusted to a new working environment.
 
 ## Evaluation of group working practice
 
