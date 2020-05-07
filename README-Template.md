@@ -28,7 +28,15 @@ After the bath is run, third-parties can benefit from the exposure bubble can of
 The portfolio is composed of three main sections. Firstly, the system design section considers the architecture of the entire system and the design process to turn a paper prototype into a software environment. The second section details the implementation techniques and methods used to produce a working prototype. Lastly, the evaluation section will analyse the final prototype, as well as touch on future work and working practices during the project. 
 
 ## 2) System Design 
-Please find attached our [System Design section](System_Design.md). 
+Please find attached our [System Design section](System_Design.md) to read about:
+
+* Requirements of Key Subsystems
+* Architecture of Entire System
+* Object-oriented Design of Key Subsystems
+* Evolution of UI Wireframes for Key Subsystems
+* Communication Protocols
+* Data Persistance Mechanisms 
+* Web Technologies in Use
 
 <p align="center">
   <img src="Intro_images/phone_mockup.jpg" alt="drawing" width="400"/>
