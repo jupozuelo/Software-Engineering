@@ -105,7 +105,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
 *Initial architecture of Object Oriented design:*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-04%20at%2013.25.05.png" alt="UML1" width="50%"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML1.png" alt="UML1" width="50%"/>
 </p>
 
 The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, ideas began to blossom.
@@ -115,7 +115,7 @@ It was through building the web and desktop applications that the object orienta
 *UML diagram of the entire system:*
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.50.57.png" alt="UML2" width="80%"/>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/UML2.png" alt="UML2" width="80%"/>
 </p>
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
@@ -190,7 +190,7 @@ The web application was the focus of the majority of the UI design and wireframi
 
 For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web application via their smartphone.
 
-<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-06%20at%2023.51.27.png" alt="prototype1" width = 75% /></p>
+<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/prototype1.png" alt="prototype1" width = 75% /></p>
 
 
 *(500x800)*
@@ -211,7 +211,7 @@ While the digital format of the processing prototype should lend itself to wides
 
 With a clearer idea of how was desired for the application to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
 
-<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.04.31.png" alt="prototype2" width = 80% /></p>
+<p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/prototype2.png" alt="prototype2" width = 80% /></p>
 
 **Further graphic UI iteration**
 
@@ -235,30 +235,42 @@ Further improvements to the design using p5.js included making images more dynam
 
 Mobile-view stills:
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.09.47.png" width = 30% >     <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.10.41.png" width = 30% >     <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.11.16.png" width = 30% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/mobile3.png" width = 30% >
 
 [VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/bubble.20.mp4)
 
 Desktop-view stills:
 
-<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.07.20.png" width = 40% >   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.08.02.png" width = 40% >
+<img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/desktop2.png" width = 40% >
 
 [VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/desktop_bubbles.mp4)
 
 Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
-**Desktop app images:**
+Desktop app:
 
-M5Stack images:
+*First Model - Before using controlp5*
 
-First Model: 
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopBasic.png" alt="firstm5model" width = 50%/></p>
 
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" alt="firstm5model" width = 20%/></p>
+*Developing Model - Imported controlp5*
+
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopImproved.png" alt="firstm5model" width = 50%/></p>
+
+*Final Model:*
+
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Software_Design_Images/DesktopFinal.png" alt="firstm5model" width = 50%/></p>
+
+M5Stack:
+
+*First Model:*
+
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.18.png" alt="firstm5model" width = 30%/></p>
 
 
-Final Model:
+*Final Model:*
 
-<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.28.png" alt="finalm5model" width = 40%/></p>
+<p align="centre"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/images/Screenshot%202020-05-07%20at%2000.37.28.png" alt="finalm5model" width = 50%/></p>
 
 ## Communication protocols in use
 
