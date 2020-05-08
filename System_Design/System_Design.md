@@ -45,8 +45,10 @@ User stories were used to help discover and list the key requirements of the sys
 *  Sara can arrive home and enjoy her Bubble experience, created especially for people who are extremely busy and dedicated to their work.
 
 <p align="center">
-  <img src="https://monicagalan.art/wp-content/uploads/2018/02/bubble_bath_web.gif" alt="Sara" width="40%" height="30%">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sara1.png" alt="Sara" width="40%" height="30%">
 </p>
+
+*[(See reference)](https://monicagalan.art/wp-content/uploads/2018/02/bubble_bath_web.gif)*
 
 ### Desktop App:
 
