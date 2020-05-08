@@ -195,7 +195,7 @@ For the first iteration of the web platform, a  paper prototyping method was use
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
-[VIDEO: Bubble Prototype in Workshop](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/prototype-video.mp4)
+[VIDEO: Bubble Paper Prototype in Workshop](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/prototype-video.mp4)
 
 At this very early and relatively uninvested stage of the design process, user evaluation insights were gathered by simulating the paper prototype and recording how participants interacted with the web application. This was in line with the agile development philosophy as it required the team to be unattached to features or design ideas ready for rethinking in the next sprint.
 
