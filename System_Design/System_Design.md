@@ -207,7 +207,7 @@ While the digital format of the processing prototype should lend itself to wides
 
 **Paper Prototyping 2.0**
 
-With a clearer idea of how was desired for the application to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
+With a clearer idea of how the application was desired to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
 
 *Figure 4: Final Paper Prototype*
 <p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/prototype2.png" alt="prototype2" width = 80% /></p>
