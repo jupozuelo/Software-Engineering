@@ -1,6 +1,6 @@
 # Section 2: System Implementation 
 
-This section will outline the steps we took to implement the chosen design from the prior [section](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md). This section begins with discussion and explantion of the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories. The final sub-sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project. 
+This section will outline the steps we took to implement the chosen design from the prior [section](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md). This section begins with discussion and explantion of the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories. The final sub-sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project.
 
  > ### Contents
 
@@ -10,6 +10,7 @@ This section will outline the steps we took to implement the chosen design from 
  
  
 ## Sprint Development Process
+The team has adopted Scrum, one of the most well-known agile frameworks for quick development of software. The core of Scrum is represented by the use of iterations known as Sprints in agile terms. While two weeks is the typical length of a Sprint, the team tailored the time to complete a specific Sprint based on the list of tasks, code complexity, bug fixes or user stories to be implemented, which were decided in each Scrum planning meeting. 
 
 ### Sprint 1
 
