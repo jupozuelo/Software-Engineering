@@ -1,6 +1,6 @@
 # Section 2: System Implementation 
 
-This section will outline the steps we took to implement the chosen design from the prior [section](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md). First, this section outlines the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories. The final sub-sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project. 
+This section will outline the steps we took to implement the chosen design from the prior [section](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md). The initial section discusses the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories . The final sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project. 
 
  > ### Contents
 
@@ -47,27 +47,28 @@ The main focus of the initial sprint was familiarising with the tools used to bu
 #### M5Stack 
 The first sprint of  the IoT platform was focused on manipulating prior work and examples that achieved very basic internet based communication via a MQTT websocket broker. M5Stack implementation required the M5Stack.h, pubSubClient and U8g2 libraries within the Arduino IDE to upload scripts to the M5Stack and make use of its display, sensors and buttons. The starting M5Stack example posted scheduled messages to a topic, and subscribed to the same messages. Both published and subscribed messages were displayed on screen. Without any consideration for UI design, the task was simply to build MQTT websocket integration into the M5Stack, and purpose its buttons to display individual messages on the HiveMQ broker - see Figure 2. This required configuring the M5Stack to connect to a variety of wifi networks, and ensuring that the platform was able to publish messages and subscribe to messages on a MQTT topic. Initially three topics were set up for publishing and subscribing, and the messages to post were simple strings. Each topic was managed by a button on the M5Stack, as seen in Figure 2. Challenges were faced in understanding the characteristics of MAC addresses - by connecting the M5Stack with a copied MAC address of the laptop operating the MQTT websocket, connection was lost, misleading the team to believe communication was not working. A unique MAC address was then used, and the first iteration of the code passed the basic communication tests set. Again these tests were predefined and used regularly to encourage consistently working software in line with the team’ s Agile development philosophy.
 
-    const char* MQTT_sub_topic[] = {"M5supplies", "M5run_bath", "M5broken"};
-    const char* MQTT_pub_topic[] = {"M5supplies", "M5run_bath", "M5broken"};
-    const char* server = "broker.mqttdashboard.com";
-    const int port = 1883;
+   ```c
+   const char* MQTT_sub_topic[] = {"M5supplies", "M5run_bath", "M5broken"};
+   const char* MQTT_pub_topic[] = {"M5supplies", "M5run_bath", "M5broken"};
+   const char* server = "broker.mqttdashboard.com";
+   const int port = 1883;
     
-    ...
+   ...
     
-    void loop() {
-        if (M5.BtnA.wasPressed()){
-           publishMessage("bA ");
-        }
+   void loop() {
+       if (M5.BtnA.wasPressed()){
+          publishMessage("bA ");
+       }
 
-        if (M5.BtnB.wasPressed()){
-           publishMessage("bB ");
-        }
+       if (M5.BtnB.wasPressed()){
+          publishMessage("bB ");
+       }
 
-        if (M5.BtnC.wasPressed()){
-           publishMessage("bC ");
-        }
-    }
-
+       if (M5.BtnC.wasPressed()){
+          publishMessage("bC ");
+       }
+   }
+   ```
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/M5sprint1.jpg" alt="M5Sprint1" width="500"/>
 </p>
