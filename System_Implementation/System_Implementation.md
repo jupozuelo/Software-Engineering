@@ -219,6 +219,8 @@ The final sprint considered integrating the communication system between the thr
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/desktop.gif" alt="Desktop gif"/>
 </p>
 
+*Figure 6: The final sprint of the desktop app.*
+
 ### Sprint 5 
 
 #### Web App
@@ -237,11 +239,10 @@ Favorably, at this particular sprint especially and at previous ones too, it wou
 
 Following the agile philosophy for the development of this software application, the team decided to use the 12 principle of agile as one of the evaluation tools. The COVID-19 pandemic introduced certain difficulties to follow certain principles, such as ensuring face-to-face communication. However, the team decided to set up five minute meetings daily to list the objectives of the day. In fact, this change of working environment might suggest that, in a post COVID-19 world, the agile principles might need to be adjusted for telecommuting. 
 
-*Figure 6: The Agile Philosophy*
-
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/agile.png" alt="Agile" width=50%/>
 </p>
+*Figure 7: The Agile Philosophy [(See reference)](http://www.linkunify.com/software-development/)*
  
 ### M5Stack
 
