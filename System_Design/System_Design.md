@@ -160,6 +160,11 @@ A fifth sketch was created, called Test which dealt with sending 'dummy' data to
 
 Due to the nature of arduino coding, limited encapsulation was possible in the M5Stack platform’s programming. However, in an attempt to make the code more readable and hide complex tasks from main methods, smaller methods were split with comments into three different sections: Setup & Loop, helper methods (which hide the bulk of graphical display and string management complexities) and complex MQTT/ communication related methods. The final section remains relatively difficult to follow due to the complex task and MQTT specific commands, however a best attempt at encapsulation has been made by separating this from the significantly more readable and simple Setup, Loop and helper methods.
 
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.jpg" alt="Code" width=35%>
+  
+  *Figure 3: Diagram of Object-Oriented Design concepts [(See reference)](https://image.shutterstock.com/image-photo/image-450w-273118595.jpg).*
+
 **Data Protection / Privacy:**
 
 All the code from the Web app is public, therefore there are no private methods or classes; all need to be accessed by the html file in order for them to be run in the browser.
@@ -171,11 +176,6 @@ More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-
 **Inheritance, Interface and Polymorphism**
 
 Please refer to our [Discussion of Future Work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Project_Evaluation.md#development-phase---notes-for-future-work) to read about how these Object Oriented principles could be incoporation into Bubble. 
-
-<p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.jpg" alt="Code" width=35%>
-  
-  *Figure 3: Diagram of Object-Oriented Design concepts.*
 
 **Re-usability**
 
