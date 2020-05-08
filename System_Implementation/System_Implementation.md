@@ -48,24 +48,24 @@ Once this simple prototype was simple tested with the team, it allowed focus on 
 
 
 #### Desktop App 
-The main focus of the initial sprint was familiarising with the tools used to build the desktop application. The workshops provided the platform to implement examples on Processing and learn the language’s syntax and usage. This sprint also served as an introduction to MQTT for communication between devices and platforms. In particular, the fast food workshop and the processing and MQTT workshops built the foundation to set the communication and API architecture of the application.
+The main focus of the initial sprint was familiarising with the tools used to build the desktop application. The workshops provided the platform to implement examples on Processing and learn the language’s syntax and usage. This sprint also served as an introduction to MQTT for communication between devices and platforms. In particular, the fast food workshop and the processing and MQTT workshops built the foundation to set the communication and API architecture of the application. The following code shows the initial testing performed on communicating with HiveMQ. 
 
 ```c
 void setup() {
   client = new MQTTClient(this);
-  client.connect("mqtt://try:try@broker.mqttdashboard.com", "processing");
+  client.connect("mqtt://try:try@broker.mqttdashboard.com", "Bubble");
 }
 
 void draw() {}
 
 void keyPressed() {
-  client.publish("juan", "This is a message coming from Processing");
+  client.publish("Bubble", "This is a message coming from Desktop App");
 }
 
 void clientConnected() {
   println("client connected");
 
-  client.subscribe("juan");
+  client.subscribe("Bubble");
 }
 
 void messageReceived(String topic, byte[] payload) {
@@ -73,7 +73,7 @@ void messageReceived(String topic, byte[] payload) {
 }
 
 void connectionLost() {
-  println("connection lost");
+  println("Connection Lost");
 }
 ```
 
