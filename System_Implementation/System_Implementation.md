@@ -108,6 +108,28 @@ A second sprint focused on the UI designs of the interface, aiming to ensure tha
 After tests during the group meetings on the functionality of the minimum viable product (MVP), it was decided upon the improvement of the Web App visuals.
 ##### Code
 The p5.js Clickable library has been integrated (for Documentation, see the following link: <https://github.com/Lartu/p5.clickable>). This specific library favors generating buttons which can present event-based behaviour. This was a crucial request for the application, since it was desired for the bath settings to be saved as json objects when clicking the buttons, which will further be saved as a JSON file. The aforementioned assured the smooth communication with the M5Stack and the Desktop App through the MQTT broker. Last but not least, the Clickable library offered an effortless transition between the Web App pages, a new page being invoked when a button, for example the GO! Button, would be clicked. 
+
+```javascript
+   //GO BUTTON
+   myButton3 = new Clickable();
+   myButton3.cornerRadius = 100;
+   myButton3.text = "GO!";
+   myButton3.textColor = "#1AA294";
+   myButton3.textSize = 60;
+   myButton3.textFont = "Helvetica Neue";
+   myButton3.textStyle = BOLD;
+   myButton3.color = "#67DACE";
+   myButton3.strokeWeight = 5;
+   myButton3.stroke = "#1AA294";
+   myButton3.locate(610, 190);
+   myButton3.width = 165;
+   myButton3.height = 165;
+
+   myButton3.onRelease = function() {
+       onSubmit(JSON.stringify(json));
+       window.open('index5.html', '_self');
+   }
+```
 ##### Design 
 Similar principles for when designing the logo have been applied when creating the buttons. Hence, simple rounder line segments have been used when constructing the buttons since they are preferred by customers over the angular shapes, which have been proved to generate a feeling of fear. The temperature slider was styled using a .css file and it was aimed to increase the aesthetic and feeling of composure by creating it with round lines instead of corners. Instead of simple buttons for the depth of the bath, they were changed to interactive images which would record the selected option.
 ##### Test 
