@@ -25,7 +25,7 @@ The process of this project has given the team the confidence to believe they ca
 ## Project Timeline
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Images/gantt.png" alt="Gantt">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Images/gantt.png" alt="Gantt Chart">
 </p>
 
 *Figure 1: Gantt Chart (pre-Covid-19 pandemic) for Project*
