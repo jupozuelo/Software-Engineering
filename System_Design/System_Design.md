@@ -40,7 +40,7 @@ Web App & M5Stack:
 
 *   Sara can cancel the bath at any time before she arrives home or before the bath is ready. A timer shows how much time is left until the bath preparation is complete.
 
-*  When the process is finished, communication for the M5Stack will push a notification to the web app screen followed by a notification sound as well.
+*  When the process is finished, communication from the M5Stack will push a notification to the web app screen followed by a notification sound as well.
 
 *  Sara can arrive home and enjoy her Bubble experience, created especially for people who are extremely busy and dedicated to their work.
 
