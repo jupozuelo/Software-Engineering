@@ -45,7 +45,7 @@ User stories were used to help discover and list the key requirements of the sys
 *  Sara can arrive home and enjoy her Bubble experience, created especially for people who are extremely busy and dedicated to their work.
 
 <p align="center">
-  <img src="https://monicagalan.art/portfolio/bubble-bath/?fbclid=IwAR1imx76w-liz3ivF5H_MVgkM1N_GUjav8AZq7QBa0LH2e6XhIhEiyOGuLw" alt="Sara" width=55%>
+  <img src="https://monicagalan.art/wp-content/uploads/2018/02/bubble_bath_web.gif" alt="Sara" width="40%" height="30%">
 </p>
 
 ### Desktop App:
@@ -112,7 +112,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/UML1.png" alt="UML1" width="50%">
 </p>
 
-*Figure 1: Initial architecture of Object Oriented design*
+*Figure 1: Initial architecture of Object Oriented design.*
 
 The initial design was very basic; it was easy to decide which elements were important for the Web app to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, stronger ideas began to form.
 
@@ -122,7 +122,7 @@ It was through building the web and desktop applications that the object orienta
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/UML2.png" alt="UML2" width="75%">
 </p>
 
-*Figure 2: UML diagram of the entire system*
+*Figure 2: UML diagram of the entire system.*
 
 As can be seen in the UML diagram of the entire system, objects are passed between the platforms which in turn enact different, individual operations.
 
@@ -168,12 +168,14 @@ Access to the desktop app is restricted to developers only. Initially, the datab
 
 More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
 
-<p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.jpg" alt="Code" width=35%>
-
 **Inheritance, Interface and Polymorphism**
 
 Please refer to our [Discussion of Future Work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Project_Evaluation.md#development-phase---notes-for-future-work) to read about how these Object Oriented principles could be incoporation into Bubble. 
+
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.jpg" alt="Code" width=35%>
+  
+  *Figure 3: Diagram of Object-Oriented Design concepts.*
 
 **Re-usability**
 
@@ -195,9 +197,9 @@ The web app was the focus of the majority of the UI design and wireframing proce
 
 For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web app via their smartphone.
 
-*Figure 3: Initial Paper Prototype* 
-
 <p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/prototype1.png" alt="prototype1" width = 75% /></p>
+
+*Figure 4: Initial Paper Prototype.* 
 
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
@@ -216,8 +218,9 @@ While the digital format of the processing prototype should lend itself to wides
 
 With a clearer idea of how the application was desired to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program.
 
-*Figure 4: Final Prototype*
 <p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/prototype2.png" alt="prototype2" width = 80% /></p>
+
+*Figure 5: Final Prototype.*
 
 **Further graphic UI iteration**
 
@@ -232,19 +235,20 @@ Further improvements to the design using p5.js included making images more dynam
 
 **Final product:**
 
-*Figure 5: Mobile-view stills*
 <p align="center">
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile3.png" width = 30% >
   </p>
+  
+  *Figure 6: Mobile-view stills.*
 
 [VIDEO: Bubble in action, Mobile-View](https://www.youtube.com/watch?v=q6CpdJlnYAM)
 
 
-*Figure 6: Desktop-view stills*
-
 <p align="center">
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop2.png" width = 40% >
 </p>
+
+*Figure 7: Desktop-view stills.*
 
 [VIDEO: Bubble in action, Desktop-View](https://www.youtube.com/watch?v=CB_8algSzYw)
 
@@ -256,19 +260,19 @@ Desktop app:
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopBasic.png" alt="firstm5model" width=50%/>
 </p>
 
-*Figure 7: First Model - No controlP5*
+*Figure 8: First Model - No controlP.5*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopImproved.png" alt="firstm5model" width=50%/>
 </p>
 
-*Figure 8: Developing Model - Imported controlP5*
+*Figure 9: Developing Model - Imported controlP5.*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopFinal.png" alt="firstm5model" width=50%/>
 </p>
 
-*Figure 9: Final Model*
+*Figure 10: Final Model.*
 
 M5Stack:
 
@@ -276,13 +280,13 @@ M5Stack:
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/M5First.png" alt="firstm5model" width=40%/>
 </p>
 
-*Figure 10: First Model*
+*Figure 11: First Model.*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/M5Final.png" alt="firstm5model" width=50%/>
 </p>
 
-*Figure 11: Final Model*
+*Figure 12: Final Model.*
 
 ## Communication protocols in use
 
@@ -290,7 +294,7 @@ Communication on all platforms is achieved via MQTT websockets. All required com
 
 Where a small amount of data is required within the command, for example the 'run bath' command from the web app that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web app converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web app and stores the data anonymously and persistently for analysis to later inform business strategy.
 
-*Figure 12: Communication Protocol Example*
+*Figure 13: Communication Protocol Example*
 
 <p align="center">
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/commProtocol.png" width = 50%>
@@ -304,19 +308,19 @@ HiveMQ was the chosen MQTT broker to manage and monitor communications due to it
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram1.png" alt="comm1" width=70%/>
 </p>
   
-*Figure 13: Communication Sequence 1 - normal uninterrupted bath run*
+*Figure 14: Communication Sequence 1 - normal uninterrupted bath run*
   
   <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram2.png" alt="comm2" width=70%/>
 </p>
 
-*Figure 14: Communication Sequence 2 - The user interrupted bath run*
+*Figure 15: Communication Sequence 2 - The user interrupted bath run*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sequenceDiagram3.png" alt="comm3" width=70%/>
 </p>
 
-*Figure 15: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
+*Figure 16: Communication sequence 3 - Bath run with IoT fault (e.g. mechanical fault, no available bubble bath etc.)*
 
 ## Details of data persistence mechanisms in use
 
@@ -345,7 +349,7 @@ Moreover, whilst static images looked pleasant, they weren’t sophisticated eno
 
 **Desktop App**
 
-The desktop application used the Processing library, controlP5, written by Andreas Schlegel. This library is extremely powerful when building graphical user interfaces, on top of the Processing sketches. The ability to create listboxes, sliders and buttons added a strong aesthetic aspect to the plain interface provided by normal sketches. Additionally, this library is useful to handle events from the desktop application user. The task of dealing with the users inputs was greatly simplified when pressing buttons and selecting options ([see Figure 9](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#evolution-of-ui-wireframes-for-key-subsystems)). The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
+The desktop application used the Processing library, controlP5, written by Andreas Schlegel. This library is extremely powerful when building graphical user interfaces, on top of the Processing sketches. The ability to create listboxes, sliders and buttons added a strong aesthetic aspect to the plain interface provided by normal sketches. Additionally, this library is useful to handle events from the desktop application user. The task of dealing with the users inputs was greatly simplified when pressing buttons and selecting options ([see Figure 10](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#evolution-of-ui-wireframes-for-key-subsystems)). The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
 
 
 ---
