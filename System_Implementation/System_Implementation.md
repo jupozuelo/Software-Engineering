@@ -12,8 +12,10 @@ This section will outline the steps we took to implement the chosen design from 
 ## Sprint Development Process
 The team has adopted Scrum, one of the most well-known agile frameworks for quick development of software. The core of Scrum is represented by the use of iterations known as Sprints in agile terms. While two weeks is the typical length of a Sprint, the team tailored the time to complete a specific Sprint based on the list of tasks, code complexity, bug fixes or user stories to be implemented, which were decided in each Scrum planning meeting. 
 <p align="center">
-   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint.png"     alt="sprint_diagram" width="70%" height="70%"/>
+   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint.png"     alt="sprint_diagram"/> 
 </p>
+
+*Figure 1: Sprint Diagram demonstrating the classical steps followed and adapted during the product development [See reference](https://www.dummies.com/careers/project-management/the-function-of-the-scrum-and-sprint-within-an-agile-project/)*
 
 ### Sprint 1
 
@@ -25,7 +27,7 @@ In the beginning, a simple outline of the pages was decided upon. This also incl
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint1.png" alt="banner"/>
 
-*Figure 1: A banner demonstrating the themes of the Bubble logo and branding.*
+*Figure 2: A banner demonstrating the themes of the Bubble logo and branding.*
 
 ##### Code 
 In order to explore the functionality of p5.js, a simple skeleton was produced for each page of the application. The code was simple and it aided understanding of the basic principles. Amongst this code was a function enabling the web page to be responsive, so that it can be viewed on any type of device:
@@ -77,7 +79,7 @@ The first sprint of  the IoT platform was focused on manipulating prior work and
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/M5sprint1.jpg" alt="M5Sprint1" width="500"/>
 </p>
 
-*Figure 2: The first sprint of the IoT platform, demonstrating successful MQTT communication instigated by button presses.*
+*Figure 3: The first sprint of the IoT platform, demonstrating successful MQTT communication instigated by button presses.*
 
 ### Sprint 2
 
@@ -175,7 +177,7 @@ A third and final sprint was performed for the IoT platform - to alter the commu
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/M5sprint3.jpg" alt="M5Sprint3"/>
 </p>
 
-*Figure 3: The final sprint of the IoT platform showing idle (left) and running (right) states. Buttons can be used to call individual platform features, and to interupt the running process if an emergency stop is required.*
+*Figure 4: The final sprint of the IoT platform showing idle (left) and running (right) states. Buttons can be used to call individual platform features, and to interupt the running process if an emergency stop is required.*
 
 ### Sprint 4
 
@@ -189,7 +191,7 @@ In order to achieve this level of functionality, the p5.play library was selecte
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint4.gif" alt="Web Sprint 4" width="300"/>
 </p>
 
-*Figure 4: The sprint 4 version of the web app, complete with added aninmation to give greater reactivity for enhanced user experience.*
+*Figure 5: The sprint 4 version of the web app, complete with added aninmation to give greater reactivity for enhanced user experience.*
 
 ```javascript
 function preload() {
@@ -235,7 +237,7 @@ Favorably, at this particular sprint especially and at previous ones too, it wou
 
 Following the agile philosophy for the development of this software application, the team decided to use the 12 principle of agile as one of the evaluation tools. The COVID-19 pandemic introduced certain difficulties to follow certain principles, such as ensuring face-to-face communication. However, the team decided to set up five minute meetings daily to list the objectives of the day. In fact, this change of working environment might suggest that, in a post COVID-19 world, the agile principles might need to be adjusted for telecommuting. 
 
-*Figure 5: The Agile Philosophy*
+*Figure 6: The Agile Philosophy*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/agile.png" alt="Agile" width=50%/>
