@@ -3,7 +3,7 @@
 
 Bubble aims to automate the bath preparation process, converting your bath into a ‘smart bath’. The product is composed of three different but integrated platforms; a Web App, a Desktop App and an Internet of Things (IoT) device - an M5Stack.
 
-In this section, we will cover the chosen architecture of the entire system, the design methods used for the key subsystems and the evaluation methods we applied to the product. This section will also provide a full explanation of the stages of the design process, from paper prototyping to software application. Providing three user stories will also highlight the opportunity that the Bubble team is set to seize in the current bath market.
+In this section, we will cover the chosen architecture of the entire system, the design methods used for the key subsystems and the evaluation methods we applied to the product. This section will also provide a full explanation of the stages of the design process, from paper prototyping to software application. Providing two user stories will also highlight the opportunity that the Bubble team is set to seize in the current bath market.
 
   > ## Contents
 
