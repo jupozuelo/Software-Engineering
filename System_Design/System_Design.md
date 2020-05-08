@@ -296,7 +296,7 @@ Where a small amount of data is required within the command, for example the “
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/commProtocol.png" width = 50%>
 </p>
 
-HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed, further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
+HiveMQ was the chosen MQTT broker to manage and monitor communications due to its simple interface and familiarity having used it in previous work. In the future, as communication likely becomes more complex and each transmission is likely to contain more data, a more sophisticated communication mechanism may be more efficient. Additionally, this method is not currently a private communication mechanism. Therefore once the project is developed further and real user data begins to be communicated, security and data privacy will have to be significantly considered.
 
 #### Communication examples - sequence diagrams
 
