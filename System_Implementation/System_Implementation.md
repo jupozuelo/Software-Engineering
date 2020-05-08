@@ -50,6 +50,33 @@ Once this simple prototype was simple tested with the team, it allowed focus on 
 #### Desktop App 
 The main focus of the initial sprint was familiarising with the tools used to build the desktop application. The workshops provided the platform to implement examples on Processing and learn the language’s syntax and usage. This sprint also served as an introduction to MQTT for communication between devices and platforms. In particular, the fast food workshop and the processing and MQTT workshops built the foundation to set the communication and API architecture of the application.
 
+```c
+void setup() {
+  client = new MQTTClient(this);
+  client.connect("mqtt://try:try@broker.mqttdashboard.com", "processing");
+}
+
+void draw() {}
+
+void keyPressed() {
+  client.publish("juan", "This is a message coming from Processing");
+}
+
+void clientConnected() {
+  println("client connected");
+
+  client.subscribe("juan");
+}
+
+void messageReceived(String topic, byte[] payload) {
+  println("new message: " + topic + " - " + new String(payload));
+}
+
+void connectionLost() {
+  println("connection lost");
+}
+```
+
 #### M5Stack 
 The first sprint of  the IoT platform was focused on manipulating prior work and examples that achieved very basic internet based communication via a MQTT websocket broker. M5Stack implementation required the M5Stack.h, pubSubClient and U8g2 libraries within the Arduino IDE to upload scripts to the M5Stack and make use of its display, sensors and buttons. The starting M5Stack example posted scheduled messages to a topic, and subscribed to the same messages. Both published and subscribed messages were displayed on screen. Without any consideration for UI design, the task was simply to build MQTT websocket integration into the M5Stack, and purpose its buttons to display individual messages on the HiveMQ broker - see Figure 2. This required configuring the M5Stack to connect to a variety of wifi networks, and ensuring that the platform was able to publish messages and subscribe to messages on a MQTT topic. Initially three topics were set up for publishing and subscribing, and the messages to post were simple strings. Each topic was managed by a button on the M5Stack, as seen in Figure 2. Challenges were faced in understanding the characteristics of MAC addresses - by connecting the M5Stack with a copied MAC address of the laptop operating the MQTT websocket, connection was lost, misleading the team to believe communication was not working. A unique MAC address was then used, and the first iteration of the code passed the basic communication tests that the team had set. Again these tests were predefined and used regularly to encourage consistently working software in line with the team’s agile development philosophy.
 
