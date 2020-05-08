@@ -169,7 +169,7 @@ Access to the desktop app is restricted to developers only. Initially, the datab
 More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
 
 <p align="center">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.png" alt="Code" width=35%>
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.jpg" alt="Code" width=35%>
 
 **Inheritance, Interface and Polymorphism**
 
