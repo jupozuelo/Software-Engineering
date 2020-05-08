@@ -44,6 +44,10 @@ User stories were used to help discover and list the key requirements of the sys
 
 *  Sara can arrive home and enjoy her Bubble experience, created especially for people who are extremely busy and dedicated to their work.
 
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/sara1.gif" alt="Sara">
+</p>
+
 ### Desktop App:
 
 *  Tom has been working as a software developer at Bubble for three months now. His day-to-day at the company involves responding to user’s requests, managing user data and developing new tools to include in the application.
