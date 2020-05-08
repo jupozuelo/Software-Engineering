@@ -88,7 +88,18 @@ At this phase, only HTML elements combined with JavaScript were developed for th
 Once the basic design of the bath running settings proved to be satisfactory, a more visual approach was decided to be taken. 
 
 #### Desktop App 
-The second sprint truly demonstrated the power of the numerous libraries of Processing. The versatility of Processing as a development environment was depicted with the numerous libraries that can be included in the sketches. Furthermore, the different APIs needed from the desktop were designed. This covered receiving, storing and updating the bath data coming from the M5 and Web app. Structuring the APIs enabled the setting of clear goals and objectives to complete. Lastly, initial communication testing was performed between the desktop and M5. This included sending simple text files to read and receive on both platforms.
+The second sprint truly demonstrated the power of the numerous libraries of Processing. The versatility of Processing as a development environment was depicted with the numerous libraries that can be included in the sketches. Furthermore, the different APIs needed from the desktop were designed. This covered receiving, storing and updating the bath data coming from the M5 and Web app. Structuring the APIs enabled the setting of clear goals and objectives to complete. Lastly, initial communication testing was performed between the desktop and M5. This included sending simple text files to read and receive on both platforms. The following is the method used to receive messages: 
+
+    void messageReceived(String topic, byte[] payload) {
+        JSONObject json = parseJSONObject(new String(payload));
+        if (json == null) {
+            println("Order could not be parsed");
+        } else {
+            api.saveBathtoDB(json);
+            refreshData();
+        }
+        refreshDashboardData();
+    }
 
 #### M5Stack App
 A second sprint focused on the UI designs of the interface, aiming to ensure that the user experience was simple to understand while working within the limits of the M5Stack display. In line with the design of the web application UI wireframes, colour schemes were chosen and fonts were experimented with. The use of custom fonts caused problems to arise since font files have to be provided to the M5Stack via an external microSD card. For this prototyping phase of development, custom fonts were mothballed in favour of a more simple design. Simple “bubble” branding was created using M5Stack display tools, with labels for each of the three buttons to aid user understanding. The result can be seen in Figure 3 (Sprint 3). The new code was tested against the original communication tests, and upon passing, the new interface was tested on three participants with no prior knowledge of M5Stacks. Ideally more participants could have been subject to the test, but the implications of the COVID-19 crisis meant that only isolating household members could be tested. With a very brief description of the service bubble would deliver, and where the M5Stack would sit in the bathroom, all participants understood the UI clearly due to the highly simple interface and labels.
