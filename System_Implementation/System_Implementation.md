@@ -214,7 +214,7 @@ Design decisions were made within the team when the colour scheme and writing st
 ##### Test 
 After all the final fixes were clarified and resolved, the team performed different tests on the Web App, in order to discover any possible bugs.
 ##### Deploy 
-Favorably, at this particular sprint especially and at previous ones too, it would have been expected to deploy the Web App and allow testing of multiple users which would not take into account the team members. This would have granted the team members better and objective feedback on the progress made and would have brought up particular issues, which are difficult to recognize when assessing the team’ s own work. Due to the unusual circumstances, the testing of the application had to be done within the team.
+Favorably, at this particular sprint especially and at previous ones too, it would have been expected to deploy the Web App and allow testing of multiple users which would not take into account the team members. This would have granted the team members better and objective feedback on the progress made and would have brought up particular issues, which are difficult to recognize when assessing the team’s own work. Due to the unusual circumstances, the testing of the application had to be done within the team.
 
 ## Evaluation of Platform Designs 
 
