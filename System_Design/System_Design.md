@@ -58,31 +58,31 @@ User stories were used to help discover and list the key requirements of the sys
 
 **Web application:**
 
-Remote Bath Running Process - the web app must allow users to remotely send bath run requests; by choosing predetermining bath settings, a bath can be run with the press of one button. Alternatively bath settings must be available for change on the web based platform. The web app must give the user progress updates on the running status of the bath, as well as the option to cancel the bath at any time or change the settings.
+* Remote Bath Running Process - the web app must allow users to remotely send bath run requests; by choosing predetermining bath settings, a bath can be run with the press of one button. Alternatively bath settings must be available for change on the web based platform. The web app must give the user progress updates on the running status of the bath, as well as the option to cancel the bath at any time or change the settings.
 
-Interface/ Interaction & Navigational Requirements - the design must be simple in order to limit the time the user spends understanding the interface operation, while still keeping the functionality of the Web App at a high standard. A predictable/ traditional design should be used to make it easy for the user to navigate through the Web App. The theme and structure of the Web pages should be kept consistent in order to avoid the user dissatisfaction or confusion while engaging with the app.
+* Interface/ Interaction & Navigational Requirements - the design must be simple in order to limit the time the user spends understanding the interface operation, while still keeping the functionality of the Web App at a high standard. A predictable/ traditional design should be used to make it easy for the user to navigate through the Web App. The theme and structure of the Web pages should be kept consistent in order to avoid the user dissatisfaction or confusion while engaging with the app.
 
-Communication & Data Accessibility - The web app must send data about users’ bath setting preferences via JSON files. It must ensure that any pressed buttons are disabled after use on the client-side such that there are no duplicates of the same JSON file communicated to the M5Stack. Additionally, server-side checks need to be implemented to avoid duplicate data getting through.
+* Communication & Data Accessibility - The web app must send data about users’ bath setting preferences via JSON files. It must ensure that any pressed buttons are disabled after use on the client-side such that there are no duplicates of the same JSON file communicated to the M5Stack. Additionally, server-side checks need to be implemented to avoid duplicate data getting through.
 
-Portability and Compatibility - the Bubble Web App should be a cross-platform, cross-browsing and mobile responsive; this can be checked against a list of likely browsers, historic software versions, devices and hardware specifics.
+* Portability and Compatibility - the Bubble Web App should be a cross-platform, cross-browsing and mobile responsive; this can be checked against a list of likely browsers, historic software versions, devices and hardware specifics.
 
 **Desktop application:**
 
-Data Processing - to build a database that stores the status of each bath and logs repair and supply requests. The bath data should be received as JSON Objects and stored in JSON Object arrays.
+* Data Processing - to build a database that stores the status of each bath and logs repair and supply requests. The bath data should be received as JSON Objects and stored in JSON Object arrays.
 
-Data Visualisation - to track baths completed, requests and baths interrupted, the platform must clearly visualize this incoming data. To understand performance in different time frames, the data must be split into weekly, monthly and quarterly frames.
+* Data Visualisation - to track baths completed, requests and baths interrupted, the platform must clearly visualize this incoming data. To understand performance in different time frames, the data must be split into weekly, monthly and quarterly frames.
 
-Data Persistence - the application must act as a safe and secure location to save sensitive information from users. The admin must be able to add, edit and delete any users from the database.
+* Data Persistence - the application must act as a safe and secure location to save sensitive information from users. The admin must be able to add, edit and delete any users from the database.
 
-Bug Requests - this application also records the user’s input on any additional features they would like to see or review on the current tools. The control task panel stores these requests.
+* Bug Requests - this application also records the user’s input on any additional features they would like to see or review on the current tools. The control task panel stores these requests.
 
 **M5Stack/ IoT device:**
 
-System visibility - allow the user to see the current status of the smart bath, including: bath running progress and chosen bath settings, fault statuses and restock request status.
+* System visibility - allow the user to see the current status of the smart bath, including: bath running progress and chosen bath settings, fault statuses and restock request status.
 
-Operable interface - buttons are needed to instruct the following: traditional ‘in location’ bath run, system diagnosis and reporting of any found fault, bubble bath restock request.
+* Operable interface - buttons are needed to instruct the following: traditional ‘in location’ bath run, system diagnosis and reporting of any found fault, bubble bath restock request.
 
-Communication: MQTT broker subscription - ‘listen’ for JSON formatted bath running instructions. MQTT broker publishing - post bath complete messages, post JSON formatted fault/repair required messages or post bubble bath restock requests.
+* Communication: MQTT broker subscription - ‘listen’ for JSON formatted bath running instructions. MQTT broker publishing - post bath complete messages, post JSON formatted fault/repair required messages or post bubble bath restock requests.
 
 ## Architecture of entire system
 
