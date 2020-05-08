@@ -1,7 +1,7 @@
 
 # System Design
 
-Bubble aims to automate the bath preparation process, converting your bath into a ‘smart bath’. The product is composed of three different but integrated platforms; a Web App, a Desktop App and an Internet of Things (IoT) device - an M5Stack.
+Bubble aims to automate the bath preparation process, converting your bath into a ‘smart bath’. The product is composed of three different but integrated platforms; a Web Application (Web app), a Desktop Application (Desktop app) and an Internet of Things (IoT) device - an M5Stack.
 
 In this section, we will cover the chosen architecture of the entire system, the design methods used for the key subsystems and the evaluation methods we applied to the product. This section will also provide a full explanation of the stages of the design process, from paper prototyping to software application. Providing two user stories will also highlight the opportunity that the Bubble team is set to seize in the current bath market.
 
@@ -22,13 +22,13 @@ User stories were used to help discover and list the key requirements of the sys
 
 ### Web App & M5Stack:
 
-*   Sara is an active user of her Coffee Maker run with Alexa Routines early in the morning. Her job at a multinational company means she is always on the go, especially with her long commute to the office.
+*   Sara is an active user of her Coffee Maker run through Alexa Routines early in the morning. Her job at a multinational company means she is always on the go, especially with her long commute to the office.
 
-*   Sara has always been looking for a way to upgrade her household to her busy schedule. Smart fridge, smart coffee maker, smart grocery ordering, but a way of relaxing in the evenings after a long work day was missing. Sara has invested to make almost everything in her kitchen ‘smart’, but has until now been disappointed with a lack of innovation for the bathroom.
+*   Sara has always been looking for a way to upgrade her household to her busy schedule. Smart fridge, smart coffee maker, smart grocery ordering, but a way of relaxing in the evenings after a long work day was missing. Sara has invested to make almost everything in her kitchen ‘smart’, but has, until now, been disappointed with a lack of innovation for the bathroom.
 
 *   Sara decided to buy a remote bath runner called Bubble. When she leaves the office, she will set up the bath from her phone application and it will be ready by the time she arrives.
 
-*   Sara wanted an intuitive and responsive system. When Sara accesses the app, she will login to her account. There she can choose one of the baths from home or she can add a new one. This allows her to connect all the baths in the household to only one system.
+*   Sara wanted an intuitive and responsive system. When Sara accesses the app, she will be taken to a home screen with her previously saved baths listed. There she can select one of the baths, or she can add a new one. This allows her to connect all the baths in the household to only one system (initial bath connection would require Wifi).
 
 *  Sara will wait for the identification and connection of the app to the bath’s M5Stack. Sara can choose to keep the settings of a previously set up bath or she can model a set of choices. Sara will be able to set her desired temperature for that evening, the depth of the water in the bathtub and if she desires bubbles or not.
 
@@ -54,13 +54,13 @@ User stories were used to help discover and list the key requirements of the sys
 
 * When he arrives at work, he first manages the report and supply requests that have newly been added to the system. This involves extracting the bathId to find the user and finding out what maintenance person has to be sent depending on the user’s description of the problem. For the supply requests, he schedules deliveries of bubbles to the address of the user with the request.
 
-* Tom has to present a weekly presentation on the performance of the application. The indicators for these are collected by the client’s usage of the application, new users, lost users, number of interrupted baths and so on. Being able to collect this information in a simple and clear way eases Tom’s job when communicating results weekly.
+* Tom has to present a weekly presentation on the performance of the application. Performance indicators are collected from the client’s usage of the application, new users, lost users, number of interrupted baths and so on. Being able to collect this information in a simple and clear way eases Tom’s job when communicating results weekly.
 
-* Tom is working with other software developers to integrate voice recognition to turn off the lights in the bathroom. The team collects survey answers in the desktop application that are posted on social media and on the web application and analyzes new tools to personalize the user’s experience.
+* Tom is working with other software developers to integrate voice recognition to turn off the lights in the bathroom. The team collects survey answers in the desktop application that are posted on social media and on the web app and analyzes new tools to personalize the user’s experience.
 
 ## Requirements of key subsystems
 
-**Web application:**
+**Web app:**
 
 * Remote Bath Running Process - the web app must allow users to remotely send bath run requests; by choosing predetermining bath settings, a bath can be run with the press of one button. Alternatively bath settings must be available for change on the web based platform. The web app must give the user progress updates on the running status of the bath, as well as the option to cancel the bath at any time or change the settings.
 
@@ -94,17 +94,17 @@ The architecture is composed of:
 
 **Desktop application to be used by developers.**
 
-The Desktop app is mainly focused on user management, repairs and supply requests and data analytics. Developers can inspect the user database, fix any bugs that have been reported from users, respond to supply requests and implement changes to the system. Additionally, data analytics of app usage and common features of the app are shown here for marketing/business profitability uses.
+The Desktop app is mainly focused on user management, repairs and supply requests, and data analytics. Developers can inspect the user database, fix any bugs that have been reported from users, respond to supply requests and implement changes to the system. Additionally, data analytics of app usage and common features of the app are shown here for marketing/business profitability uses.
 
 **M5Stack program to create a “smart bath”.**
 
-The M5Stack platform represents the IoT connected bath - its purpose is to listen for bath running instructions from the web application and simulate the bath running process. Additionally, a button on the M5Stack is assigned to allow for traditional bath running ‘in location’ - it commences a bath run with the user’s bath presets. When the bath running process finishes a “bath complete” message is produced and delivered to the user via the web application. Relevant data is sent to the desktop application for subsequent anonymous business analysis.
+The M5Stack platform represents the IoT connected bath - its purpose is to listen for bath running instructions from the web app and simulate the bath running process. Additionally, a button on the M5Stack is assigned to allow for traditional bath running ‘in location’ - it commences a bath run with the user’s bath presets. When the bath running process finishes a “bath complete” message is produced and delivered to the user via the web app. Relevant data is sent to the desktop application for subsequent anonymous business analysis.
 
 The M5Stack also has a role in reporting faults or failures in the system too. This action sends details of a fault to the desktop platform to highlight the issue to the management team, who will organise a repair. Similarly, another button is used as a request for a bubble bath resupply. This has been modeled on Amazon’s Dash Buttons - the user just has to press the button to order a delivery of bubble bath. Payment and delivery details are already stored to maximise the ease of this method.
 
-**Web application for the client to use the system.**
+**Web app for the client to use the system.**
 
-The Web App was designed primarily for the user. Drawing from inspiration from the Apple Remote App, the client can open the app to find a list of their previously connected baths, or the option to set up a new one. The customers can first add the location of their baths at home, to then be used in the future. The Bath Selection page allows the user to set up a new bath corresponding to its location in the household or use a formerly connected bath to the account. After the user adds their baths, they can control and order the running of a specific bath remotely. Before the Loading page, the users should also be able to browse through their bath history, which would retrieve data from the Desktop App. This was not added in the first prototype, but mainly thought of as an area of improvement for the final product to be released on the market. The Bath Settings page offers a range of options to the user for running the bath. The temperature can be chosen by using a slider, different depths can be selected by clicking the specified button. Finally, an option of running the bath with bubbles or not is available before the GO button is pressed. The user info and bath settings are saved in a JSON file and sent at this point to the broker. The Bath Running page then displays a timer which allows the user to check for the remaining time until the bath is ready. In addition, the user can go back and change the settings or cancel the running of the bath. The final page of the Web Application announces the completion of the bath and grants the user the possibility to connect to other systems such as Smart Ambient Lightning or a Wifi Speaker System which will redirect the user to their Spotify Account.
+The Web App was designed primarily for the user. Drawing from inspiration from the Apple Remote App, the client can open the app to find a list of their previously connected baths, or the option to set up a new one. The customers can first add the location of their baths at home, to then be used in the future. The Bath Selection page allows the user to set up a new bath corresponding to its location in the household or use a formerly connected bath to the account. After the user adds their baths, they can control and order the running of a specific bath remotely. Before the Loading page, the users should also be able to browse through their bath history, which would retrieve data from the Desktop App. This was not added in the first prototype, but mainly thought of as an area of improvement for the final product to be released on the market. The Bath Settings page offers a range of options to the user for running the bath. The temperature can be chosen by using a slider, different depths can be selected by clicking the specified button. Finally, an option of running the bath with bubbles or not is available before the GO button is pressed. The user info and bath settings are saved in a JSON file and sent at this point to the broker. The Bath Running page then displays a timer which allows the user to check for the remaining time until the bath is ready. In addition, the user can go back and change the settings or cancel the running of the bath. The final page of the Web app announces the completion of the bath and grants the user the possibility to connect to other systems such as Smart Ambient Lighting or a Wifi Speaker System which will redirect the user to their Spotify Account.
 
 ## Object Orientated design of key subsystems
 
@@ -114,7 +114,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/UML1.png" alt="UML1" width="50%">
 </p>
 
-The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, stronger ideas began to form.
+The initial design was very basic; it was easy to decide which elements were important for the Web app to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, stronger ideas began to form.
 
 It was through building the web and desktop applications that the object orientated aspects of the design were truly understood; each sprint brought a more sophisticated approach to cross-communication.
 
@@ -128,7 +128,7 @@ As can be seen in the UML diagram of the entire system, objects are passed betwe
 
 The flow of the objects works as follows:
 
-1.  A bath is selected by the user in the Web application.
+1.  A bath is selected by the user in the Web app.
 
 2.  The corresponding bath ID and bath settings are sent to the M5Stack, which will then set the characteristics in the bath’s mechanics and start running the water.
 
@@ -144,17 +144,17 @@ After some external research we came to find five key concepts of language, alon
 
 By virtue of the p5 JavaScript library, the majority of the code in the Web app is divided into three main methods: preload, setup and draw. The setup method is static, and loads everything on to the page once, to be sustained while the user is on that page. The draw method is a loop, constantly redrawing the objects onto the page and enabling changes to be made. In the preload method, images to be used are loaded and stored before the rest of the code is processed to enable quick access as soon as they are called. There is also a windowResized method within each class which enables responsiveness in the browser. Furthermore, there are extra methods in the code for the pages which interact with the MQTT; the onSubmit method passes the JSON file when the GO button is pressed for the settings to be sent, whilst the subscribe, connect, and sent methods are imported straight from the MQTT library.
 
-These methods can be seen within each class. Every page of the web app is run through a JavaScript class, which encapsulates all the code necessary for running the page. Each of the actions called by the Bath User (selectBath, sendTemp, sendSize, sendBubbles), belong to a class which deals with the request, as has been elaborated in the Web App architecture explanation.
+These methods can be seen within each class. Every page of the Web app is run through a JavaScript class, which encapsulates all the code necessary for running the page. There is the Bath Selection page, in which the bathId is sent to the Desktop app and Smart Bath, followed by a loading and 'bath found' page. Next, there is the Bath Settings page in which the user's selection of temperature, depth and bubbles are sent to the Smart Bath (sendSettings). Once these have been chosen, there is a timer counting down while the bath is running, and a final page to indicate that the bath is ready.
 
 From a design perspective, there is also a bubble class which is called in the code when bubbles are to be displayed in the background of the screen. This includes three methods which build three differently sized, differently coloured bubble shapes which move around the screen. In retrospect, more, smaller methods, such as bubble.js could have been created in order to organise the code in a neater, more concise manner. An example of an instance when a separate class could have been created is for the MQTT side, despite the fact that it works just as adequately within the whole page’s code.
 
-The code for the Desktop App was created using Processing and divided into four sketches: the management dashboard, data, events and view. In a similar format to the Web App, due to the nature of Processing, the management dashboard requires the use of the setup and draw methods. These work in the same way as in p5; the statements within the setup method “execute once when the program begins”, whilst the code in the draw method runs continuously, “each statement executed in sequence and after the last line is read, the first line is executed again”. In the setup, the MQTT connection is set and the instance of controlP5 is created. Due to the implementation of the controlp5 library, the draw method is not as relevant in the design of the page.
+The code for the Desktop App was created using Processing and divided into four sketches: the management dashboard, data, events and view. In a similar format to the Web app, due to the nature of Processing, the management dashboard requires the use of the setup and draw methods. These work in the same way as in p5; the statements within the setup method “execute once when the program begins”, whilst the code in the draw method runs continuously, “each statement executed in sequence and after the last line is read, the first line is executed again”. In the setup, the MQTT connection is set and the instance of controlP5 is created. Due to the implementation of the controlp5 library, the draw method is not as relevant in the design of the page.
 
 The events sketch deals with handling input from the user. It reads messages coming from the MQTT and, using an event handling method, executes the necessary actions. Here, it can be seen how methods, in communicating with the MQTT broker, were shared between the platforms. For example, the desktop method clientConnected communicates with the web method onConnect.
 
 The data sketch is focused on reading, writing and preparing data. A simple class to create metrics to show the companies performance was used given that many metrics were going to be created for the application. The private class Database creates the database and adds the bath data; this must be private to ensure only members of the same class can access it. The public class BathData consists of the different API calls that the application needed. It consists of an API method to ensure separation of concerns (User -> API -> DB), an API to obtain a bath by its status, an API to save the bath into the database and an API to update a bath’s status.
 
-The view sketch deals with the appearance of the page of the dashboard. It is in this sketch that the colour scheme is defined, the dashboard view is designed, and static elements are built, much like the style.css file used for the Web App. The public class Dashboard_View contains all the methods creating these elements (charts, listorders, titles) while the method concerned with updating the dashboard data is updateDashboardData.
+The view sketch deals with the appearance of the page of the dashboard. It is in this sketch that the colour scheme is defined, the dashboard view is designed, and static elements are built, much like the style.css file used for the Web app. The public class Dashboard_View contains all the methods creating these elements (charts, listorders, titles) while the method concerned with updating the dashboard data is updateDashboardData.
 
 A fifth sketch was created, called Test which dealt with sending “dummy” data to ensure the application is working correctly. By running tests and assertions throughout the writing stage of the code, the team ensured to only measure progress based on working code.
 
@@ -162,7 +162,7 @@ Due to the nature of arduino coding, limited encapsulation was possible in the M
 
 **Data Protection / Privacy:**
 
-All the code from the web app side is public, therefore there are no private methods or classes; all need to be accessed by the html file in order for them to be run in the browser.
+All the code from the Web app is public, therefore there are no private methods or classes; all need to be accessed by the html file in order for them to be run in the browser.
 
 Access to the desktop app is restricted to developers only. Initially, the database was going to be stored using the MySQL library, however this was suggested against when using a remote database since it can be highly insecure. Hence, the bath data was saved locally in a JSON array.
 
@@ -174,7 +174,7 @@ Please refer to our [Discussion of Future Work](https://github.com/jupozuelo/Sof
 
 **Re-usability**
 
-Alongside the p5 library itself, the Web App code includes a number of p5 specific libraries: p5.clickable, p5.play, and p5.sound. Similarly, the Desktop App imports the controlp5 and MQTT libraries. These are imported to enable the calling of specific methods which speed up the code, making it more effective as well as improving the design of the pages.
+Alongside the p5 library itself, the Web app code includes a number of p5 specific libraries: p5.clickable, p5.play, and p5.sound. Similarly, the Desktop App imports the controlp5 and MQTT libraries. These are imported to enable the calling of specific methods which speed up the code, making it more effective as well as improving the design of the pages.
 
 **Documentation**
 
@@ -186,11 +186,11 @@ As explained in the encapsulation section, the M5Stack code not only uses commen
 
 ## Evolution of UI wireframes for key subsystems
 
-The web application was the focus of the majority of the UI design and wireframing process because it is the product that the final user must be most familiar with. Since the desktop app is designed for internal management and metrics, its UI design was considered a secondary priority for this prototype. Similarly the IoT/ M5Stack platform has significantly fewer design requirements and sophistication, so its design was also considered a secondary priority.
+The web app was the focus of the majority of the UI design and wireframing process because it is the product that the final user must be most familiar with. Since the desktop app is designed for internal management and metrics, its UI design was considered a secondary priority for this prototype. Similarly the IoT/ M5Stack platform has significantly fewer design requirements and sophistication, so its design was also considered a secondary priority.
 
 **Paper prototyping method**
 
-For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web application via their smartphone.
+For the first iteration of the web platform, a  paper prototyping method was used. Paper prototyping has the advantage of being very quick, tactile and collaborative, while still pushing the team to make design and functionality decisions. It focused the team away from small details, and forced the group to produce a rough interface very quickly without the distraction or barrier of slower programming or graphic design. Desired methods and key system requirements were very useful products of the process. The measurements were taken around a smart phone and used as the canvas size in order to simulate as close to the user experience as possible, assuming most users will use the web app via their smartphone.
 
 *Figure 3: Initial Paper Prototype* 
 
@@ -201,19 +201,19 @@ The paper prototype was created in such a way that with manual manipulation, the
 
 [VIDEO: Bubble Paper Prototype in Workshop](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/prototype-video.mp4)
 
-At this very early and relatively uninvested stage of the design process, user evaluation insights were gathered by simulating the paper prototype and recording how participants interacted with the web application. This was in line with the agile development philosophy as it required the team to be unattached to features or design ideas ready for rethinking in the next sprint.
+At this very early and relatively uninvested stage of the design process, user evaluation insights were gathered by simulating the paper prototype and recording how participants interacted with the web app. This was in line with the agile development philosophy as it required the team to be unattached to features or design ideas, ready for rethinking in the next sprint.
 
 **Processing Prototype**
 
-Following the paper prototype, a digital version was created in processing. To again reduce invested time and allow the team to work through design iterations more quickly, the paper prototype ‘screens’ were updated by hand, photographed and then linked together using processing to simulate the UI. As the team members were not yet familiar with Processing, remaking the designs by programming the shapes and text at this point would have been costly and slow. This stage was useful to formalise the design aspects chosen to bring forward from the paper prototype and simulate them in a more realistic immediate way compared to the paper prototype.
+Following the paper prototype, a digital version was created in Processing. To again reduce invested time and allow the team to work through design iterations more quickly, the paper prototype ‘screens’ were updated by hand, photographed and then linked together using Processing to simulate the UI. As the team members were not yet familiar with Processing, remaking the designs by programming the shapes and text at this point would have been costly and slow. This stage was useful to formalise the design aspects chosen to bring forward from the paper prototype and simulate them in a more realistic, immediate way, compared to the paper prototype.
 
-While the digital format of the processing prototype should lend itself to widespread sharing of the prototype to gather further user evaluation, downloading and running the processing development environment was a significant restriction on the number of participants tested who are not technical. Ideally we should have used methods that could be shared with a more realistic non-technical audience, Marvel App for example.
+While the digital format of the processing prototype should lend itself to widespread sharing of the prototype to gather further user evaluation, downloading and running the Processing development environment was a significant restriction on the number of participants tested who are not technical. Ideally we should have used methods that could be shared with a more realistic non-technical audience, Marvel App for example.
 
-**Paper Prototyping 2.0**
+**Design Prototyping 2.0**
 
-With a clearer idea of how the application was desired to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program. Additionally, it allows collaboration on the same document.
+With a clearer idea of how the application was desired to work, a decision was made to return to the prototyping stage, this time solely based on design. Each screen was re-designed in Pages (Apple) to make the application seem less like a sketch, using a colour scheme and softer shapes in order to improve the UI. Pages was used as it was a format the team member was comfortable designing in, despite it not being a web-specific formatting program.
 
-*Figure 4: Final Paper Prototype*
+*Figure 4: Final Prototype*
 <p align="center"><img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/prototype2.png" alt="prototype2" width = 80% /></p>
 
 **Further graphic UI iteration**
@@ -245,7 +245,7 @@ Further improvements to the design using p5.js included making images more dynam
 
 [VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/desktop-video.mp4)
 
-Following the completion of the web app, matching the design elements in both the desktop app and on the M5Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
+Following the completion of the Web app, matching the design elements in both the desktop app and on the M5Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
 Desktop app:
 
@@ -285,7 +285,7 @@ M5Stack:
 
 Communication on all platforms is achieved via MQTT websockets. All required communication between the three different platforms contains very little data - many communications or commands are simply calls for another platform to execute a task. Therefore MQTT was chosen as an adequate mechanism to transmit “calls” between the prototype platforms.  
 
-Where a small amount of data is required within the command, for example the “run bath” command from the web application that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web application converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web application and stores the data anonymously and persistently for analysis to later inform business strategy.
+Where a small amount of data is required within the command, for example the “run bath” command from the web app that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web app converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web app and stores the data anonymously and persistently for analysis to later inform business strategy.
 
 *Figure 12: Communication Protocol Example*
 
@@ -321,7 +321,7 @@ Data implementation on the desktop application was achieved by storing bath data
 
 
 
-A process of data persistence had to be applied to the architecture to collate bath data, even after the system is turned off. The data will allow for useful business analytics to be extracted. Initially, the database storing user sensitive information and bath information was going to be stored using the MySQL library. This builds a communication path between processing and MySQL. However, this library is not recommended to be used when working with a remote database in a publicly accessible applet since it can be highly insecure. Hence, the bath data was saved in a JSON array, including the bath id, the status and the application tools they used (ie. switching app to Spotify). Every time a new bath is recorded within the system, a new entry to the array containing the information above is added and the database is updated. The bath id is used as a primary key to identify each element of the array.
+A process of data persistence had to be applied to the architecture to collate bath data, even after the system is turned off. The data will allow for useful business analytics to be extracted. Initially, the database storing user sensitive information and bath information was going to be stored using the MySQL library. This builds a communication path between Processing and MySQL. However, this library is not recommended to be used when working with a remote database in a publicly accessible applet since it can be highly insecure. Hence, the bath data was saved in a JSON array, including the bath id, the status and the application tools they used (ie. switching app to Spotify). Every time a new bath is recorded within the system, a new entry to the array containing the information above is added and the database is updated. The bath id is used as a primary key to identify each element of the array.
 
 The M5Stack was used as a tool to report repair and supply requests to the desktop application. For that reason, and due to its very limited memory size, the M5Stack does not store data locally, apart from the bath id. Instead it serves more as a broker for bath running, supplies and technical fault data.
 
@@ -330,9 +330,9 @@ The M5Stack was used as a tool to report repair and supply requests to the deskt
 
 **Web App**
 
-As with all websites, the foundational programming languages required for creating the Web application are HTML, CSS and JavaScript. HTML is necessary for running the pages in a browser, CSS for style and JavaScript to make the website responsive. Upon recommendation that it is open-source and artistic, the p5.js library was selected as the primary JavaScript tool.
+As with all websites, the foundational programming languages required for creating the Web app are HTML, CSS and JavaScript. HTML is necessary for running the pages in a browser, CSS for style and JavaScript to make the website responsive. Upon recommendation that it is open-source and artistic, the p5.js library was selected as the primary JavaScript tool.
 
-P5.js was extremely useful due to the plethora of libraries that can be used. In particular, the p5.play, p5.sound, and p5.clickable libraries opened up a significant amount of opportunities to make the web application more exciting, user-friendly, and attractive.
+P5.js was extremely useful due to the plethora of libraries that can be used. In particular, the p5.play, p5.sound, and p5.clickable libraries opened up a significant amount of opportunities to make the web app more exciting, user-friendly, and attractive.
 
 On the p5.js website, each library extension has a link to its own github repository with tutorials and example code. This was very helpful, as they could be easily followed in order to build up the web app. Every library brought some new functionality and the ability to keep the code DRY, clean and fast. For every new and complex feature of the web app, a new library was discovered that could match its demand.
 
@@ -342,7 +342,7 @@ Moreover, whilst static images looked pleasant, they weren’t sophisticated eno
 
 **Desktop App**
 
-The desktop application used the Processing library, controlP5, written by Andreas Schlegel. This library is extremely powerful when building graphical user interfaces, on top of the Processing sketches. The ability to create listboxes, sliders and buttons added a strong aesthetic aspect to the plain interface provided by normal sketches. Additionally, this library is useful to handle events from the desktop application user. The task of dealing with the users inputs was greatly simplified when pressing buttons and selecting options (see figure). The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
+The desktop application used the Processing library, controlP5, written by Andreas Schlegel. This library is extremely powerful when building graphical user interfaces, on top of the Processing sketches. The ability to create listboxes, sliders and buttons added a strong aesthetic aspect to the plain interface provided by normal sketches. Additionally, this library is useful to handle events from the desktop application user. The task of dealing with the users inputs was greatly simplified when pressing buttons and selecting options ([see Figure 8](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md#evolution-of-ui-wireframes-for-key-subsystems)). The desktop app also used the MQTT library to simplify the process of connecting with HiveMQ (the chosen broker to communicate between the three platforms).
 
 
 ---
