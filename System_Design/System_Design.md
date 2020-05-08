@@ -148,10 +148,6 @@ These methods can be seen within each class. Every page of the Web app is run th
 
 From a design perspective, there is also a bubble class which is called in the code when bubbles are to be displayed in the background of the screen. This includes three methods which build three differently sized, differently coloured bubble shapes which move around the screen. In retrospect, more, smaller methods, such as bubble.js could have been created in order to organise the code in a neater, more concise manner. An example of an instance when a separate class could have been created is for the MQTT side, despite the fact that it works just as adequately within the whole page’s code.
 
-<p align="right">
-  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.png" alt="Code" width=35%>
-</p>
-
 The code for the Desktop App was created using Processing and divided into four sketches: the management dashboard, data, events and view. In a similar format to the Web app, due to the nature of Processing, the management dashboard requires the use of the setup and draw methods. These work in the same way as in p5; the statements within the setup method "execute once when the program begins", whilst the code in the draw method runs continuously, "each statement executed in sequence and after the last line is read, the first line is executed again" (Quotes from [Processing](https://processing.org/examples/setupdraw.html)). In the setup, the MQTT connection is set and the instance of controlP5 is created. Due to the implementation of the controlp5 library, the draw method is not as relevant in the design of the page.
 
 The events sketch deals with handling input from the user. It reads messages coming from the MQTT and, using an event handling method, executes the necessary actions. Here, it can be seen how methods, in communicating with the MQTT broker, were shared between the platforms. For example, the desktop method clientConnected communicates with the web method onConnect.
@@ -172,6 +168,8 @@ Access to the desktop app is restricted to developers only. Initially, the datab
 
 More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
 
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.png" alt="Code" width=35%>
 
 **Inheritance, Interface and Polymorphism**
 
