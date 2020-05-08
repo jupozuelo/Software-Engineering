@@ -201,9 +201,9 @@ At this very early and relatively uninvested stage of the design process, user e
 
 **Processing Prototype**
 
-Following the paper prototype, a digital version was created in processing. To again reduce invested time and allow the team to work through design iterations more quickly, the paper prototype ‘screens’ were updated by hand, photographed and then linked together using processing to simulate the UI. This stage was useful to formalise the design aspects chosen to bring forward from the paper prototype and simulate them in a more realistic immediate way compared to the paper prototype.
+Following the paper prototype, a digital version was created in processing. To again reduce invested time and allow the team to work through design iterations more quickly, the paper prototype ‘screens’ were updated by hand, photographed and then linked together using processing to simulate the UI. As the team members were not yet familiar with Processing, remaking the designs by programming the shapes and text at this point would have been costly and slow. This stage was useful to formalise the design aspects chosen to bring forward from the paper prototype and simulate them in a more realistic immediate way compared to the paper prototype.
 
-While the digital format of the processing prototype should lend itself to widespread sharing of the prototype to gather further user evaluation, downloading and running the processing development environment was a significant restriction on the number of participants tested who are not technical. Moreover, as the team members were not yet as familiar with Processing, images of the sketches were simply uploaded and navigated between them, as opposed to remaking the designs by programming the shapes and text. Ideally we should have used methods that could be shared with a more realistic non-technical audience, Marvel App for example.
+While the digital format of the processing prototype should lend itself to widespread sharing of the prototype to gather further user evaluation, downloading and running the processing development environment was a significant restriction on the number of participants tested who are not technical. Ideally we should have used methods that could be shared with a more realistic non-technical audience, Marvel App for example.
 
 **Paper Prototyping 2.0**
 
