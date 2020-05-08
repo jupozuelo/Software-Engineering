@@ -100,11 +100,11 @@ The Desktop app is mainly focused on user management, repairs and supply request
 
 The M5Stack platform represents the IoT connected bath - its purpose is to listen for bath running instructions from the web app and simulate the bath running process. Additionally, a button on the M5Stack is assigned to allow for traditional bath running ‘in location’ - it commences a bath run with the user’s bath presets. When the bath running process finishes a 'bath complete' message is produced and delivered to the user via the web app. Relevant data is sent to the desktop application for subsequent anonymous business analysis.
 
-The M5Stack also has a role in reporting faults or failures in the system too. This action sends details of a fault to the desktop platform to highlight the issue to the management team, who will organise a repair. Similarly, another button is used as a request for a bubble bath resupply. This has been modeled on Amazon’s Dash Buttons - the user just has to press the button to order a delivery of bubble bath. Payment and delivery details are already stored to maximise the ease of this method.
+The M5Stack also has a role in reporting faults or failures in the system too. This action sends details of a fault to the desktop platform to highlight the issue to the management team, who will organise a repair. Similarly, another button is used as a request for a bubble bath resupply. This has been modeled on [Amazon’s Dash Buttons](https://www.amazon.com/b?ie=UTF8&node=17729534011) - the user just has to press the button to order a delivery of bubble bath. Payment and delivery details are already stored to maximise the ease of this method.
 
 **Web app for the client to use the system.**
 
-The Web App was designed primarily for the user. Drawing from inspiration from the Apple Remote App, the client can open the app to find a list of their previously connected baths, or the option to set up a new one (the Bath Selection page). After the user adds their baths, they can control and order the running of a specific bath remotely. Before the loading page, the users should also be able to browse through their bath history, which would retrieve data from the Desktop App. This was not added in the first prototype, but mainly thought of as an area of improvement for the final product to be released on the market. The Bath Settings page should offer a range of options to the user for running the bath. The temperature can be chosen by using a slider, different depths can be selected by clicking the specified button. Finally, an option of running the bath with bubbles or not is available before the GO button is pressed. The user info and bath settings are saved in a JSON file and sent at this point to the broker. The Bath Running page will then display a timer which allows the user to check for the remaining time until the bath is ready. In addition, the user can go back and change the settings or cancel the running of the bath. The final page of the Web app should announce the completion of the bath and grants the user the possibility to connect to other systems such as Smart Ambient Lighting or a Wifi Speaker System which will redirect the user to their Spotify Account.
+The Web App was designed primarily for the user. Drawing from inspiration from the [Apple Remote App](https://apps.apple.com/us/app/apple-tv-remote/id1096834193), the client can open the app to find a list of their previously connected baths, or the option to set up a new one (the Bath Selection page). After the user adds their baths, they can control and order the running of a specific bath remotely. Before the loading page, the users should also be able to browse through their bath history, which would retrieve data from the Desktop App. This was not added in the first prototype, but mainly thought of as an area of improvement for the final product to be released on the market. The Bath Settings page should offer a range of options to the user for running the bath. The temperature can be chosen by using a slider, different depths can be selected by clicking the specified button. Finally, an option of running the bath with bubbles or not is available before the GO button is pressed. The user info and bath settings are saved in a JSON file and sent at this point to the broker. The Bath Running page will then display a timer which allows the user to check for the remaining time until the bath is ready. In addition, the user can go back and change the settings or cancel the running of the bath. The final page of the Web app should announce the completion of the bath and grants the user the possibility to connect to other systems such as Smart Ambient Lighting or a Wifi Speaker System which will redirect the user to their Spotify Account.
 
 ## Object Orientated design of key subsystems
 
@@ -199,7 +199,7 @@ For the first iteration of the web platform, a  paper prototyping method was use
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
-[VIDEO: Bubble Paper Prototype in Workshop](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/prototype-video.mp4)
+[VIDEO: Bubble Paper Prototype in Workshop](https://www.youtube.com/watch?v=HsSn852GfEQ)
 
 At this very early and relatively uninvested stage of the design process, user evaluation insights were gathered by simulating the paper prototype and recording how participants interacted with the web app. This was in line with the agile development philosophy as it required the team to be unattached to features or design ideas, ready for rethinking in the next sprint.
 
@@ -234,7 +234,7 @@ Further improvements to the design using p5.js included making images more dynam
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile1.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile2.png" width = 30% >        <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/mobile3.png" width = 30% >
   </p>
 
-[VIDEO: Bubble in action, Mobile-View](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/mobile-video.mp4)
+[VIDEO: Bubble in action, Mobile-View](https://www.youtube.com/watch?v=q6CpdJlnYAM)
 
 
 *Figure 6: Desktop-view stills*
@@ -243,7 +243,7 @@ Further improvements to the design using p5.js included making images more dynam
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop1.png" width = 40% >       <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/desktop2.png" width = 40% >
 </p>
 
-[VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/desktop-video.mp4)
+[VIDEO: Bubble in action, Desktop-View](https://www.youtube.com/watch?v=CB_8algSzYw)
 
 Following the completion of the Web app, matching the design elements in both the desktop app and on the M5Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
@@ -330,7 +330,7 @@ The M5Stack was used as a tool to report repair and supply requests to the deskt
 
 **Web App**
 
-As with all websites, the foundational programming languages required for creating the Web app are HTML, CSS and JavaScript. HTML is necessary for running the pages in a browser, CSS for style and JavaScript to make the website responsive. Upon recommendation that it is open-source and artistic, the p5.js library was selected as the primary JavaScript tool.
+As with most websites, the foundational programming languages required for creating the Web app are HTML, CSS and JavaScript. HTML is necessary for running the pages in a browser, CSS for style and JavaScript to make the website responsive. Upon recommendation that it is open-source and artistic, the p5.js library was selected as the primary JavaScript tool.
 
 P5.js was extremely useful due to the plethora of libraries that can be used. In particular, the p5.play, p5.sound, and p5.clickable libraries opened up a significant amount of opportunities to make the web app more exciting, user-friendly, and attractive.
 
