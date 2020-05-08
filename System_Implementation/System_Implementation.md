@@ -12,7 +12,7 @@ This section will outline the steps we took to implement the chosen design from 
 ## Sprint Development Process
 The team has adopted Scrum, one of the most well-known agile frameworks for quick development of software. The core of Scrum is represented by the use of iterations known as Sprints in agile terms. While two weeks is the typical length of a Sprint, the team tailored the time to complete a specific Sprint based on the list of tasks, code complexity, bug fixes or user stories to be implemented, which were decided in each Scrum planning meeting. 
 <p align="center">
-   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint.png"     alt="sprint_diagram" width="40%"/>
+   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint.png"     alt="sprint_diagram" width="50%" height="50%"/>
 </p>
 
 ### Sprint 1
