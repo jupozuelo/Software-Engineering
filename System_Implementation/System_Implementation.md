@@ -92,8 +92,8 @@ The second sprint truly demonstrated the power of the numerous libraries of Proc
 
 #### M5Stack App
 A second sprint focused on the UI designs of the interface, aiming to ensure that the user experience was simple to understand while working within the limits of the M5Stack display. In line with the design of the web application, colour schemes were chosen and fonts were experimented with. The use of custom fonts caused problems to arise since font files have to be provided to the M5Stack via an external microSD card. For this prototyping phase of development, custom fonts were mothballed in favour of a more simple design. Simple “bubble” branding was created using M5Stack display tools, with labels for each of the three buttons to aid user understanding. The result can be seen in Figure 3 (Sprint 3). The new code was tested against the original communication tests, and upon passing, the new interface was tested on three participants with no prior knowledge of M5Stacks. Ideally more participants could have been subject to the test, but the implications of the COVID-19 crisis meant that only isolating household members could be tested. With a very brief description of the service bubble would deliver, and where the M5Stack would sit in the bathroom, all participants understood the UI clearly due to the highly simple interface and labels.
-
-    void setupScreen(){
+   ```c
+   void setupScreen(){
         M5.Lcd.fillScreen( CYAN );
 
         M5.Lcd.setTextSize(6);
@@ -111,7 +111,8 @@ A second sprint focused on the UI designs of the interface, aiming to ensure tha
 
         M5.Lcd.setCursor( 220, 220 );
         M5.Lcd.println("Report");
-    }
+   }
+   ```
 
 ### Sprint 3 
 
