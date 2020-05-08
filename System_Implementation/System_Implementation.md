@@ -243,7 +243,7 @@ Following the agile philosophy for the development of this software application,
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/agile.png" alt="Agile" width=50%/>
 </p>
 
-*Figure 7: The Agile Philosophy [(See reference)](http://www.linkunify.com/software-development/)*
+*Figure 7: The Agile Philosophy [(See reference)](https://www.pngflow.com/en/free-transparent-png-mzjpt)*
  
 ### M5Stack
 
