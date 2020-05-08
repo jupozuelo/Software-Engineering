@@ -223,13 +223,6 @@ With a better idea of the appearance of the application, the translation into Pr
 
 The first main UI change made in p5.js was formatting. At the prototype and Processing design stages only mobile use was considered. However, when it came to programming the Web app in p5.js, it was acknowledged that the web page should be responsive, therefore adaptable per device. In order to achieve this responsive feature, the canvas was drawn according to the size of the screen, and a resize method was created for usage across all the pages:
 
-    function setup() { 
-    createCanvas(windowWidth, windowHeight);
-
-    function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
-    }
-
 This significantly improved the UI experience; rather than having a restrictive, static design, something more accessible on a greater variety of devices was provided.
 
 Further improvements to the design using p5.js included making images more dynamic and animated, and enabling the pages to interact with one another through the use of buttons.
