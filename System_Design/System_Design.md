@@ -110,7 +110,7 @@ The Web App was designed primarily for the user. Drawing from inspiration from t
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/UML1.png" alt="UML1" width="50%">
 </p>
 
-The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, ideas began to blossom.
+The initial design was very basic; it was easy to decide which elements were important for the Web application to include, but the way in which each platform would interact with these essential features had not been considered at this early stage. Whilst decisions had been made on user interaction, and how the Smart Bath would deal with requests placed, the interaction between these objects and the desktop platform was not yet concrete. Once a decision had been made for the desktop app to be controlled by a Bubble management employee, stronger ideas began to form.
 
 It was through building the web and desktop applications that the object orientated aspects of the design were truly understood; each sprint brought a more sophisticated approach to cross-communication.
 
