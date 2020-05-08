@@ -204,7 +204,7 @@ For the first iteration of the web platform, a  paper prototyping method was use
 
 The paper prototype was created in such a way that with manual manipulation, the paper ‘screens’ could be animated to simulate user interaction. See video here:
 
-[VIDEO: Bubble Paper Prototype in Workshop](https://www.youtube.com/watch?v=HsSn852GfEQ)
+[CLICK TO WATCH VIDEO: Bubble Paper Prototype in Workshop](https://www.youtube.com/watch?v=HsSn852GfEQ)
 
 At this very early and relatively uninvested stage of the design process, user evaluation insights were gathered by simulating the paper prototype and recording how participants interacted with the web app. This was in line with the agile development philosophy as it required the team to be unattached to features or design ideas, ready for rethinking in the next sprint.
 
@@ -241,7 +241,7 @@ Further improvements to the design using p5.js included making images more dynam
   
   *Figure 6: Mobile-view stills.*
 
-[VIDEO: Bubble in action, Mobile-View](https://www.youtube.com/watch?v=q6CpdJlnYAM)
+[CLICK TO WATCH VIDEO: Bubble in action, Mobile-View](https://www.youtube.com/watch?v=q6CpdJlnYAM)
 
 
 <p align="center">
@@ -250,7 +250,7 @@ Further improvements to the design using p5.js included making images more dynam
 
 *Figure 7: Desktop-view stills.*
 
-[VIDEO: Bubble in action, Desktop-View](https://www.youtube.com/watch?v=CB_8algSzYw)
+[CLICK TO WATCH VIDEO: Bubble in action, Desktop-View](https://www.youtube.com/watch?v=CB_8algSzYw)
 
 Following the completion of the Web app, matching the design elements in both the desktop app and on the M5Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
