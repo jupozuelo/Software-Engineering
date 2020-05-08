@@ -162,8 +162,6 @@ All the code from the web app side is public, therefore there are no private met
 
 Access to the desktop app is restricted to developers only. Initially, the database was going to be stored using the MySQL library, however this was suggested against when using a remote database since it can be highly insecure. Hence, the bath data was saved locally in a JSON array.
 
-The M5Stack code was written in only one script, therefore there is not very much scope for it to be specifically defined as public or private, as it can only be accessed once at a time.
-
 More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
 
 **Inheritance, Interface and Polymorphism**
