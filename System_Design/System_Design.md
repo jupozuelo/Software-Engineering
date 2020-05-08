@@ -96,9 +96,9 @@ The architecture is composed of:
 
 The Desktop app is mainly focused on user management, repairs and supply requests, and data analytics. Developers can inspect the user database, fix any bugs that have been reported from users, respond to supply requests and implement changes to the system. Additionally, data analytics of app usage and common features of the app are shown here for marketing/business profitability uses.
 
-**M5Stack program to create a “smart bath”.**
+**M5Stack program to create a 'smart bath'.**
 
-The M5Stack platform represents the IoT connected bath - its purpose is to listen for bath running instructions from the web app and simulate the bath running process. Additionally, a button on the M5Stack is assigned to allow for traditional bath running ‘in location’ - it commences a bath run with the user’s bath presets. When the bath running process finishes a “bath complete” message is produced and delivered to the user via the web app. Relevant data is sent to the desktop application for subsequent anonymous business analysis.
+The M5Stack platform represents the IoT connected bath - its purpose is to listen for bath running instructions from the web app and simulate the bath running process. Additionally, a button on the M5Stack is assigned to allow for traditional bath running ‘in location’ - it commences a bath run with the user’s bath presets. When the bath running process finishes a 'bath complete' message is produced and delivered to the user via the web app. Relevant data is sent to the desktop application for subsequent anonymous business analysis.
 
 The M5Stack also has a role in reporting faults or failures in the system too. This action sends details of a fault to the desktop platform to highlight the issue to the management team, who will organise a repair. Similarly, another button is used as a request for a bubble bath resupply. This has been modeled on Amazon’s Dash Buttons - the user just has to press the button to order a delivery of bubble bath. Payment and delivery details are already stored to maximise the ease of this method.
 
@@ -283,9 +283,9 @@ M5Stack:
 
 ## Communication protocols in use
 
-Communication on all platforms is achieved via MQTT websockets. All required communication between the three different platforms contains very little data - many communications or commands are simply calls for another platform to execute a task. Therefore MQTT was chosen as an adequate mechanism to transmit “calls” between the prototype platforms.  
+Communication on all platforms is achieved via MQTT websockets. All required communication between the three different platforms contains very little data - many communications or commands are simply calls for another platform to execute a task. Therefore MQTT was chosen as an adequate mechanism to transmit 'calls' between the prototype platforms.  
 
-Where a small amount of data is required within the command, for example the “run bath” command from the web app that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web app converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web app and stores the data anonymously and persistently for analysis to later inform business strategy.
+Where a small amount of data is required within the command, for example the 'run bath' command from the web app that needs to contain the bath settings, JSON files were chosen to carry the data fields. Before transmission, the web app converts the user’s chosen bath settings into a JSON file with 4 simple fields - bathID (int), temperature (int), depth (String) and bubbles (boolean). The IoT platform (M5Stack) then reads the JSON file and applies the settings to the new bath. Meanwhile, the desktop application also receives the run command from the web app and stores the data anonymously and persistently for analysis to later inform business strategy.
 
 *Figure 12: Communication Protocol Example*
 
