@@ -29,7 +29,8 @@ In order to explore the functionality of p5.js, a simple skeleton was produced f
 ```javascript
 function setup() { 
     createCanvas(windowWidth, windowHeight);
-
+    ...
+    
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
     }
