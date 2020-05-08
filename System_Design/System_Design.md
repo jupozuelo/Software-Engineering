@@ -248,45 +248,41 @@ Further improvements to the design using p5.js included making images more dynam
 
 [VIDEO: Bubble in action, Desktop-View](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/desktop-video.mp4)
 
-Following the completion of the web app, matching the design elements in both the desktop app and on the M5 Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
+Following the completion of the web app, matching the design elements in both the desktop app and on the M5Stack became possible. For consistency of UI experience, it was ensured that the same colour scheme and ease of navigation were kept consistent across all platforms. A more detailed discussion of design changes can be found in the [Sprint Development Process](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#sprint-development-process), in Section 2 of the report.
 
 Desktop app:
-
-*Figure 7: First Model - No controlP5*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopBasic.png" alt="firstm5model" width=50%/>
 </p>
 
-*Figure 8: Developing Model - Imported controlP5*
+*Figure 7: First Model - No controlP5*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopImproved.png" alt="firstm5model" width=50%/>
 </p>
 
-
-*Figure 9: Final Model*
+*Figure 8: Developing Model - Imported controlP5*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/DesktopFinal.png" alt="firstm5model" width=50%/>
 </p>
 
-
+*Figure 9: Final Model*
 
 M5Stack:
-
-*Figure 10: First Model*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/M5First.png" alt="firstm5model" width=40%/>
 </p>
 
-
-*Figure 11: Final Model*
+*Figure 10: First Model*
 
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/M5Final.png" alt="firstm5model" width=50%/>
 </p>
+
+*Figure 11: Final Model*
 
 ## Communication protocols in use
 
