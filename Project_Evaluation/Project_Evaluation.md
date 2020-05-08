@@ -78,7 +78,8 @@ More significantly, the Web application can be extended to a mobile app form. As
 ### Desktop Platform - next steps
 
 The desktop app behaves as the back-end of the product, storing user information and valuable data to gather insights from. This data visualisation aspect adds a hint of front-end to the application, allowing developers to understand the product’s performance. The main focus of future work should be on converting the current JSON text-based array database into a functional relational database. Currently, the desktop application receives and stores bata data using: 
-    
+
+```c
     for (JSONObject bath: db.baths) {
        if (bath != null) {
           if (status.contains(bath.getString("bath_status"))) {
@@ -94,6 +95,7 @@ The desktop app behaves as the back-end of the product, storing user information
             saveJSONObject(bath, "data/" + bath.getString("bath_id") + ".json");
         }
     }
+```
 
 The procedure of creating a relational database will probably involve using a specific database language, such as MySQL, integrated to the current Processing sketches. This integration could bring some technical difficulties, hence the team might need to consider moving away from Processing to build the back-end of the product. Having the database and the GUI for the desktop app in different platforms would avoid having a single point of failure in the system. 
 
