@@ -1,6 +1,6 @@
 # Section 2: System Implementation 
 
-This section will outline the steps we took to implement the chosen design from the prior [section](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md). The initial section discusses the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories . The final sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project. 
+This section will outline the steps we took to implement the chosen design from the prior [section](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/System_Design.md). This section begins with discussion and explantion of the iterative “sprint” development process used to build a minimum viable product that satisfies the user stories. The final sub-sections deal with the methods used to evaluate the implementation, and the social and ethical implications of the project. 
 
  > ### Contents
 
@@ -15,9 +15,9 @@ This section will outline the steps we took to implement the chosen design from 
 
 #### Web App
 ##### Analysis 
-By assessing the users needs, it was decided to start the development of the Web Application in p5.js, which implied assessing the elements of the JavaScript library, how they could be applied to the project and understanding the basics of the tool. 
+By assessing the user's needs, it was decided to start the development of the Web Application in p5.js, which implied assessing the elements of the JavaScript library, how they could be applied to the project and understanding the basics of the tool. 
 ##### Design
-In the beginning, a simple outline of the pages was decided upon. This also included a colour scheme which would also be applied to the other platforms. A logo for the product was designed by the team and used predominantly in the Web App. It is well known that logos need to ensure an effective communication and engage the target customer. In the last years, research of shape symbolism in the field of marketing helped with better understanding of the customer behaviour influenced by design elements. Results showed that a logo involving rounder shapes can contribute to a rise in customers' emotional engagement, showing a higher frequency of positive emotions. Therefore, the Bubble bath logo consists of soft, curvy lines to induce the feeling of calmness to the user, as seen in Figure 1. The bubbles of the bath are drawn with speed and spontaneity, inducing the idea of joy and giving a burst of positive energy to the user. (Refer to: <https://link.springer.com/article/10.1057/bm.2014.29>)
+In the beginning, a simple outline of the pages was decided upon. This also included a colour scheme which would also be applied to the other platforms. A logo for the product was designed by the team and used predominantly in the Web App. It is well known that logos need to ensure an effective communication and engage the target customer. In recent years, research of shape symbolism in the field of marketing has been imporoved via better understanding of the customer behaviour influenced by design elements. Results showed that a logo involving rounder shapes can contribute to a rise in customers' emotional engagement, showing a higher frequency of positive emotions. Therefore, the Bubble bath logo consists of soft, curvy lines to induce the feeling of calmness to the user, as seen in Figure 1. The bubbles of the bath are drawn with speed and spontaneity, inducing the idea of joy and giving a burst of positive energy to the user. (Refer to: <https://link.springer.com/article/10.1057/bm.2014.29>)
 
 <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint1.png" alt="banner"/>
 
