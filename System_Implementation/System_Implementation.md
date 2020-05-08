@@ -15,7 +15,7 @@ The team has adopted Scrum, one of the most well-known agile frameworks for quic
    <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/sprint.png"     alt="sprint_diagram"/> 
 </p>
 
-*Figure 1: Sprint Diagram demonstrating the classical steps followed and adapted during the product development [See reference](https://www.dummies.com/careers/project-management/the-function-of-the-scrum-and-sprint-within-an-agile-project/)*
+*Figure 1: Sprint Diagram demonstrating the classical steps followed and adapted during the product development [(See reference)](https://www.dummies.com/careers/project-management/the-function-of-the-scrum-and-sprint-within-an-agile-project/)*
 
 ### Sprint 1
 
