@@ -160,7 +160,7 @@ Due to the nature of arduino coding, limited encapsulation was possible in the M
 
 All the code from the web app side is public, therefore there are no private methods or classes; all need to be accessed by the html file in order for them to be run in the browser.
 
-Access to the desktop app is restricted to developers only. Initially, the database was going to be stored using the MySQL library, however this was suggested against when using a remote database since it can be highly insecure. Hence, the bath data was saved in a JSON array.
+Access to the desktop app is restricted to developers only. Initially, the database was going to be stored using the MySQL library, however this was suggested against when using a remote database since it can be highly insecure. Hence, the bath data was saved locally in a JSON array.
 
 The M5Stack code was written in only one script, therefore there is not very much scope for it to be specifically defined as public or private, as it can only be accessed once at a time.
 
