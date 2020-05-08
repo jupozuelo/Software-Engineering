@@ -24,7 +24,7 @@ In the beginning, a simple outline of the pages was decided upon. This also incl
 *Figure 1: A banner demonstrating the themes of the Bubble logo and branding.*
 
 ##### Code 
-In order to explore the functionality of p5.js, a simple skeleton was produced for each page of the application. The code was simple and it aided understanding of the basic principles. 
+In order to explore the functionality of p5.js, a simple skeleton was produced for each page of the application. The code was simple and it aided understanding of the basic principles. Amongst this code was a function enabling the web page to be responsive, so that it can be viewed on any type of device:
 
 ```javascript
 function setup() { 
