@@ -163,6 +163,18 @@ In order to achieve this level of functionality, the p5.play library was selecte
 
 *Figure 4: The sprint 4 version of the web app, complete with added aninmation to give greater reactivity for enhanced user experience.*
 
+```javascript
+function preload() {
+    sprites = loadAnimation('images/1.png', 'images/2.png',
+    'images/3.png', 'images/4.png', 'images/5.png', 'images/6.png',
+    'images/7.png', 'images/8.png', 'images/9.png');
+}
+    ... 
+    bathSprite = createSprite(360, 65);
+    bathSprite.addAnimation('normal', sprites);
+    bathSprite.scale = 0.5;
+```
+
 ##### Design 
 The design process was straightforward considering that the logo concept and production were achieved previously. 
 ##### Test 
