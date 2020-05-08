@@ -168,6 +168,10 @@ Access to the desktop app is restricted to developers only. Initially, the datab
 
 More on the [Data Protection and Privacy](https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/System_Implementation.md#data-security-privacy--user-anonymity) within this system can be seen in Section 2, where System Implementation is discussed.
 
+<p align="center">
+  <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Design/Images/code.jpg" alt="Code" width=55%>
+</p>
+
 **Inheritance, Interface and Polymorphism**
 
 Please refer to our [Discussion of Future Work](https://github.com/jupozuelo/Software-Engineering/blob/master/Project_Evaluation/Project_Evaluation.md#development-phase---notes-for-future-work) to read about how these Object Oriented principles could be incoporation into Bubble. 
