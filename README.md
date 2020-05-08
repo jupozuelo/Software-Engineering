@@ -23,7 +23,7 @@
 </p>
 
 ## Our Mission 
-Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into the work environment. Society has now discovered the power of these tools which when integrated into our homes complete everyday chores and increase leisure time. 
+Over the last decade, the idea of mass automation has excitingly shifted from a vague possibility to an imminent reality. In the last few years, the world has seen these advancements introduced into the work environment. Society has now discovered the power of tools which when integrated into our homes complete everyday chores and increase leisure time. 
 
 In the midst of this automation revolution, where platforms such as Apple’s Home app are making ‘smart’ products increasingly easy to integrate into routines, taking a bath is trailing the other activities that are undergoing a transformation. The bathroom has seen significantly fewer innovations than the kitchen. The advantages of baths are powerful; from having anti-aging properties, to being one of the most successful stress relief techniques. 
 
@@ -35,20 +35,21 @@ The bath running process has not kept up with the ‘smart home’ revolution. W
 ## Who Wins?
 To demonstrate the utility of the service, the following example stakeholders would benefit from the existence of a system like Bubbles.
 #### User/Customer
-A technology welcoming customer would gain the efficiency and convenience of running their bath from afar. While on the way back home in the pouring rain, or from the user’s sofa just in another room, running a bath remotely is time saving and highly advantageous. By removing the human preparation aspect of running a bath, the user’s ideal bath can be recreated every time - not too hot, not too cold. The user only has to give the run command to create their perfect bath from saved presets in minutes. The user can also benefit from scheduled baths, a kind of routine automation that has been welcomed into the kitchen. The user will also know that their bath has been created without wasting any energy - by getting the bath right the first time you eliminate the risk of a wasteful rerun or a unsatsfactory tepid bath!
+A technology welcoming customer would gain the efficiency and convenience of running their bath from afar. While on the way back home in the pouring rain, or from the user’s sofa just in another room, running a bath remotely is time saving and highly advantageous. By removing the human preparation aspect of running a bath, the user’s ideal bath can be recreated every time - not too hot, not too cold. The user only has to give the run command to create their perfect bath from saved presets in minutes. The user can also benefit from scheduled baths, a kind of routine automation that has been welcomed into the kitchen. The user will also know that their bath has been created without wasting any energy - by getting the bath right the first time you eliminate the risk of a wasteful rerun or an unsatsfactory tepid bath!
 
 #### Plumbers & Technicians
 Plumbers and company technicians can benefit from the data that a bubble ‘smart’ bath produces. By introducing wifi enabled technology to the bathtub, plumbing issues and technical faults could be self-diagnosed by the system, saving repair time, avoiding unnecessary call outs and eliminating costly misdiagnosed repairs.
 
 #### Third-party apps
-After the bath is run, third-parties can benefit from the exposure bubble can offer them. For example, music streaming services such as Spotify could be opened from the bubble app to introduce entertainment services to the bath experience. Similarly, to match the introduction of smart lighting in the home, ambient lighting apps could be linked into the bubble app. A wide variety of third party apps may wish to introduce their services into the bathing process, and Bubbles can be a perfect platform to give them exposure.
+After the bath is run, third-parties can benefit from the exposure Bubble can offer them. For example, music streaming services such as Spotify could be opened from the Bubble app to introduce entertainment services to the bath experience. Similarly, to match the introduction of smart lighting in the home, ambient lighting apps could be linked into the Bubble app. A wide variety of third party apps may wish to introduce their services into the bathing process, and Bubble can be a perfect platform to give them exposure.
 
 ## Sections Overview
-The portfolio is composed of three main sections. Firstly, the system design section considers the architecture of the entire system and the design process to turn a paper prototype into a software environment. The second section details the implementation techniques and methods used to produce a working prototype. Lastly, the evaluation section will analyse the final prototype, as well as touch on future work and working practices during the project. 
+This portfolio is composed of three main sections. Firstly, the system design section considers the architecture of the entire system and the design process to turn a paper prototype into a software environment. The second section details the implementation techniques and methods used to produce a working prototype. Lastly, the evaluation section will analyse the final prototype, as well as touch on future work and working practices during the project. 
 
 ## 1) [System Design](System_Design/System_Design.md)
 Please find attached our [System Design section](System_Design/System_Design.md) to read about:
 
+* User Stories
 * Requirements of Key Subsystems
 * Architecture of Entire System
 * Object-oriented Design of Key Subsystems
