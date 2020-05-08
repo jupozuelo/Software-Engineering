@@ -219,7 +219,7 @@ The final sprint considered integrating the communication system between the thr
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/desktop.gif" alt="Desktop gif"/>
 </p>
 
-*Figure 6: The final sprint of the desktop app.*
+*Figure 6: The final sprint version of the desktop app, demonstrating the complete management dashboard.*
 
 ### Sprint 5 
 
@@ -242,6 +242,7 @@ Following the agile philosophy for the development of this software application,
 <p align="center">
   <img src="https://github.com/jupozuelo/Software-Engineering/blob/master/System_Implementation/Images/agile.png" alt="Agile" width=50%/>
 </p>
+
 *Figure 7: The Agile Philosophy [(See reference)](http://www.linkunify.com/software-development/)*
  
 ### M5Stack
