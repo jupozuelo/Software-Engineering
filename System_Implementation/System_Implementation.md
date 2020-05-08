@@ -93,7 +93,7 @@ The second sprint truly demonstrated the power of the numerous libraries of Proc
     void messageReceived(String topic, byte[] payload) {
         JSONObject json = parseJSONObject(new String(payload));
         if (json == null) {
-            println("Order could not be parsed");
+            println("Bath could not be parsed");
         } else {
             api.saveBathtoDB(json);
             refreshData();
