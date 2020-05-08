@@ -27,10 +27,10 @@ In the beginning, a simple outline of the pages was decided upon. This also incl
 In order to explore the functionality of p5.js, a simple skeleton was produced for each page of the application. The code was simple and it aided understanding of the basic principles. 
 
 ```javascript
-    function setup() { 
+function setup() { 
     createCanvas(windowWidth, windowHeight);
 
-    function windowResized() {
+function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
     }
 ```
