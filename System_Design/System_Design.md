@@ -20,7 +20,7 @@ In this section, we will cover the chosen architecture of the entire system, the
 
 User stories were used to help discover and list the key requirements of the system.
 
-Web App & M5Stack:
+### Web App & M5Stack:
 
 *   Sara is an active user of her Coffee Maker run with Alexa Routines early in the morning. Her job at a multinational company means she is always on the go, especially with her long commute to the office.
 
@@ -44,7 +44,7 @@ Web App & M5Stack:
 
 *  Sara can arrive home and enjoy her Bubble experience, created especially for people who are extremely busy and dedicated to their work.
 
-Desktop App:
+### Desktop App:
 
 *  Tom has been working as a software developer at Bubble for three months now. His day-to-day at the company involves responding to user’s requests, managing user data and developing new tools to include in the application.
 
